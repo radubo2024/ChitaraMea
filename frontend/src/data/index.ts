@@ -35,6 +35,52 @@ export const chordsData: Chord[] = [
   },
   {
     "id": 2,
+    "name": "A#",
+    "type": "major",
+    "root_note": "A#",
+    "positions": [
+      {
+        "fret": 1,
+        "string": 1,
+        "finger": 1
+      },
+      {
+        "fret": 3,
+        "string": 2,
+        "finger": 2
+      },
+      {
+        "fret": 3,
+        "string": 3,
+        "finger": 3
+      },
+      {
+        "fret": 3,
+        "string": 4,
+        "finger": 4
+      },
+      {
+        "fret": 1,
+        "string": 5,
+        "finger": 1
+      },
+      {
+        "fret": 1,
+        "string": 6,
+        "finger": 1
+      }
+    ],
+    "open_strings": [],
+    "muted_strings": [],
+    "barre": {
+      "fret": 1,
+      "from_string": 1,
+      "to_string": 6
+    },
+    "start_fret": 1
+  },
+  {
+    "id": 3,
     "name": "A#m",
     "type": "minor",
     "root_note": "A#",
@@ -80,7 +126,39 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 3,
+    "id": 4,
+    "name": "A6",
+    "type": "6th",
+    "root_note": "A",
+    "positions": [
+      {
+        "fret": 2,
+        "string": 3,
+        "finger": 1
+      },
+      {
+        "fret": 2,
+        "string": 4,
+        "finger": 2
+      },
+      {
+        "fret": 2,
+        "string": 5,
+        "finger": 3
+      }
+    ],
+    "open_strings": [
+      1,
+      6
+    ],
+    "muted_strings": [
+      2
+    ],
+    "barre": null,
+    "start_fret": 1
+  },
+  {
+    "id": 5,
     "name": "A7",
     "type": "dominant 7th",
     "root_note": "A",
@@ -108,7 +186,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 4,
+    "id": 6,
     "name": "Am",
     "type": "minor",
     "root_note": "A",
@@ -140,18 +218,99 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 5,
+    "id": 7,
     "name": "Am/C",
-    "type": "unknown",
-    "root_note": "AC",
-    "positions": [],
-    "open_strings": [],
-    "muted_strings": [],
+    "type": "minor",
+    "root_note": "A",
+    "positions": [
+      {
+        "fret": 2,
+        "string": 3,
+        "finger": 2
+      },
+      {
+        "fret": 2,
+        "string": 4,
+        "finger": 3
+      },
+      {
+        "fret": 1,
+        "string": 5,
+        "finger": 1
+      },
+      {
+        "fret": 3,
+        "string": 2,
+        "finger": 4
+      }
+    ],
+    "open_strings": [
+      6
+    ],
+    "muted_strings": [
+      1
+    ],
     "barre": null,
     "start_fret": 1
   },
   {
-    "id": 6,
+    "id": 8,
+    "name": "Am7",
+    "type": "minor 7th",
+    "root_note": "A",
+    "positions": [
+      {
+        "fret": 2,
+        "string": 3,
+        "finger": 2
+      },
+      {
+        "fret": 1,
+        "string": 5,
+        "finger": 1
+      }
+    ],
+    "open_strings": [
+      1,
+      4,
+      6
+    ],
+    "muted_strings": [
+      2
+    ],
+    "barre": null,
+    "start_fret": 1
+  },
+  {
+    "id": 9,
+    "name": "Am9",
+    "type": "minor 9th",
+    "root_note": "A",
+    "positions": [
+      {
+        "fret": 2,
+        "string": 3,
+        "finger": 2
+      },
+      {
+        "fret": 1,
+        "string": 5,
+        "finger": 1
+      }
+    ],
+    "open_strings": [
+      1,
+      4,
+      6
+    ],
+    "muted_strings": [
+      2
+    ],
+    "barre": null,
+    "start_fret": 1
+  },
+  {
+    "id": 10,
     "name": "Asus4",
     "type": "sus4",
     "root_note": "A",
@@ -183,7 +342,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 7,
+    "id": 11,
     "name": "B",
     "type": "major",
     "root_note": "B",
@@ -226,7 +385,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 8,
+    "id": 12,
     "name": "B7",
     "type": "dominant 7th",
     "root_note": "B",
@@ -262,7 +421,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 9,
+    "id": 13,
     "name": "Bb",
     "type": "major",
     "root_note": "Bb",
@@ -305,7 +464,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 10,
+    "id": 14,
     "name": "Bdim",
     "type": "diminished",
     "root_note": "B",
@@ -336,7 +495,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 11,
+    "id": 15,
     "name": "Bm",
     "type": "minor",
     "root_note": "B",
@@ -379,7 +538,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 12,
+    "id": 16,
     "name": "C",
     "type": "major",
     "root_note": "C",
@@ -411,7 +570,93 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 13,
+    "id": 17,
+    "name": "C#",
+    "type": "major",
+    "root_note": "C#",
+    "positions": [
+      {
+        "fret": 4,
+        "string": 2,
+        "finger": 1
+      },
+      {
+        "fret": 6,
+        "string": 3,
+        "finger": 2
+      },
+      {
+        "fret": 6,
+        "string": 4,
+        "finger": 3
+      },
+      {
+        "fret": 6,
+        "string": 5,
+        "finger": 4
+      },
+      {
+        "fret": 4,
+        "string": 6,
+        "finger": 1
+      }
+    ],
+    "open_strings": [],
+    "muted_strings": [
+      1
+    ],
+    "barre": {
+      "fret": 4,
+      "from_string": 2,
+      "to_string": 6
+    },
+    "start_fret": 4
+  },
+  {
+    "id": 18,
+    "name": "C#7",
+    "type": "dominant 7th",
+    "root_note": "C#",
+    "positions": [
+      {
+        "fret": 4,
+        "string": 2,
+        "finger": 1
+      },
+      {
+        "fret": 6,
+        "string": 3,
+        "finger": 3
+      },
+      {
+        "fret": 4,
+        "string": 4,
+        "finger": 1
+      },
+      {
+        "fret": 6,
+        "string": 5,
+        "finger": 4
+      },
+      {
+        "fret": 4,
+        "string": 6,
+        "finger": 1
+      }
+    ],
+    "open_strings": [],
+    "muted_strings": [
+      1
+    ],
+    "barre": {
+      "fret": 4,
+      "from_string": 2,
+      "to_string": 6
+    },
+    "start_fret": 4
+  },
+  {
+    "id": 19,
     "name": "C#m",
     "type": "minor",
     "root_note": "C#",
@@ -454,7 +699,7 @@ export const chordsData: Chord[] = [
     "start_fret": 4
   },
   {
-    "id": 14,
+    "id": 20,
     "name": "C7",
     "type": "dominant 7th",
     "root_note": "C",
@@ -490,7 +735,43 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 15,
+    "id": 21,
+    "name": "C9",
+    "type": "9th",
+    "root_note": "C",
+    "positions": [
+      {
+        "fret": 3,
+        "string": 2,
+        "finger": 2
+      },
+      {
+        "fret": 3,
+        "string": 3,
+        "finger": 3
+      },
+      {
+        "fret": 2,
+        "string": 4,
+        "finger": 1
+      },
+      {
+        "fret": 3,
+        "string": 5,
+        "finger": 4
+      }
+    ],
+    "open_strings": [
+      6
+    ],
+    "muted_strings": [
+      1
+    ],
+    "barre": null,
+    "start_fret": 1
+  },
+  {
+    "id": 22,
     "name": "Cdim",
     "type": "diminished",
     "root_note": "C",
@@ -521,7 +802,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 16,
+    "id": 23,
     "name": "Cm",
     "type": "minor",
     "root_note": "C",
@@ -564,7 +845,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 17,
+    "id": 24,
     "name": "D",
     "type": "major",
     "root_note": "D",
@@ -596,7 +877,35 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 18,
+    "id": 25,
+    "name": "D6",
+    "type": "6th",
+    "root_note": "D",
+    "positions": [
+      {
+        "fret": 2,
+        "string": 4,
+        "finger": 2
+      },
+      {
+        "fret": 2,
+        "string": 6,
+        "finger": 3
+      }
+    ],
+    "open_strings": [
+      3,
+      5
+    ],
+    "muted_strings": [
+      1,
+      2
+    ],
+    "barre": null,
+    "start_fret": 1
+  },
+  {
+    "id": 26,
     "name": "D7",
     "type": "dominant 7th",
     "root_note": "D",
@@ -628,7 +937,39 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 19,
+    "id": 27,
+    "name": "D7sus4",
+    "type": "sus4",
+    "root_note": "D",
+    "positions": [
+      {
+        "fret": 1,
+        "string": 4,
+        "finger": 1
+      },
+      {
+        "fret": 3,
+        "string": 5,
+        "finger": 3
+      },
+      {
+        "fret": 1,
+        "string": 6,
+        "finger": 2
+      }
+    ],
+    "open_strings": [
+      3
+    ],
+    "muted_strings": [
+      1,
+      2
+    ],
+    "barre": null,
+    "start_fret": 1
+  },
+  {
+    "id": 28,
     "name": "Ddim",
     "type": "diminished",
     "root_note": "D",
@@ -660,7 +1001,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 20,
+    "id": 29,
     "name": "Dm",
     "type": "minor",
     "root_note": "D",
@@ -692,7 +1033,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 21,
+    "id": 30,
     "name": "Dm7",
     "type": "minor 7th",
     "root_note": "D",
@@ -728,7 +1069,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 22,
+    "id": 31,
     "name": "E",
     "type": "major",
     "root_note": "E",
@@ -759,7 +1100,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 23,
+    "id": 32,
     "name": "E7",
     "type": "dominant 7th",
     "root_note": "E",
@@ -786,7 +1127,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 24,
+    "id": 33,
     "name": "Eb",
     "type": "major",
     "root_note": "Eb",
@@ -821,7 +1162,39 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 25,
+    "id": 34,
+    "name": "Edim",
+    "type": "diminished",
+    "root_note": "E",
+    "positions": [
+      {
+        "fret": 2,
+        "string": 3,
+        "finger": 2
+      },
+      {
+        "fret": 3,
+        "string": 4,
+        "finger": 3
+      },
+      {
+        "fret": 2,
+        "string": 5,
+        "finger": 1
+      }
+    ],
+    "open_strings": [
+      1
+    ],
+    "muted_strings": [
+      2,
+      6
+    ],
+    "barre": null,
+    "start_fret": 1
+  },
+  {
+    "id": 35,
     "name": "Em",
     "type": "minor",
     "root_note": "E",
@@ -848,7 +1221,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 26,
+    "id": 36,
     "name": "F",
     "type": "major",
     "root_note": "F",
@@ -894,7 +1267,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 27,
+    "id": 37,
     "name": "F#",
     "type": "major",
     "root_note": "F#",
@@ -940,7 +1313,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 28,
+    "id": 38,
     "name": "F#7",
     "type": "dominant 7th",
     "root_note": "F#",
@@ -986,7 +1359,99 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 29,
+    "id": 39,
+    "name": "F#m",
+    "type": "minor",
+    "root_note": "F#",
+    "positions": [
+      {
+        "fret": 2,
+        "string": 1,
+        "finger": 1
+      },
+      {
+        "fret": 4,
+        "string": 2,
+        "finger": 3
+      },
+      {
+        "fret": 4,
+        "string": 3,
+        "finger": 4
+      },
+      {
+        "fret": 2,
+        "string": 4,
+        "finger": 1
+      },
+      {
+        "fret": 2,
+        "string": 5,
+        "finger": 1
+      },
+      {
+        "fret": 2,
+        "string": 6,
+        "finger": 1
+      }
+    ],
+    "open_strings": [],
+    "muted_strings": [],
+    "barre": {
+      "fret": 2,
+      "from_string": 1,
+      "to_string": 6
+    },
+    "start_fret": 1
+  },
+  {
+    "id": 40,
+    "name": "Fm",
+    "type": "minor",
+    "root_note": "F",
+    "positions": [
+      {
+        "fret": 1,
+        "string": 1,
+        "finger": 1
+      },
+      {
+        "fret": 3,
+        "string": 2,
+        "finger": 3
+      },
+      {
+        "fret": 3,
+        "string": 3,
+        "finger": 4
+      },
+      {
+        "fret": 1,
+        "string": 4,
+        "finger": 1
+      },
+      {
+        "fret": 1,
+        "string": 5,
+        "finger": 1
+      },
+      {
+        "fret": 1,
+        "string": 6,
+        "finger": 1
+      }
+    ],
+    "open_strings": [],
+    "muted_strings": [],
+    "barre": {
+      "fret": 1,
+      "from_string": 1,
+      "to_string": 6
+    },
+    "start_fret": 1
+  },
+  {
+    "id": 41,
     "name": "G",
     "type": "major",
     "root_note": "G",
@@ -1017,7 +1482,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 30,
+    "id": 42,
     "name": "G#",
     "type": "major",
     "root_note": "G#",
@@ -1063,7 +1528,99 @@ export const chordsData: Chord[] = [
     "start_fret": 4
   },
   {
-    "id": 31,
+    "id": 43,
+    "name": "G#7",
+    "type": "dominant 7th",
+    "root_note": "G#",
+    "positions": [
+      {
+        "fret": 4,
+        "string": 1,
+        "finger": 1
+      },
+      {
+        "fret": 6,
+        "string": 2,
+        "finger": 3
+      },
+      {
+        "fret": 4,
+        "string": 3,
+        "finger": 1
+      },
+      {
+        "fret": 5,
+        "string": 4,
+        "finger": 2
+      },
+      {
+        "fret": 4,
+        "string": 5,
+        "finger": 1
+      },
+      {
+        "fret": 4,
+        "string": 6,
+        "finger": 1
+      }
+    ],
+    "open_strings": [],
+    "muted_strings": [],
+    "barre": {
+      "fret": 4,
+      "from_string": 1,
+      "to_string": 6
+    },
+    "start_fret": 4
+  },
+  {
+    "id": 44,
+    "name": "G#m",
+    "type": "minor",
+    "root_note": "G#",
+    "positions": [
+      {
+        "fret": 4,
+        "string": 1,
+        "finger": 1
+      },
+      {
+        "fret": 6,
+        "string": 2,
+        "finger": 3
+      },
+      {
+        "fret": 6,
+        "string": 3,
+        "finger": 4
+      },
+      {
+        "fret": 4,
+        "string": 4,
+        "finger": 1
+      },
+      {
+        "fret": 4,
+        "string": 5,
+        "finger": 1
+      },
+      {
+        "fret": 4,
+        "string": 6,
+        "finger": 1
+      }
+    ],
+    "open_strings": [],
+    "muted_strings": [],
+    "barre": {
+      "fret": 4,
+      "from_string": 1,
+      "to_string": 6
+    },
+    "start_fret": 4
+  },
+  {
+    "id": 45,
     "name": "G7",
     "type": "dominant 7th",
     "root_note": "G",
@@ -1094,7 +1651,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 32,
+    "id": 46,
     "name": "Gm",
     "type": "minor",
     "root_note": "G",
@@ -1138,6 +1695,37 @@ export const chordsData: Chord[] = [
       "to_string": 6
     },
     "start_fret": 1
+  },
+  {
+    "id": 47,
+    "name": "Gsus4",
+    "type": "sus4",
+    "root_note": "G",
+    "positions": [
+      {
+        "fret": 3,
+        "string": 1,
+        "finger": 2
+      },
+      {
+        "fret": 3,
+        "string": 2,
+        "finger": 3
+      },
+      {
+        "fret": 3,
+        "string": 6,
+        "finger": 4
+      }
+    ],
+    "open_strings": [
+      3,
+      4,
+      5
+    ],
+    "muted_strings": [],
+    "barre": null,
+    "start_fret": 1
   }
 ];
 
@@ -1168,14 +1756,14 @@ export const songsData: Song[] = [
       }
     ],
     "chords": [
-      "B",
-      "Em",
       "D",
+      "Em",
       "C",
       "B7",
       "A",
       "G",
-      "Am"
+      "Am",
+      "B"
     ],
     "strumming": [
       {
@@ -1258,9 +1846,9 @@ export const songsData: Song[] = [
       }
     ],
     "chords": [
-      "E",
       "Am",
-      "Dm"
+      "Dm",
+      "E"
     ],
     "strumming": [
       {
@@ -1300,10 +1888,10 @@ export const songsData: Song[] = [
       }
     ],
     "chords": [
-      "C",
       "Em",
       "Am",
-      "B7"
+      "B7",
+      "C"
     ],
     "strumming": [
       {
@@ -1625,12 +2213,12 @@ export const songsData: Song[] = [
       "Dm",
       "C",
       "Bm",
+      "E",
+      "Am",
       "B",
       "G",
       "D",
-      "A",
-      "E",
-      "Am"
+      "A"
     ],
     "strumming": [
       {
@@ -2399,10 +2987,10 @@ export const songsData: Song[] = [
     "chords": [
       "Am",
       "F",
-      "E",
       "C",
       "E7",
       "Dm",
+      "E",
       "G"
     ],
     "strumming": [
@@ -2549,8 +3137,8 @@ export const songsData: Song[] = [
       "C#m",
       "E",
       "B",
-      "G#",
-      "G"
+      "G",
+      "G#"
     ],
     "strumming": [
       {
@@ -2847,8 +3435,8 @@ export const songsData: Song[] = [
     ],
     "chords": [
       "Em",
-      "D",
-      "G"
+      "G",
+      "D"
     ],
     "strumming": [
       {
@@ -3055,11 +3643,11 @@ export const songsData: Song[] = [
     "chords": [
       "D",
       "A",
-      "Am",
       "Bm",
-      "F#",
+      "F",
       "G",
-      "F"
+      "Am",
+      "F#"
     ],
     "strumming": [
       {
@@ -3113,12 +3701,12 @@ export const songsData: Song[] = [
     "chords": [
       "Dm",
       "A7",
-      "E",
       "Gm",
       "C",
       "F",
       "Bb",
-      "A"
+      "A",
+      "E"
     ],
     "strumming": [
       {
@@ -4582,6 +5170,2924 @@ export const songsData: Song[] = [
       }
     ],
     "views": 0
+  },
+  {
+    "id": 74,
+    "title": "Sculați, boieri mari!",
+    "slug": "sculati-boieri-mari-74",
+    "content": "Intro: C F C F C G C\n\n\nC        G        C      F\nSculaţi, sculaţi, boieri mari,\nC       G     C\nCristos s-a născut,\nC        F      C       F\nSculaţi, voi, români plugari,\nC       G     C\nCristos s-a născut!\n\nCă vă vin colindători\nCristos s-a născut,\nNoaptea, pe la cântători,\nCristos s-a născut.\n\nŞi v-aduc pe Dumnezeu\nCristos s-a născut,\nSă vă mântuie de rău\nCristos s-a născut.\n\nDumnezeu adevărat,\nCristos s-a născut,\nSoare-n raze luminat\nCristos s-a născut.\n\nEl vă zice ”Să trăiți”,\nCristos s-a născut,\nÎntr-un ”Mulţi ani fericiţi!”,\nCristos s-a născut.\n\nȘi ca pomii să-nfloriți,\nCristos s-a născut\nȘi ca ei să-mbătrâniți,\nCristos s-a născut.\n",
+    "author": {
+      "id": 34,
+      "name": "Dida Drăgan",
+      "slug": "dida-dragan"
+    },
+    "author_id": 34,
+    "categories": [
+      {
+        "id": 15,
+        "name": "Colinde",
+        "slug": "colinde",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "C",
+      "G",
+      "F"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 75,
+    "title": "O brad frumos",
+    "slug": "o-brad-frumos-75",
+    "content": "G  C    C       G  C   C\nO, brad frumos, o brad frumos,\nC G C F   G  G  C\nCu cetina tot verde.\nC  C    C  F F  G  F  F\nTu esti copacul credincios,\nF  F  F  G  G    F   C \nCe frunza nu si-o pierde,\nG  C    C       G  C   C\nO, brad frumos, o brad frumos,\nC G C F   G  G  C\nCu cetina tot verde.\n\nO, brad frumos, o brad frumos,\nVerdeata ta imi place.\nCand o revad sunt bucuros\nSi vesel ea ma face.\nO, brad frumos, o brad frumos,\nVerdeata ta imi place.\n\nO, brad frumos, o brad frumos,\nCu frunza neschimbata.\nMa mangai si ma faci voios\nSi ma-ntaresti indata.\nO, brad frumos, o brad frumos,\nCu frunza-ti neschimbata.",
+    "author": {
+      "id": 35,
+      "name": "Colinde",
+      "slug": "colinde"
+    },
+    "author_id": 35,
+    "categories": [
+      {
+        "id": 15,
+        "name": "Colinde",
+        "slug": "colinde",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "G",
+      "C",
+      "F"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 76,
+    "title": "Florile dalbe",
+    "slug": "florile-dalbe-76",
+    "content": "Am            Dm  Am\nScoală gazdă din pătuţ\nAm       G Am\nFlorile dalbe\nAm           Dm  Am\nşi ne dă un colăcuţ\n          Dm  F   Am\nFlorile, florile dalbe\n\nAm            Dm  Am\nCă mamuca nu o făcut\nAm       G Am\nFlorile dalbe\nAm           Dm  Am\nSită rară n-o avut\n          Dm  F   Am\nFlorile, florile dalbe\nAm            Dm  Am\nPăna  sită o căpătat\nAm       G Am\nCovata i s-o crăpat\nAm            Dm  Am\nL-o sfădit mama pe tata\nAm       G Am\nDe ce s-o crăpat covata\nAm            Dm  Am\nCând covata o lipit\nAm       G Am\nCuptioru li s-o urnit\nAm            Dm  Am\nCând cuptoru l-o tocmit\nAm       G Am\nAnul Nou o şi venit\n\nAm           Dm   Am\nFlorile, florile dalbe\nAm        Dm  F   Am\nFlorile, florile dalbe",
+    "author": {
+      "id": 35,
+      "name": "Colinde",
+      "slug": "colinde"
+    },
+    "author_id": 35,
+    "categories": [
+      {
+        "id": 15,
+        "name": "Colinde",
+        "slug": "colinde",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "Dm",
+      "G",
+      "F"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 77,
+    "title": "Trei păstori",
+    "slug": "trei-pastori-77",
+    "content": "2/4 & 3/4 (*)\n\nD(2/4)D(3/4) D(2/4)\nTrei pastori se intalnira\nG (2/4)  D(3/4) D(2/4) \nTrei pastori se intalnira\nG(2/4) D(2/4)  A7(2/4) D(2/4)\nRaza soarelui, floarea soarelui\nG(2/4) A7(3/4) D(2/4)\nSi asa se sfatuira:\n\nD                    D \nHaideti fratilor sa mergem\nG                    D  \nHaideti fratilor sa mergem\nG         D         A7         D\nRaza soarelui, floarea soarelui\nG       A7      D\nFloricele sa culegem.\n\nD                    D \nSi sa facem o cununa\nG                    D \nSi sa facem o cununa\nG         D         A7         D\nRaza soarelui, floarea soarelui\nG       A7      D\nS-ompletim cu voie buna.\n\nD                    D \nSi s-o ducem lui Cristos\nG                    D \nSi s-o ducem lui Cristos\nG         D         A7         D\nRaza soarelui, floarea soarelui\nG       A7      D\nSa ne fie de folos.\n\n(*) Dificultatea melodiei (dar si frumusețea ei) consta în faptul ca este un mix intre masurile 2/4 si 3/4. Am încercat sa marchez trecerile în strofa 1.",
+    "author": {
+      "id": 35,
+      "name": "Colinde",
+      "slug": "colinde"
+    },
+    "author_id": 35,
+    "categories": [
+      {
+        "id": 15,
+        "name": "Colinde",
+        "slug": "colinde",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "D",
+      "G",
+      "A7",
+      "Am"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "U",
+          "U"
+        ],
+        "timeSignature": "3/4",
+        "name": "Vals"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 78,
+    "title": "Am plecat să colindăm",
+    "slug": "am-plecat-sa-colindam-78",
+    "content": "G\r\nAm plecat să colindăm\r\nDomn, Domn, să-nălțăm!\r\nD             G\r\nCând boierii nu-s acasă\r\nD           G\r\nDomn, Domn să-nălțăm!\r\n\r\nG\r\nȘi-au plecat la vânătoare\r\nDomn, Domn să-nălțăm!\r\nD         G\r\nSă vâneze căprioare\r\nD          G\r\nDomn, Domn să-nălțăm!\r\n\r\nG\r\nCăprioare n-au vânat\r\nDomn, Domn să-nălțăm\r\nD              G\r\nȘi-au vânat un iepuraș\r\nD          G\r\nDomn, Domn să-nălțăm!\r\n\r\nG\r\nSă facă din blana lui\r\nDomn, Domn să-nălțăm!\r\nD               G\r\nVeștmânt frumos Domnului\r\nD          G\r\nDomn, Domn să-nălțăm!\r\n",
+    "author": {
+      "id": 35,
+      "name": "Colinde",
+      "slug": "colinde"
+    },
+    "author_id": 35,
+    "categories": [
+      {
+        "id": 15,
+        "name": "Colinde",
+        "slug": "colinde",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "G",
+      "D",
+      "Am"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 79,
+    "title": "Linu-i lin",
+    "slug": "linu-i-lin-79",
+    "content": "Capo III\r\n\r\n\r\nIntro: D G / D G A / D\r\n\r\n\r\nD                  G\r\nLinu-i lin şi iară lin,\r\n                  D\r\nBate vântul cât e lin,    \r\nA                 D\r\nFrunză verde de mălin,\r\n                   G\r\nLinu-i lin şi iară lin,\r\n                  D\r\nBate vântul cât e lin,    \r\nA                 D\r\nFrunză verde de mălin.\r\n\r\n\r\n         A      D     A\r\nSculaţi, gazde, nu durmiţi,\r\nD       A      D     A\r\nCă nu-i vremea de durmit,\r\nD                  G\r\nLinu-i lin şi iară lin,\r\n                  D\r\nBate vântul cât e lin,    \r\nA                 D\r\nFrunză verde de mălin,\r\n                   G\r\nLinu-i lin şi iară lin,\r\n                  D\r\nBate vântul cât e lin,    \r\nA                 D\r\nFrunză verde de mălin.\r\n\r\n\r\nCă-i vremea de săsculat,\r\nCasăle de aşăzat,\r\nLinu-i lin şi iară lin,\r\nBate vântul cât e lin,    \r\nFrunză verde de mălin,\r\nLinu-i lin şi iară lin,\r\nBate vântul cât e lin,    \r\nFrunză verde de mălin.\r\n\r\n\r\nPă la uşă cu brânduşă,\r\nLa fereşti cu flori domneşti,\r\nLinu-i lin şi iară lin,\r\nBate vântul cât e lin,    \r\nFrunză verde de mălin,\r\nLinu-i lin şi iară lin,\r\nBate vântul cât e lin,    \r\nFrunză verde de mălin.\r\n\r\n\r\nȘi colinda nu-i mai multă,\r\nSă trăia cine-o ascultă,\r\nLinu-i lin şi iară lin,\r\nBate vântul cât e lin,    \r\nFrunză verde de mălin,\r\nLinu-i lin şi iară lin,\r\nBate vântul cât e lin,    \r\nFrunză verde de mălin.\r\n",
+    "author": {
+      "id": 10,
+      "name": "Ștefan Hrușcă",
+      "slug": "stefan-hrusca"
+    },
+    "author_id": 10,
+    "categories": [
+      {
+        "id": 15,
+        "name": "Colinde",
+        "slug": "colinde",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "D",
+      "G",
+      "A"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 80,
+    "title": "Flori de măr",
+    "slug": "flori-de-mar-80",
+    "content": "Intro: G D G\r\n\r\n\r\nG                                        D\r\nAm venit aici, la voi, am venit aici, la voi,\r\n                G                    D   G\r\nCum e datina la noi, cum e datina la noi.\r\n\r\n\r\nG                          D                 G\r\nSculați gazde, nu dormiți, vremea e să vă treziți,\r\n                           D                 G\r\nSculați gazde, nu dormiți, vremea e să vă treziți,\r\n\r\nCasa să vi-o aranjați, flori de măr,\r\n                        D        G\r\nMasa să vi-o încărcați, flori de măr,\r\n\r\nCasa să vi-o aranjați, flori de măr,\r\n                        D        G\r\nMasa să vi-o încărcați, flori de măr.\r\n\r\n\r\nNoi umblăm a colinda, pe la casa altuia,\r\nNoi umblăm a colinda, pe la casa altuia,\r\nSă trăiți, să-ntineriți, flori de măr,\r\nÎn mulți ani să-mbătrâniți, flori de măr,\r\nSă trăiți, să-ntineriți, flori de măr,\r\nÎn mulți ani să-mbătrâniți, flori de măr.\r\n\r\n\r\nȘi la anul om veni, numai dacă ni-ți pofti\r\nȘi la anul om veni, numai dacă ni-ți pofti\r\nȘi mai multe vom ura, flori de măr,\r\nUn cocuț dacă ni-ți da, flori de măr\r\nȘi mai multe vom ura, flori de măr,\r\nUn cocuț dacă ni-ți da, flori de măr.\r\n\r\n\r\nG                                             D                          \r\nȘi colinda nu-i mai multă și colinda nu-i mai multă,\r\n                  G                         D                   \r\nSă trăiască cine-ascultă, să trăiască cine-ascultă\r\nG                                  D             \r\nȘi colinda-i atâta și colinda-i atâta,\r\n                   G                      D  G                                         \r\nCine-ascultă să trăia, cine-ascultă să trăia.\r\n",
+    "author": {
+      "id": 10,
+      "name": "Ștefan Hrușcă",
+      "slug": "stefan-hrusca"
+    },
+    "author_id": 10,
+    "categories": [
+      {
+        "id": 15,
+        "name": "Colinde",
+        "slug": "colinde",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "G",
+      "D",
+      "Am"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 81,
+    "title": "Deschide usa crestine",
+    "slug": "deschide-usa-crestine-81",
+    "content": "S. Hrusca totdeauna canta varianta asta. Succes\r\n\r\nE            A\r\nDeschide usa crestine\r\nE            B7\r\nDeschide usa crestine\r\nA           E\r\nCa venim si noi la tine\r\nB7                 E\r\nLa multi ani multi ani cu bine\r\n\r\nNoi la Viflaim am fost\r\nNoi la Viflaim am fost\r\nUnde s-a nascut Hristos\r\nLa multi ani multi ani cu bine\r\n\r\nSi am vazut si pe-a sa mama\r\nSi am vazut si pe-a sa mama\r\nPe care Maria o cheama \r\nLa multi ani multi ani cu bine\r\n\r\nCum umbla din casa-n casa\r\nCum umbla din casa-n casa\r\nCa pe fiul sau sa-l nasca \r\nLa multi ani multi ani cu bine\r\n\r\nUmbla-n jos si umbla-n sus\r\nUmbla-n jos si umbla-n sus\r\nCa sa-l nasca pe Iisus\r\nLa multi ani multi ani cu bine\r\n\r\nUmbla-n sus si umbla-n jos\r\nUmbla-n sus si umbla-n jos\r\nCa sa-l nasca pe Hristos\r\nLa multi ani multi ani cu bine\r\n\r\nTot umbland gasi apoi\r\nTot umbland gasi apoi\r\nUn staul mandru de oi \r\nLa multi ani multi ani cu bine\r\n\r\nIngerii din cer coboara\r\nIngerii din cer coboara\r\nStaulul de-l inconjoara \r\nLa multi ani multi ani cu bine\r\n\r\nIngerii cu flori in mana\r\nIngerii cu flori in mana \r\nImpletesc mandra cununa\r\nLa multi ani multi ani cu bine\r\n\r\nPa cununa-i scris frumos\r\nPa cununa-i scris frumos\r\nAstazi s-a nascut Hristos\r\nLa multi ani multi ani cu bine\r\n\r\nPe cununa-i scris asa\r\nPe cununa-i scris asa\r\nCa s-a nascut Mesia\r\nLa multi ani multi ani cu bine\r\n\r\nCare cu puterea sa\r\nCare cu puterea sa\r\nVa imparati lumea \r\nLa multi ani multi ani cu bine",
+    "author": {
+      "id": 10,
+      "name": "Ștefan Hrușcă",
+      "slug": "stefan-hrusca"
+    },
+    "author_id": 10,
+    "categories": [
+      {
+        "id": 15,
+        "name": "Colinde",
+        "slug": "colinde",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "E",
+      "A",
+      "B7"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 82,
+    "title": "Măruț mărgăritar",
+    "slug": "marut-margaritar-82",
+    "content": "Capo III\r\n\r\n\r\nIntro: D   x8\r\n\r\n\r\nD\r\nNoi umblăm să colindăm,\r\n\r\nMăruț mărgăritar,\r\n                   A\r\nNoi umblăm să colindăm\r\nD\r\nPă la curți de boieri mari,\r\n\r\nMăruț mărgăritar,\r\n                      A\r\nPă la curți de boieri mari,\r\nD\r\nDa’ boierii nu-s acas’,\r\n\r\nMăruț mărgăritar,\r\n                  A\r\nDa’ boierii nu-s acasă,\r\nD\r\nCă-s plecați la vânătoare,\r\n\r\nMăruț mărgăritar,\r\n                    A\r\nCă-s plecați la vânătoare,\r\nD\r\nSă vâneze căprioare,\r\n\r\nMăruț mărgăritar,\r\n               A\r\nSă vâneze căprioare,\r\nD\r\nCăprioare n-o’ aflat\r\n\r\nMăruț mărgăritar,\r\n                A\r\nCăprioare n-o’ aflat,\r\nD\r\nNuma-un pui de iepuraș,\r\n\r\nMăruț mărgăritar,\r\n                   A\r\nNuma-un pui de iepuraș,\r\n D\r\n’Tinsă pușca să-l împuște,\r\n\r\nMăruț mărgăritar\r\n                 A\r\nȘi săjata să-l săjete,\r\nD\r\nHop-hop-hop, nu mă țîntire,\r\n\r\nMăruț mărgăritar,\r\n                    A\r\nCă io nu-s ce par a fire,\r\nD\r\nCă-s Ionu’, Sânt’ Ion,\r\n\r\nMăruț mărgăritar,\r\n                   A\r\nCă-s Ionu,’ Sânt’ Ionu’,\r\nD\r\nNănașu’ lu’ Dumnezău,\r\n\r\nMăruț mărgăritar,\r\n                 A\r\nNănașu’ lu’ Dumnezău\r\nD\r\nȘi m-o blăstămat Maica,\r\n\r\nMăruț mărgăritar\r\n                    A\r\nȘi m-o blăstămat Maica\r\nD\r\nSă fiu fiară de pădure,\r\n\r\nMăruț mărgăritar,\r\n                  A\r\nSă fiu fiară de pădure,\r\nD\r\nNouă ani și nouă luni,\r\n\r\nMăruț mărgăritar\r\n                 A\r\nȘi p-atâtea săptămâni,\r\nD\r\nDac-acelea ’plini-le-oi\r\n\r\nMăruț mărgăritar,\r\n                   A\r\nJos, la țară, lăsa-m-oi,\r\nD\r\nBiserici deschide-mi-oi,\r\n\r\nMăruț mărgăritar,\r\n                   A\r\nSlujbe mândre face-voi,\r\nD\r\nSă fii, gazdă, sănătoasă,\r\n\r\nMăruț mărgăritar,\r\n                    A\r\nC-ai primit colinda noastră\r\nD\r\nȘi la anu’ când vinim,\r\n\r\nMăruț mărgăritar,\r\n                   A\r\nMai bogați să vă găsîm\r\nD\r\nȘi la anu’ când vinim,\r\n\r\nMăruț mărgăritar,\r\n                   A\r\nMai bogați să vă găsîm.\r\n\r\n\r\nOutro: D   x5",
+    "author": {
+      "id": 10,
+      "name": "Ștefan Hrușcă",
+      "slug": "stefan-hrusca"
+    },
+    "author_id": 10,
+    "categories": [
+      {
+        "id": 15,
+        "name": "Colinde",
+        "slug": "colinde",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "D",
+      "A"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 83,
+    "title": "Steaua sus răsare",
+    "slug": "steaua-sus-rasare-83",
+    "content": "No Capo!!!\r\n\r\nAm\r\nSteaua sus răsare \r\nCa o taina mare\r\nDm             Am\r\nSteaua strălucește\r\nE              Am\r\nȘi lumii vestește\r\nE              Am \r\nȘi lumii vestește \r\n\r\nCa astăzi Curata \r\nPreanevinovata \r\nFecioara Maria \r\nNaște pe Mesia \r\nNaște pe Mesia \r\n\r\nMagii cum zăriră \r\nSteaua și porniră\r\nMergând după rază\r\nPe Hristos sa-l vază\r\nPe Hristos sa-l vază \r\n\r\nȘi dacă porniră \r\nÎndată-L găsiră\r\nLa Dânsul intrară\r\nȘi se închinară \r\nȘi se închinară \r\n\r\nCu daruri gătite \r\nLui Hristos menite \r\nDucând fiecare \r\nBucurie mare\r\nBucurie mare \r\n\r\nCare bucurie \r\nȘi aici sa fie \r\nDe la tinerețe \r\nPan-la bătrânețe \r\nPan-la bătrânețe",
+    "author": {
+      "id": 35,
+      "name": "Colinde",
+      "slug": "colinde"
+    },
+    "author_id": 35,
+    "categories": [
+      {
+        "id": 15,
+        "name": "Colinde",
+        "slug": "colinde",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "Dm",
+      "E"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 84,
+    "title": "Scoala gazda din patut",
+    "slug": "scoala-gazda-din-patut-84",
+    "content": "Intro: Am E\r\n\r\nj  s j s s   j s j s s  <---- Bataia este aceeasi mereu.\r\n\r\nAm            G   Am        \r\nScoala gazda din patut\r\n  Am    G  Am\r\nFlorile dalbe,\r\n Am         G   Am\r\nSi ne da un colacut\r\n G       E       Am\r\nFlorile ,florile dalbe.\r\nAm         G   Am                    \r\nCa mamuca n-o facut\r\n  Am    G  Am                    \r\nFlorile dalbe,\r\nAm         G   Am                    \r\nSita rara n-o avut\r\n G       E       Am                   \r\nFlorile ,florile dalbe.",
+    "author": {
+      "id": 35,
+      "name": "Colinde",
+      "slug": "colinde"
+    },
+    "author_id": 35,
+    "categories": [
+      {
+        "id": 15,
+        "name": "Colinde",
+        "slug": "colinde",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "G",
+      "E"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 85,
+    "title": "Flori de mar",
+    "slug": "flori-de-mar-85",
+    "content": "G                D                     G\r\nAm venit aici la voi, am venit aici la voi\r\n                D                    G\r\nCum e datina la noi, cum e datina la noi\r\nG             D7    G     C           D7    G\r\nSculati gazde nu durmiti, vremea e sa va treziti\r\nG             D7    G     C           D7    G\r\nSculati gazde nu durmiti, vremea e sa va treziti\r\nG                D7    C     D7 G\r\nCasa sa vi-o maturati, flori de mar\r\nG                 D7    C     D7 G\r\nMasa sa vi-o încarcati, flori de mar.\r\nG                D7    C     D7 G\r\nCasa sa vi-o maturati, flori de mar\r\nG                 D7    C     D7 G\r\nMasa sa vi-o încarcati, flori de mar.\r\n\r\nG            D7   G   C           D7   G\r\nNoi umblam a colinda, di l-o casa la alta\r\nG            D7   G   C           D7   G\r\nNoi umblam a colinda, di l-o casa la alta\r\nG                  D7   C     D7 G\r\nSi venim cu Domnul bun, flori de mar\r\nG               D7    C     D7 G\r\nCa e sara de Craciun, flori de mar.\r\nG                  D7   C     D7 G\r\nSi venim cu Domnul bun, flori de mar\r\nG               D7    C     D7 G\r\nCa e sara de Craciun, flori de mar.\r\n\r\nG          D7   G   C          D7    G\r\nSi la anul om zini, numai daca ni-ti pofti\r\nG          D7   G   C          D7    G\r\nSi la anul om zini, numai daca ni-ti pofti\r\nG                D7   C     D7 G\r\nSi mai multe vom ura, flori de mar\r\nG                   D7  C     D7 G\r\nUn pocut daca ni-ti da, flori de mar\r\nG                D7   C     D7 G\r\nSi mai multe vom ura, flori de mar\r\nG                   D7  C     D7 G\r\nUn pocut daca ni-ti da, flori de mar\r\n\r\nG                   D                          G\r\nSi colinda nu-i mai multa, si colinda nu-i mai multa\r\n                   D                         G\r\nSa traiasca cine-asculta, sa traiasca cine-asculta\r\nG               D                   G\r\nSi colinda-i atâta, si colinda-i atâta\r\n                   D                      G\r\nCine-asculta sa traia, cine-asculta sa traia.",
+    "author": {
+      "id": 10,
+      "name": "Ștefan Hrușcă",
+      "slug": "stefan-hrusca"
+    },
+    "author_id": 10,
+    "categories": [
+      {
+        "id": 15,
+        "name": "Colinde",
+        "slug": "colinde",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "G",
+      "D",
+      "D7",
+      "C",
+      "Am"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 86,
+    "title": "Florile dalbe",
+    "slug": "florile-dalbe-86",
+    "content": "Intro: Em Am Em\r\n\r\nEm           Am         Em      Am\r\nScoala gazda din patut, florile dalbe\r\nEm          Am       Em       Am      Em\r\nSi ne da un colacut, florile, florile dalbe.\r\n\r\nEm        Am         Em      Am\r\nCa mamuca n-o facut, florile dalbe\r\nEm       Am        Em       Am      Em\r\nSita rara n-o avut, florile, florile dalbe.\r\n\r\nEm             Am       Em      Am\r\nPe când sât' o capatat, florile dalbe\r\nEm       Am          Em       Am      Em\r\nCovata i s-o crepat, florile, florile dalbe.\r\n\r\nEm         Am            Em      Am\r\nL-o sfadit mama pe tata, florile dalbe\r\nEm           Am          Em      Am      Em\r\nDi ce s-o crepat covata, florile florile dalbe.\r\n\r\nEm          Am       Em      Am\r\nCând covata o lipit, florile dalbe\r\nEm           Am         Em       Am      Em\r\nCuptorul l-i s-o urnit, florile, florile dalbe.\r\n\r\nEm            Am        Em      Am\r\nCând cuptorul a tomnit, florile dalbe\r\nEm         Am        Em       Am      Em\r\nAnul nou a si venit, florile, florile dalbe.",
+    "author": {
+      "id": 10,
+      "name": "Ștefan Hrușcă",
+      "slug": "stefan-hrusca"
+    },
+    "author_id": 10,
+    "categories": [
+      {
+        "id": 15,
+        "name": "Colinde",
+        "slug": "colinde",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Em",
+      "Am"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 87,
+    "title": "O lume minunată",
+    "slug": "o-lume-minunata-87",
+    "content": "Intro: C   x4\n\n\n              C\n      Refren: E-o lume minunată, în care veți găsi\n                      G\n              Numai copii,\n\n              O lume cu mult soare și mii de jucării\n              G7       C\n              Pentru copii.\n\n\n              În lumea cu povești și flori veți întâlni\n              Numai copii\n              Și-o lume-a inocenței, păstrați-o, orice ar fi,\n              Pentru copii!\n\n\nC\nIeri am fost și noi copii,\n    D\nDar timpul ne-a schimbat,\n   G\nÎn viață am pornit și vise-am împlinit\n C               G\nAșa, cum ne-am dorit!\n\n\nC\nGânduri bune câte-am strâns\n   D\nȘi tot ce-am învățat,\n  G\nCopiilor să dăm iubirea ce-o purtăm,\n     C            G\nCe-i bun să le arătăm!\n\n\n      Refren: E-o lume minunată, în care veți găsi\n              Numai copii,\n              O lume cu mult soare și mii de jucării\n              Pentru copii.\n\n\n              În lumea cu povești și flori veți întâlni\n              Numai copii\n              Și-o lume-a inocenței, păstrați-o, orice ar fi,\n              Pentru copii!\n\n\nIeri am fost și noi copii,\nDar timpul ne-a schimbat,\nÎn viață am pornit și vise-am împlinit\nAșa, cum ne-am dorit!\n\n\nGânduri bune câte-am strâns\nȘi tot ce-am învățat,\nCopiilor să dăm iubirea ce-o purtăm,\nCe-i bun să le arătăm!\n\n\n            E7\nInterludiu: Ce zâmbet poate fi \n                Am\n            Mai sincer, mai curat,\n            D7\n            Ce ochi știu a vorbi \n             G\n            Atât de-adevărat?\n\n\n      Refren: E-o lume minunată în care poți găsi\n              Numai copii,\n              O lume cu mult soare și mii de jucării\n              Pentru copii.\n\n\n              În lumea cu povești și flori veți întâlni\n              Numai copii\n              Și-o lume-a inocenței, păstrați-o, orice ar fi,\n              Pentru copii!\n\n\nInterludiu: C# G# G#7 C#\n\n\n              C#\n      Refren: La, la, la, la, la, la, la, la, la, la, la, la, la, \n                          G#\n              La, la, la, la,\n\n              La, la, la, la, la, la, la, la, la, la, la, la, la,\n              G#7         C#\n              La, la, la, la.\n\n\n              E-o lume minunată, în care veți găsi\n              Numai copii,\n              O lume cu mult soare și mii de jucării\n              Pentru copii.\n\n\n              În lumea cu povești și flori veți întâlni\n              Numai copii\n              Și-o lume-a inocenței, păstrați-o, orice ar fi,\n              Pentru copii!",
+    "author": {
+      "id": 36,
+      "name": "Mihai Constantinescu",
+      "slug": "mihai-constantinescu"
+    },
+    "author_id": 36,
+    "categories": [
+      {
+        "id": 12,
+        "name": "Cântece pentru copii",
+        "slug": "cantece-pentru-copii",
+        "description": ""
+      },
+      {
+        "id": 16,
+        "name": "Muzică ușoară",
+        "slug": "muzica-usoara",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "C",
+      "G",
+      "G7",
+      "D",
+      "E7",
+      "Am",
+      "D7",
+      "G#7",
+      "C#",
+      "G#"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 88,
+    "title": "Mă Dusei",
+    "slug": "ma-dusei-88",
+    "content": "Capo 5\n\nAm7 C Gsus4 D7sus4\n\nAm7   C    Gsus4    D7sus4\nMă dusei,        și mă dusei să\n\nAm7       C    Gsus4    D7sus4\ntrec la Olt\n\nAm7   C    Gsus4    D7sus4\nMă dusei,        și mă dusei să\n\nAm7       C    Gsus4    D7sus4\ntrec la Olt\n\nF         G         Am           C\nCu a mea, cu a mea, cu a mea mândră cu tot\nF            G                 Am\nTra-la-la-la-la-la-la-la-la-la-la\nF         G         Am           C\nCu a mea, cu a mea, cu a mea mândră cu tot\nF            G                 Am\nTra-la-la-la-la-la-la-la-la-la-la\n\n(și tot așa)\n\nȘi podarul, și podaru-mi cere un zlot\nȘi podarul, și podaru-mi cere un zlot\nȘi pe-a mea, și pe-a mea, și pe-a mea mândră de tot\nTra-la-la-la-la-la-la-la-la-la-la\nȘi pe-a mea, și pe-a mea, și pe-a mea mândră de tot\nTra-la-la-la-la-la-la-la-la-la-la\n\nDar decât, dar decât să-i dau un zlot\nDar decât, dar decât să-i dau un zlot\nMai bine, mai bine, mai bine îl trec înot\nTra-la-la-la-la-la-la-la-la-la-la\nMai bine, mai bine, mai bine trec Oltu' înot\nTra-la-la-la-la-la-la-la-la-la-la\n\nUnde-o fi, și unde-o fi Oltul mai mare\nUnde-o fi, și unde-o fi Oltul mai mare\nM-o trece, m-o trece, m-o trece mândra-n spinare\nTra-la-la-la-la-la-la-la-la-la-la\nM-o trece, m-o trece, m-o trece mândra-n spinare\nTra-la-la-la-la-la-la-la-la-la-la\n\nȘi unde-o fi, și unde-o fi mai mititel\nȘi unde-o fi, și unde-o fi mai mititel\nO trec eu, o trec eu, o trec eu că-s voinicel\nTra-la-la-la-la-la-la-la-la-la-la\nO trec eu, o trec eu, o trec eu că-s voinicel\nTra-la-la-la-la-la-la-la-la-la-la\n\nCu a mea, cu a mea, cu a mea mândră cu tot\nTra-la-la-la-la-la-la-la-la-la-la\nCu a mea, cu a mea, cu a mea mândră cu tot\nTra-la-la-la-la-la-la-la-la-la-la",
+    "author": {
+      "id": 37,
+      "name": "Bulz Brotherz",
+      "slug": "bulz-brotherz"
+    },
+    "author_id": 37,
+    "categories": [
+      {
+        "id": 17,
+        "name": "Etno / Folclor",
+        "slug": "etno-folclor",
+        "description": ""
+      },
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "F",
+      "G",
+      "Am",
+      "C",
+      "Am7",
+      "Gsus4",
+      "D7sus4"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 89,
+    "title": "Cântă mahalaua",
+    "slug": "canta-mahalaua-89",
+    "content": "Intro: Dm\r\n\r\n\r\nDm\r\nTrage-te încoa, vreau să-ți spun ceva:\r\n   A#\r\nDistracția și vinul sunt mai bune-n mahala,\r\nDm \r\nSufletul deschis, dansul mai încins\r\n   A#          A\r\nȘi cheful iese mult mai aprins,\r\nDm\r\nNoaptea mai cu viață și mai cu dulceață, \r\n    A#\r\nMai plină de păcate până-n zori de dimineață,\r\n  Dm\r\nFemeia mai femeie, plăcerea mai plăcere,\r\n    A#            A\r\nIar dragostea mai fără perdele! \r\n\r\n\r\n              Dm              Gm\r\n      Refren: Cântă mahalaua, tremură podeaua, \r\n              A#  A         Dm   A\r\n              E paranghelie grea, \r\n              Dm               Gm\r\n              Urcă-te pe masă, viața-i mai frumoasă, \r\n              A#     A            Dm A\r\n              Când petreci la mahala! \r\n\r\n\r\nDacă nu mă crezi, hai, vino și-ai să vezi, \r\nLa orice colț de stradă o să dai peste dovezi:\r\nPetreceri duium, grătar pe cărbuni\r\nȘi lăutarii cântă nebuni, \r\nHaide, că poți, fă cinste la toți, \r\nDecât să-mbătrânești cu averea la chiloți,\r\nBea-o cu noi, că banii-s nasoi,\r\nCând ții de ei, te bagă-n noroi! \r\n\r\n\r\n      Refren: Cântă mahalaua, tremură podeaua, \r\n              E paranghelie grea, \r\n              Urcă-te pe masă, viața-i mai frumoasă, \r\n              Când petreci la mahala! \r\n\r\n\r\nInterludiu: Dm\r\n\r\n\r\nSimți că iei foc, nu mai sta pe loc,\r\nBate din picioare și prinde-te la joc, \r\nOrice ar fi, nu te opri,\r\nNici dacă se crapă de zi,\r\nSimte-te bine, fără de rușine\r\nȘi lasă veselia să intre în tine,\r\nNu te lăsa, ține-o tot așa,\r\nCă lumea întreagă-i o mahala. \r\n\r\n\r\n              Dm              Gm\r\n      Refren: Cântă mahalaua, tremură podeaua, \r\n              A#  A         Dm   A\r\n              E paranghelie grea, \r\n              Dm               Gm\r\n              Urcă-te pe masă, viața-i mai frumoasă, \r\n              A#     A            Dm A\r\n              Când petreci la mahala! \r\n\r\n\r\n              Dm              Gm\r\n              Cântă mahalaua, tremură podeaua, \r\n              A#  A         Dm   A\r\n              E paranghelie grea, \r\n              Dm               Gm\r\n              Urcă-te pe masă, viața-i mai frumoasă, \r\n              A#     A            Dm \r\n              Când petreci la mahala! \r\n\r\n",
+    "author": {
+      "id": 38,
+      "name": "White Mahala",
+      "slug": "white-mahala"
+    },
+    "author_id": 38,
+    "categories": [
+      {
+        "id": 19,
+        "name": "Experimental",
+        "slug": "experimental",
+        "description": ""
+      },
+      {
+        "id": 17,
+        "name": "Etno / Folclor",
+        "slug": "etno-folclor",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Dm",
+      "A",
+      "Gm",
+      "A#",
+      "E"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 90,
+    "title": "Atat de frageda",
+    "slug": "atat-de-frageda-90",
+    "content": "Intro:\r\n\r\nE A E B \r\nE A E B E\r\n\r\nN.C.                E      A E\r\nAbia atingi covorul moale,\r\n                  B     \r\nMatasa suna sub picior,\r\nA                        E   A\r\nSi de la crestet pâna-n poale\r\n B                 E\r\nPlutesti ca visul de usor.\r\nA                        E    A\r\nSi de la crestet pâna-n poale\r\n B                 E       A E B\r\nPlutesti ca visul de usor.\r\n\r\nDin încretirea lungii rochii\r\nRasai ca marmura în loc \r\nS-atârna sufletu-mi de ochii\r\nCei plini de patimi si noroc.\r\n\r\n        E\r\nO, vis ferice de iubire,\r\n         B        \r\nMireasa blânda din povesti,\r\n         E\r\nNu mai zâmbi! A ta zâmbire\r\n          G#\r\nMi-arata cât de dulce esti,\r\n               A\r\nCum poti cu-a farmecului noapte\r\n             B\r\nSa-ntuneci ochii mei pe veci,\r\n            A\r\nCu-a gurii tale calde soapte,\r\n        B\r\nCu-mbratisari de brate reci.\r\n\r\nDeodata trece-o cugetare,\r\nUn văl pe ochii tai fierbinti:\r\nE-ntunecoasa renuntare,\r\nE umbra dulcilor dorinti.\r\n\r\nTe duci, am înteles prea bine\r\nSa nu ma tin de pasul tau,\r\nPierduta vecinic pentru mine,\r\nMireasa sufletului meu!\r\nCa te-am privit e a mea vina\r\nSi vecinic n-o sa mi-o mai iert,\r\nSpasi-voi visul de lumina\r\nTinzându-mi dreapta în deşert.\r\n\r\nS-o sa-mi rasai ca o icoana\r\nA pururi verginei Marii,\r\nPe fruntea ta purtând coroana –\r\nUnde te duci? Când o sa vii?\r\n\r\n     A           E\r\nUnde te duci? Când o sa vii?\r\n     A            E\r\nUnde te duci? Când o sa vii?",
+    "author": {
+      "id": 39,
+      "name": "Mondial",
+      "slug": "mondial"
+    },
+    "author_id": 39,
+    "categories": [
+      {
+        "id": 16,
+        "name": "Muzică ușoară",
+        "slug": "muzica-usoara",
+        "description": ""
+      },
+      {
+        "id": 20,
+        "name": "Eminescu",
+        "slug": "eminescu",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "E",
+      "A",
+      "B",
+      "G#"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 91,
+    "title": "Trenule, mașină mică",
+    "slug": "trenule-masina-mica-91",
+    "content": "Intro: G D G / G Am B7 Em\r\n\r\n\r\nEm\r\nFoaie verde și-o sipică,\r\n\r\nFoaie verde și-o sipică,\r\nG\r\nTrenule, mașină mică,\r\n\r\nUnde-l duci pe Ionică?\r\nD                     G\r\nMărioara lui nenicu’, măi-măi,\r\n\r\nTrenule, mașină mică,\r\nAm\r\nUnde-l duci pe Ionică?\r\nB7                    Em\r\nMărioara lui nenicu’, măi-măi!\r\n\r\n\r\nTu mi-l duci și-l ocolești,\r\nTu mi-l duci și-l ocolești\r\nDin Craiova la Pitești\r\nȘi-l dai jos la București,\r\nMărioara lui nenicu’, măi-măi,\r\nDin Craiova la Pitești\r\nȘi-l dai jos la București,\r\nMărioara lui nenicu’, măi-măi!\r\n\r\n\r\nInterludiu: G D G / G Am B7 Em\r\n\r\n\r\nTrenule, n-ai avea parte,\r\nTrenule, n-ai avea parte\r\nDe șuruburile toate\r\nȘi de șina de sub roate,\r\nMărioara lui nenicu’, măi-măi,\r\nC-ai dus pe neica departe,\r\nC-ai dus pe neica departe,\r\nMărioara lui nenicu’, măi-măi!\r\n\r\n\r\nTrenule, de când l-ai dus,\r\nTrenule, de când l-ai dus,\r\nEu întruna am tot plâns,\r\nEu întruna am tot plâns,\r\nMărioara lui nenicu’, măi-măi,\r\nTrenule, de când l-ai luat,\r\nEu întruna am oftat,\r\nMărioara lui nenicu’, măi-măi!\r\n\r\n\r\nInterludiu: G D G / G Am B7 Em\r\n\r\n\r\nȘi iar verde de-o sipică,\r\nTrenule, mașină mică,\r\nUnde-l duci pe Ionică,\r\nUnde-l duci pe Ionică?\r\nMărioara lui nenicu’, măi-măi,\r\nCă-l tot duci și-l ocolești\r\nDin Craiova la Pitești\r\nMărioara lui nenicu’, măi-măi!\r\n\r\n\r\nCă-l tot duci și-l ocolești\r\nDin Craiova la Pitești,\r\nMărioara lui nenicu’, măi-măi,\r\nȘi-l dai jos la București\r\nȘi-l dai jos la București\r\nMărioara lui nenicu’, măi-măi!",
+    "author": {
+      "id": 40,
+      "name": "Maria Tănase",
+      "slug": "maria-tanase"
+    },
+    "author_id": 40,
+    "categories": [
+      {
+        "id": 17,
+        "name": "Etno / Folclor",
+        "slug": "etno-folclor",
+        "description": ""
+      },
+      {
+        "id": 2,
+        "name": "Lăutărești",
+        "slug": "lautaresti",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Em",
+      "G",
+      "D",
+      "Am",
+      "B7"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 92,
+    "title": "Când s-o-mpărțit norocu'",
+    "slug": "cand-s-o-mpartit-norocu-92",
+    "content": "(de pe albumul \"Cântece din Maramureș\")\r\n\r\nÎn original, Ducu Bertzi cântă această melodie cu capodastru pe III\r\n\r\nAm                E        Am  G\r\nMăicuța când m-o făcut, măi dorule\r\nC                  G\r\nMăicuța când m-o făcut\r\nAm                  Dm\r\nFoc în vatră n-o avut\r\nAm                    E      Am\r\nFoc în vatră n-o avut, măi dorule\r\n\r\nSo sculat și-o făcut foc, măi dorule\r\nSo sculat și-o făcut foc\r\nȘi mi-o ars al meu năroc\r\nȘi mi-o ars al meu năroc, măi dorule\r\n\r\nAşa-mi vine câteodată, dorule\r\nAsa-mi vine câteodată\r\nSă dau cu cuţitu-n piatră\r\nSă dau cu cuţitu-n piatră, dorule\r\n\r\nDin piatră să iasă foc, măi dorule\r\nDin piatră să iasă foc\r\nDacă-n viaţă n-am noroc\r\nDacă-n viaţă n-am noroc, măi dorule\r\n\r\nCând s-o-mpărţit norocu, măi dorule\r\nCând s-o-mpărţit norocu\r\nFost-am eu dus la lucru\r\nFost-am eu dus la lucru, măi dorule\r\n\r\nȘi la toţi le-o dat cu carul, dorule\r\nȘi la toţi le-o dat cu carul\r\nNumai mie cu păharul\r\nNumai mie cu păharul, dorule\r\n\r\nNici acela n-o fost plin, măi dorule\r\nNici acela n-o fost plin\r\nJumătate-o fost venin\r\nJumătate-o fost venin, măi dorule\r\n\r\nNici acela n-o fost ras, măi dorule\r\nNici acela n-o fost ras\r\nJumătate-o fost năcaz\r\nJumătate-o fost năcaz, măi dorule\r\n\r\nNalt îi ceriu şi senin, măi dorule\r\nNalt îi ceriu şi senin\r\nPe-a me parte norii vin\r\nPe-a me parte norii vin, măi dorule\r\n\r\nNalt îi ceriu şi-nstelat, măi dorule\r\nNalt îi ceriu şi-nstelat\r\nPe-a me parte norii bat\r\nPe-a me parte norii bat, măi dorule\r\n\r\nȘi-asa-mi vine câte-un gând, măi dorule\r\nȘi-asa-mi vine câte-un gând\r\nSă plec pe păduri cântând\r\nSă plec pe păduri cântând, măi dorule",
+    "author": {
+      "id": 19,
+      "name": "Ducu Bertzi",
+      "slug": "ducu-bertzi"
+    },
+    "author_id": 19,
+    "categories": [
+      {
+        "id": 17,
+        "name": "Etno / Folclor",
+        "slug": "etno-folclor",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "E",
+      "G",
+      "C",
+      "Dm"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 93,
+    "title": "Sanie cu zurgălăi",
+    "slug": "sanie-cu-zurgalai-93",
+    "content": "Dm\r\nSanie cu zurgălăi,\r\n        E7             A   D7\r\nFrumoși sunt căluții tăi,\r\nGm       \r\nDar mai frumoși sunt ai mei,\r\nC\r\nCă le dau apă cu mei\r\nF            C        F    D7\r\nȘi zboară ca niște zmei,\r\nGm\r\nMai frumoasă-i mândra mea,\r\nEb\r\nDiseară mă duc la ea,\r\nEdim     A      Dm    D7 (pentru a intra in returnela)\r\nSanie cu zurgălăi.\r\n\r\nDe-o vrea mândra, de n-o vrea\r\nSă-mi deschidă portița,\r\nDiseară mă duc la ea,\r\nObosit cum oi putea,\r\nSanie cu zurgălăi,\r\nObosit și plin de apă,\r\nMă duc la ea că mi-e dragă,\r\nSanie cu zurgălăi.\r\n\r\nSăniuță, du-mă iară\r\nUnde-am fost și-alaltăseară,\r\nSanie cu zurgălăi,\r\nDu-mă la mândruța mea\r\nSă-i mai sărut gurița,\r\nSanie cu zurgălăi.\r\n\r\nCă e dulce gurița,\r\nNu mă mai satur de ea,\r\nCa de vin dulce toamna\r\nȘi de somn primăvara,\r\nSanie cu zurgălăi,\r\nNu mă mai satur de ea,\r\nCa de vin dulce toamna,\r\nSanie cu zurgălăi.",
+    "author": {
+      "id": 41,
+      "name": "Maria Ciobanu",
+      "slug": "maria-ciobanu"
+    },
+    "author_id": 41,
+    "categories": [
+      {
+        "id": 17,
+        "name": "Etno / Folclor",
+        "slug": "etno-folclor",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Dm",
+      "E7",
+      "A",
+      "D7",
+      "Gm",
+      "C",
+      "F",
+      "Eb",
+      "Edim"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 94,
+    "title": "Constantine, Constantine",
+    "slug": "constantine-constantine-94",
+    "content": "Intro (x2): Dm      Gm / Dm      Dm    \r\n            \r\n Dm           A        Dm\r\n Constantine, Constantine\r\n Dm        A        Dm\r\n Mă mir şi mă uit la tine\r\n Gm            Dm\r\n Ziua, noaptea prin pădure\r\n Gm            A     Dm\r\n Plin de rouă, ca un câine \r\n Dm\r\n Şi dacă mă uit mai bine\r\n Constantine, Constantine\r\n Gm         A         Dm\r\n Neagră-i cămaşa pe tine.\r\n\r\n    Refren (x2): Dm            Gm\r\n                 La...............la\r\n                 Dm\r\n                 La...............la.\r\n\r\n Mărioară, Mărioară\r\n Ia o tale şi mi-o spală\r\n Cu săpun de tămâioară\r\n S-o usuci în sân desară\r\n Şi pentru atâta lucru\r\n Mărioară, Mărioară\r\n Nu ţi-ar mai putrezi trupu’.\r\n\r\n A cui eşti, Mărie, dragă?\r\n A lui cu mustaţa neagră\r\n Ăl mai mare vânător\r\n M-a prins noaptea la izvor\r\n Nu mi-e ciudă că mă prinse\r\n Constantine, Constantine\r\n Dar mi-e ciudă că mă-nchise.\r\n\r\n Mărie, privighetoare\r\n Ce cânţi noaptea pe răcoare\r\n Osândi-te-ar şi te-ar bate\r\n Pernioara de-astă noapte\r\n Căpătâiul de la spate\r\n Mărioară, Mărioară\r\n Şi vorbele voastre toate.\r\n\r\n Când eu te-aşteptam pe-afară,\r\n Mărioară, Mărioară\r\n Cântecel de primăvară.\r\n\r\n Nota:dupa fiecare strofa-refren(x2)+intro(x2).",
+    "author": {
+      "id": 42,
+      "name": "Floarea Calotă",
+      "slug": "floarea-calota"
+    },
+    "author_id": 42,
+    "categories": [
+      {
+        "id": 17,
+        "name": "Etno / Folclor",
+        "slug": "etno-folclor",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Dm",
+      "A",
+      "Gm"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 95,
+    "title": "Asa beau oamenii buni",
+    "slug": "asa-beau-oamenii-buni-95",
+    "content": "C           G\r\nAşa beau oamenii buni\r\nF          G\r\nAşa beau oamenii buni\r\nF          C\r\nDe sâmbăta până luni\r\nC      G   C\r\nDe sambata pana luni.\r\n\r\nAşa beau oamenii fraţi\r\nAşa beau oamenii fraţi\r\nDe sâmbătă până marţi\r\nDe sâmbătă până marţi.\r\n\r\nAşa beau oameni cu cecuri\r\nAşa beau oameni cu cecuri\r\nDe sâmbătă până miercuri\r\nDe sâmbătă până miercuri.\r\n\r\nAşa beau oameni ca noi\r\nAşa beau oameni ca noi\r\nDe sâmbătă până joi\r\nDe sâmbătă până joi.\r\n\r\nAşa beau oamenii tineri\r\nAşa beau oamenii tineri\r\nDe sâmbătă până vineri\r\nDe sâmbătă până vineri.\r\n\r\nC-aşa beau şi eu şi tata\r\nC-aşa beau şi eu şi tata\r\nDintr-o sâmbătă intr-alta\r\nDintr-o sâmbătă intr-alta.\r\n\r\nDe n-ar fi horinca-n sat\r\nDe n-ar fi horinca-n sat\r\nNiciodată n-aş fi bat\r\nNiciodată n-aş fi bat.\r\n\r\nDar aşa horincă este\r\nDar aşa horincă este\r\nŞi-s la lume de poveste\r\nŞi-s la lume de poveste.\r\n\r\nCa mă povestesc in sat\r\nCa mă povestesc in sat\r\nC-am băut si iară-s bat\r\nC-am băut si iară-s bat.\r\n\r\n\r\nPe toate strofele sunt aceleasi acorduri, acordurile nu sunt puse de mine, eu doar am facut rost de ele.\r\nEste transpusa in C(DO), originalul de la Fratii Petreus e in A(LA).",
+    "author": {
+      "id": 43,
+      "name": "Frații Petreuș",
+      "slug": "fratii-petreus"
+    },
+    "author_id": 43,
+    "categories": [
+      {
+        "id": 17,
+        "name": "Etno / Folclor",
+        "slug": "etno-folclor",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "C",
+      "G",
+      "F"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 96,
+    "title": "Dar-ar naiba-n tine, dragoste",
+    "slug": "dar-ar-naiba-n-tine-dragoste-96",
+    "content": "C                      Dm\r\nDar-ar naiba-n tine dragoste!\r\nG                         C    (merge pe coarda la trecerea do - si la)\r\nCe te tii mereu numai de mine?\r\nAm                       Dm\r\nTu esti pentru mine-o pacoste\r\nG                          c\r\nSi nu pot ca sa mai scap de tine.\r\n\r\nc                          Dm\r\nAi venit cand nici nu ma gandeam\r\nG                           c\r\nSi-ai aprins in suflet valvataie,  (la: do - si - la)\r\nAm                           Dm        \r\nNu mananc si noaptea somn nu am    (aici merge o trecere cu Em - F - G)\r\nG                        D\r\nPentru tine, dragoste balaie.\r\n\r\nTe-ai asezat la inimioara\r\nSi ai facut ca sa ma doara.\r\nMult mi-e necaz si mi-e rusine\r\nDar-ar naiba dragoste in tine!\r\n\r\nFir-ai tu sa fii de dragoste!\r\nSi mai rau sa te blestem imi vine.\r\nCand mai sunt atatea suflete\r\nCum de ma gasisi tocmai pe mine?\r\nSunt atatea alte fete-n sat\r\nMandre, frumoase din cale-afara,\r\nTocmai peste mine tu ai dat\r\nDragoste sa fii mereu de-ocara!\r\n\r\nGlumesc baietii si-au dreptate,\r\nIar fetele imi rad in spate.\r\nMult mi-e necaz si mi-e rusine\r\nDar-ar naiba dragoste in tine!\r\nIn drumul meu a fost odata\r\nO dragoste nevinovata.\r\nDe-atunci oftez si nu mi-e bine\r\nDar-ar naiba dragoste in tïne.",
+    "author": {
+      "id": 44,
+      "name": "Ileana Sărăroiu",
+      "slug": "ileana-sararoiu"
+    },
+    "author_id": 44,
+    "categories": [
+      {
+        "id": 17,
+        "name": "Etno / Folclor",
+        "slug": "etno-folclor",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "C",
+      "Dm",
+      "Am",
+      "G",
+      "D",
+      "Em",
+      "F"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 97,
+    "title": "Pusca si cureaua lata",
+    "slug": "pusca-si-cureaua-lata-97",
+    "content": "D    F#           Bm D7\r\nCand eram tanar fecior,\r\nG     A7     D  F#\r\nEram fala muntilor,\r\nBm     B     Em  E\r\nUmblam ziua la vanat\r\nA          A7        D\r\nPrin codru verde de brad...\r\n\r\nD      E          A D7\r\nPusca si cureaua lata...\r\nG     A7      D    F#\r\nCe barbat eram odata!\r\nBm   B               Em E\r\nLa vanat prin munti si vai\r\nA   A7      D\r\nCu ortacii mei...\r\n\r\nPorneam cu roua-n picioare\r\nPe urma de caprioare...\r\nNe opream in poienita\r\nBeam apa din fantanita...\r\n\r\nPusca si cureaua lata...\r\nCe barbat eram odata!\r\nLa vanat prin munti si vai\r\nCu ortacii mei...\r\n\r\nDe-o fost vara, de-o fost toamna\r\nLuam mistretii la goana\r\nCu cetina verde-n clop\r\nSI nu oboseam deloc...\r\n\r\nPusca si cureaua lata...\r\nCe barbat eram odata!\r\nLa vanat prin munti si vai\r\nCu ortacii mei...\r\n\r\nIute vremea mi-o trecut,\r\nS-uite c-am imbatranit,\r\nSa mai merg, putere nu-i,\r\nSa iau urma cerbului!...\r\n\r\nPusca si cureaua lata...\r\nCe barbat eram odata!\r\nLa vanat prin munti si vai\r\nCu ortacii mei...\r\n\r\nCand a ninge si a-ngheta\r\nN-o sa-mi mai vedeti urma\r\nMi-oi trimite numa dorul\r\nCa sa-mi gaseasca zvorul...\r\n\r\nPusca si cureaua lata...\r\nCe barbat eram odata!\r\nLa vanat prin munti si vai\r\nCu ortacii mei...\r\n\r\nbox_bottom",
+    "author": {
+      "id": 45,
+      "name": "Traian Ilea",
+      "slug": "traian-ilea"
+    },
+    "author_id": 45,
+    "categories": [
+      {
+        "id": 17,
+        "name": "Etno / Folclor",
+        "slug": "etno-folclor",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "D",
+      "F",
+      "Bm",
+      "D7",
+      "G",
+      "A7",
+      "B",
+      "Em",
+      "E",
+      "A",
+      "F#"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 98,
+    "title": "Imnul golanilor",
+    "slug": "imnul-golanilor-98",
+    "content": "G          C               D         G\r\nA fost odata ca-n povesti, a fost în România\r\n  G          C                D          G\r\nO gasca mare de golani ce-au alungat sclavia\r\n    G              C               D          G\r\nNoi nu ne-am confundat nicicând cu oamenii de bine\r\n  G          C            D         G\r\nVeniti si neocomunisti si fara de rusine.\r\n\r\nRefren:\r\nG             C   D          G\r\nMai bine haimana, decât tradator\r\nG            C    D          G\r\nMai bine huligan, decât dictator\r\nG          C    D         G\r\nMai bine golan, decât activist\r\nG        C     D         G\r\nMai bine mort, decât comunist.\r\n\r\nG                    C         D                 G\r\nVrem libertate, nu comunism si nici schimbari de forma\r\n   G        C             D            G\r\nSi de aceea securisti, sa nu ne puneti norma.\r\n    G          C        D            G\r\nNoi nu vrem neocomunism nici neolibertate\r\n  G             C       D                  G\r\nDemocratii originale si nici minciuni sfruntate.\r\n\r\nRefren\r\n\r\n       G           C              D          G\r\nNe-ati întrebat ce vrem aici, dar stie toata tara\r\n    G        C         D         G\r\nNoi sustinem punctul 8 de la Timisoara.\r\n  G       C     D       G\r\nA cazut 473, ce tinea TVR\r\n  G            C            D           G\r\nLegata în lanturile ei, dar tot degeaba e.\r\n\r\nRefren\r\n\r\n   G         C          D            G\r\nAlegeri fara comunisti, fara nomenclatura\r\n   G               C      D          G\r\nSi nu va temeti de golani fara coloratura.\r\n    G             C            D             G\r\nDin cei care-au murit aici, ne-am reîntors naluci\r\n   G          C             D         G\r\nSa nu mai fie cum a fost, macelul de atunci.\r\n\r\nRefren",
+    "author": {
+      "id": 46,
+      "name": "Cristian Pățurcă",
+      "slug": "cristian-paturca"
+    },
+    "author_id": 46,
+    "categories": [
+      {
+        "id": 11,
+        "name": "Despre Patrie",
+        "slug": "despre-patrie",
+        "description": ""
+      },
+      {
+        "id": 14,
+        "name": "Imnuri",
+        "slug": "imnuri",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "G",
+      "C",
+      "D",
+      "A"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 99,
+    "title": "Bosquito",
+    "slug": "bosquito-99",
+    "content": "Melodia in cheia originala cu mici corectii pentru a suna ca inregistrarea.\r\n\r\nF#m                   E         F#m\r\nCând eram băiat acasa tare bine mai era\r\nF#m                  E         F#m\r\nAveam o gagică grasă care mă iubea\r\nBm             F#m         Bm         F#m\r\nDar când am plecat în lume ursitoarea m-a minţit\r\nBm             F#m       Bm     D   C#7\r\nC-o s-ajung un barosan bogat şi fericit\r\n\r\n       F#m   C#7       F#m\r\nÎnsă bănuţul nu s-a arătat\r\n       A     E            A\r\nşi fericirea iute s-a stricat\r\n       A           Bm       C#7 F#m\r\nAşa că beau, beau, golesc paharele\r\n        F#m   C#7       F#m\r\nCu pretenarii şi cu fetele\r\n\r\nCe-mi plăcea s-o facem lată, asta-mi era boala\r\nUnde n-ajungeam vreodată, asta era şcoala\r\nN-am nici bani, n-am nici maşină si de datorii sunt full\r\nAm o gaşcă şi-o chitară şi-asta mi-e destul\r\n \r\nÎnsă banuţul nu s-a arătat\r\nşi fericirea iute s-a stricat\r\nAşa că beau, beau, golesc paharele\r\nCu pretenarii şi cu fetele\r\n\r\nÎnsă banuţul nu s-a arătat\r\nşi fericirea iute s-a stricat\r\nAşa că beau, beau, şi-mi bag picioarele\r\nÎn tot ce ţine de tranziţie",
+    "author": {
+      "id": 47,
+      "name": "Bosquito",
+      "slug": "bosquito"
+    },
+    "author_id": 47,
+    "categories": [
+      {
+        "id": 21,
+        "name": "Latino",
+        "slug": "latino",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "F#m",
+      "E",
+      "Bm",
+      "D",
+      "C#7",
+      "A",
+      "Am"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 100,
+    "title": "Așa, și?",
+    "slug": "asa-si-100",
+    "content": "Capo: fret 4\n\nIntro : F C G Am x2 \n\nAsa, si? (2x)\n\nAm                      E\nCeva nu merge bine emotional\nF                         C\nAm sufletul plin de Extraveral, (Asa, si? )\nAm                     E\nNoi doi ne vedem de patru seri,\nF                         C\nFacem schimb de prea multe pareri,\nAm                        E \nRabdarea mi-am pierdut-o de ieri,\nD \nAsa am eu la doamne, \n                 G \nMulte milioane de ghinioane. (Asa, si? )\n\n\nF                       C\nAsa si ce daca stau la coada\nG                       Am                   \nPentru fericire o viata-ntreaga,\nF                       C \nO sa stau la rand si pentru tine\nG               Am\nSi-o sa-ti dau si tie.\n\nAsa si asa(4x)   F,C,G,Am x2 \n\n\nAm                      E\nCeva nu-i bine nici profesional,\nF                          C  \nAm multe locuri goale prin buzunar, \nAm                       E\nIar maine sigur mai apare ceva,\nF                          C \nNu mai conteaza, eu sunt bine si-asa,\nAm                     E \nPrietenii mei stiu asta deja\nD\nCa avem milioane de ghinioane, \n   G\nAjuta-ne Doamne! ! (Asa, si? )\n\n\n F                       C \nAsa si ce daca stau la coada\nG                        Am\nPentru fericire o viata-ntreaga,\nF                           C \nO sa stau la rand si pentru tine\nG                 Am\nSi-o sa-ti dau si tie.\n\nAsa si asa(7x)  F,C,G,Am x2 \n\n // Pana aici a fost versiunea acustica cea filmata in camera de hotel. \nDe aici aveti aceleasi acorduri Am,E,F,C numai cu un fret mai jos.\nIar la sfarsit aveti Am,E,E,Am.\n\nPai tu crezi ca ei n-au griji cu tona!? \nCei din Arizona si cei din Barcelona, \nBa au probleme cu gramada\nToti cei din Oradea si cei din Canada, \nPoate sa se umple iar paharul, \nSa se inunde barul, eu nu-i mai simt amarul, \nOrice-ar fi spun “ASA, SI?!”\n\n// Se reiau acordurile A,E,B,C#m\n\nAsa si ce daca stau la coada\nPentru fericire o viata-ntreaga, \nO sa stau la rand si pentru tine\nSi-o sa-ti dau si tie.\n\nAsa, si? \n\nAsa si ce daca stau la coada\nPentru fericire o viata-ntreaga, \nO sa stau la rand si pentru tine\nSi-o sa-ti dau si tie.\n\nAsa si asa(7x) F,C,G,Am x2 \n",
+    "author": {
+      "id": 48,
+      "name": "Vunk",
+      "slug": "vunk"
+    },
+    "author_id": 48,
+    "categories": [
+      {
+        "id": 22,
+        "name": "Pop-Rock",
+        "slug": "pop-rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "E",
+      "F",
+      "C",
+      "D",
+      "G",
+      "C#m"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 101,
+    "title": "Perfect fara tine",
+    "slug": "perfect-fara-tine-101",
+    "content": "F\r\nNu mai urla \r\nC\r\nSe aude in bloc\r\nDm\r\nAm inteles ideea \r\nB\r\nAi risipit iubirea pe un dobitoc \r\n\r\nIesi naibii din casa \r\nEu asta astept iubito \r\nEsti libera sa cauti fraierul \r\n\r\nRefren:\r\n\r\nPerfect (draga mea, draga mea)\r\n Fara tine (draga mea, draga mea)\r\n E mai bine (draga mea, draga mea)\r\n Am timp si pentru mine (draga mea, draga mea)\r\n Perfect (draga mea, draga mea) \r\n \r\n Nu ma doare (draga mea, draga mea)\r\n Piesa asta (draga mea, draga mea)\r\n O cant in drum spre mare (draga mea, draga mea) \r\n\r\n Te-am inselat \r\n Ma declar vinovat \r\n Am circumstante insa \r\n Am vrut si eu sa vad cum e sa fii barbat\r\n Te-ai transformat In instanta morala\r\n Dar ai uitat Dansai prin vama goala si era\r\n\r\n Perfect (draga mea, draga mea)\r\n Fara tine (draga mea, draga mea)\r\n E mai bine (draga mea, draga mea)\r\n Am timp si pentru mine (draga mea, draga mea) \r\n Perfect (draga mea, draga mea) \r\n Nu ma doare (draga mea, draga mea)\r\n Piesa asta (draga mea, draga mea)\r\n O cant in drum spre mare (draga mea, draga mea)\r\n\r\n Ti-aduci aminte cand ne-am combinat\r\n Era frumos, era perfect, era adevarat\r\n Pe mese sau sub mese dar numai impreuna\r\n Iubirea si distractia se cam tineau de mana\r\n Apoi te-ai transformat usor, usor in profesoara\r\n Si-am inceput sa am restante in fiecare seara\r\n Ziceai ceva de genul “iubirea-i lupta grea” \r\n Dar o cam luasesi razna, luptai doar pentru ea\r\n\r\n Acum sunt singur in masina dar nu e suparare\r\n De cat premiant in inchisoare Mai bine repetent\r\n In drum spre mare Perfect (draga mea, draga mea)\r\n\r\n Fara tine (draga mea, draga mea)\r\n E mai bine (draga mea, draga mea)\r\n Am timp si pentru mine (draga mea, draga mea)\r\n Perfect (draga mea, draga mea)\r\n Nu ma doare (draga mea, draga mea)\r\n Piesa asta (draga mea, draga mea) \r\n O cant in drum spre mare (draga mea, draga mea)\r\n Perfect (draga mea, draga mea)\r\n Fara tine (draga mea, draga mea)\r\n E mai bine (draga mea, draga mea)\r\n Am timp si pentru mine (draga mea, draga mea)\r\n Perfect (draga mea, draga mea)\r\n Nu ma doare (draga mea, draga mea)\r\n Piesa asta (draga mea, draga mea)\r\n O cant in drum spre mare (draga mea, draga mea)",
+    "author": {
+      "id": 49,
+      "name": "Vama",
+      "slug": "vama"
+    },
+    "author_id": 49,
+    "categories": [
+      {
+        "id": 22,
+        "name": "Pop-Rock",
+        "slug": "pop-rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "F",
+      "C",
+      "Dm",
+      "B",
+      "Am",
+      "E"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 102,
+    "title": "Ochii tai",
+    "slug": "ochii-tai-102",
+    "content": "D    A                 E A\r\nNu e usor nu e nici greu \r\n      D            A              E  A\r\nSa incerci acum sa te intorci din drum\r\n         D A   E        A\r\nPoate ca eu cu sufletul meu \r\n     D          A             E   A\r\nAs avea atat de multe sa iti spun\r\n     D      A             E\r\nInsa ochii tai se vor pierde in noapte\r\n     G          D          A\r\nLasandu-ma pe mine in urma lor\r\n        D     A          E\r\nStiu ca ochii tai vor fi doua soapte \r\n        G               A           G A\r\nSi mi-e foarte dor,mi-e tare dor de ei\r\n\r\nVreau sa simt caldura ta cand noaptea va venii\r\nDoar stelele sa stie ca ai sosit\r\nParul tau va fi iar ud de roua -n zori de zi\r\nSi as vrea sa pot sa-ti spun bine-ai venit\r\nInsa ochii tai se vor pierde in noapte\r\nLasandu-ma pe mine in urma lor\r\nStiu ca ochii tai vor fi doua soapte \r\nSi mi-e foarte dor,mi-e tare dor de ei\r\nInsa ochii tai se vor pierde in noapte\r\nLasandu-ma pe mine in urma lor\r\nStiu ca ochii tai vor fi doua soapte\r\nSi mi-e foarte dor,mi-e taaaare dor de ei!!!!!!",
+    "author": {
+      "id": 50,
+      "name": "Holograf",
+      "slug": "holograf"
+    },
+    "author_id": 50,
+    "categories": [
+      {
+        "id": 22,
+        "name": "Pop-Rock",
+        "slug": "pop-rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "D",
+      "A",
+      "E",
+      "G"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 103,
+    "title": "Nu am chef azi",
+    "slug": "nu-am-chef-azi-103",
+    "content": "Intro : A   A7+  A6   A  \r\n        D   D7+  D6   D\r\n \r\nStrofa:\r\n        A    A7+        A6     A \r\n  Nu am chef azi, nu am chef azi\r\n         D         D7+  D6  D\r\n  N-am chef de nimic\r\n  Nu am chef azi, nu am chef azi\r\n  De votca sau de gin, tequila rom sau vin\r\n           Bm                   E               E7            A  \r\n  Tigari nu mai vorbesc, iar pe tine, pe tine, pe tine, te urasc\r\n  \r\n  Nu te vreau azi\r\n\r\n  Nu ma vrei azi, nu ma vrei azi\r\n  S-a ridicat usor avea un umar gol\r\n  Si zambetul amar, baiete esti prost, iar eu nu sunt o c*rva pe-un trotuar\r\n  Nu ma vrei azi, nu ma vrei azi\r\n  Nu te vreau azi, nimic mai usor\r\n  Nu ma vrei azi, nu te vreau azi\r\n  Eu voi pleca-n curand, ramai cu mine-n gand\r\n  E lapte-n frigider, iar banii, ciorapii si sapca ta sunt pe calorifer\r\n  \r\n\r\n  Ne vedem joi, ne vedem joi\r\n  Am urlat dupa ea\r\n  Vreau sa vii joi, vreau sa vii joi, \r\n  Alerg descult pe hol, dar holul este gol\r\n  Un paharel de vin, ma uit cine e, vecinul meu Dan de la mezanin\r\n \r\n  Au trecut ani, au trecut ani,\r\n  si viata s-a schimbat, mi-am luat si eu nevasta,\r\n  urata si cam proasta, am doi copii cu ea \r\n  si ma feresc cat pot de mult de soacra mea.\r\n \r\n  Au trecut ani, au trecut ani\r\n  Si viata s-a schimbat\r\n  Au trecut ani, au trecut ani\r\n  Ma duc mereu pe hol, dar holul este gol\r\n  Nu-i lapte-n frigider, iar banii, ciorapii si sapca ta, nu-s pe calorifer\r\n \r\n  Au trecut ani\r\n  Nu-s pe calorifer\r\n  Au trecut ani, am fost un fraier\r\n  Au trecut ani, nu-s pe calorifer\r\n  Am fost un mare, mare fraier\r\n  Au trecut ani, dar au trecut ani",
+    "author": {
+      "id": 51,
+      "name": "Vama Veche",
+      "slug": "vama-veche"
+    },
+    "author_id": 51,
+    "categories": [
+      {
+        "id": 22,
+        "name": "Pop-Rock",
+        "slug": "pop-rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "D",
+      "D7",
+      "D6",
+      "A",
+      "A7",
+      "A6",
+      "Bm",
+      "E",
+      "E7",
+      "Am"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 104,
+    "title": "Vama Veche",
+    "slug": "vama-veche-104",
+    "content": "intro:  ( este facut de pian - l-am adaptat pt chitara )                \r\n                                   \r\ne|------------------0------------------------0---|\r\nB|--------3----3------1-------1--3-----3-------1-|\r\nG|----0------0----0---------0--------0-----0-----|\r\nD|------------------------2----------------------|\r\nA|----3------------------------------------------|\r\nE|-----------------------------------------------|\r\n\r\ne|--------------0-------------------------------|\r\nB|-----3----3------1----------1---0-1-0-1-------|\r\nG|--0-----0---0-------------2--------------2----|\r\nD|------------------------2---------------------|\r\nA|--3-------------------0-----------------------|\r\nE|----------------------------------------------|\r\n\r\ne|-3--3-1-1-1-----3-1--3---5-3-3-3----5-3---3-|\r\nB|----3-3-3-3-------3------3-3-3-3------3-----|\r\nG|----2--------2-----------4--------4---------|\r\nD|----0--------------------5------------------|\r\nA|--------------------------------------------|\r\nE|--------------------------------------------|\r\n\r\ne|-3--1-1-1----3-1---3-5---3----1----0-----|\r\nB|-3--3-3-3------3-------------------------|\r\nG|-2---------2-----------4----4----2-------|\r\nD|-0-------------------5---5----3----2-----|\r\nA|-----------------------------------------|\r\nE|-----------------------------------------|\r\n\r\nTrenul accelerat Bucuresti-Mangalia pleaca in 5 minute de la linia 5\r\n \r\n C9             C \r\nSe poate sa fie zi\r\n Am  \r\nSe poate sa fie noapte...\r\n C9              C\r\nSe poate sa fie vara...\r\n Am               Am9\r\nLa fel cum iarna poate fi.\r\n \r\n Dm\r\nNisiul sa fie ud\r\n G\r\nIar marea un pic amara\r\n Dm\r\nNisipul sa zgarie lin\r\n G\r\nIar marea sa fie murdara.\r\n \r\n\r\nVrei soare, soare iti dau\r\nSau pielea ti-e ruda cu luna \r\nPe stanci daca vrei te sarut\r\nSau in apa imi e totuna.\r\n \r\n\r\nSa pot sa te-aleg dintr-o suta\r\nIn ochi sa ai inima mea\r\nSa-ncerc sa m-ascund de iubire\r\nDar sa nu te mai,              \r\nSa nu te mai pot uita.\r\n \r\n\r\nIar noaptea sa ai pielea uda\r\nInsetata sa tragi din tigara\r\nPe mare se-aude sirena\r\nAl tau san imi mangaie mana\r\n \r\nPovestea merge mai departe\r\nCa vantul din Vama Veche\r\nEu nu pot sa mai continui\r\n\r\nCaci eu mi-am gasit pereche        \r\nLa Vama Veche, pereche\r\n \r\nPovestea merge mai departe\r\nCa vantul din Vama Veche\r\nEu nu pot sa mai continui\r\nSaruta-ma in ureche.\r\nLa Vama Veche, in ureche\r\n \r\nAm plecat la Vama Veche \r\nCa sa imi gasesc pereche\r\nAm ajuns la Vama Veche\r\nSi sunt apucat de streche\r\nStau pe plaja-n Vama Veche\r\nSi am sarutul in ureche\r\nDoar pe plaja-n Vama Veche\r\nNoi toti vom avea pereche\r\n \r\nStau pe plaja-n Vama Veche    \r\nCa sa imi gasesc pereche",
+    "author": {
+      "id": 51,
+      "name": "Vama Veche",
+      "slug": "vama-veche"
+    },
+    "author_id": 51,
+    "categories": [
+      {
+        "id": 22,
+        "name": "Pop-Rock",
+        "slug": "pop-rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "C9",
+      "C",
+      "Am",
+      "Dm",
+      "G",
+      "Am9"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 105,
+    "title": "Calul din Marlboro",
+    "slug": "calul-din-marlboro-105",
+    "content": "D                               G\r\nCopile nu fi prost orasul e departe\r\nAsa-mi spunea razand cel ce vindea de toate\r\n     A                                     G\r\nTu nu ma pacalesti, am sa ajung acolo\r\nM-asteapta strada mea si calul din Marlboro\r\n \r\nCand am pornit la drum, am intalnit o proasta\r\nAm incercat sa fug, mi-a devenit nevasta\r\nDe-atuncea pan-acum in oras eu ratacesc\r\nE fum si este scrum si simt ca-nebunesc, dar\r\nCe pot sa fac\r\n                 \r\n      \r\nBatrane, m-a-ntrebat un pusti julit in coate\r\nMai e mult spre oras ca vad ca vinzi de toate\r\nAm vrut sa-l ratacesc sa n-apuce spre sosea\r\nBatrane esti fricos, gasesc eu si strada ta!\r\n\r\nL-am intrebat plangand dar calul din Marlboro\r\nEl mi-a raspuns razand, vedem noi mai incolo\r\nDe-atuncea pan-acum in oras eu ratacesc\r\nE fum si este scrum si simt ca-nebunesc\r\n \r\n     And everybody knows my feelings\r\n     Of a lonely, day",
+    "author": {
+      "id": 51,
+      "name": "Vama Veche",
+      "slug": "vama-veche"
+    },
+    "author_id": 51,
+    "categories": [
+      {
+        "id": 22,
+        "name": "Pop-Rock",
+        "slug": "pop-rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "D",
+      "G",
+      "A",
+      "Am",
+      "E"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 106,
+    "title": "Vine valul, imi ia calul",
+    "slug": "vine-valul-imi-ia-calul-106",
+    "content": "      Am       E          Am\r\nToată viaţa avere-am vrut să fac\r\n    G                    C\r\nAm pornit de la un biet căluţ\r\n        Dm    E          Am\r\nMi-am legat căluţul de copac\r\n        F      E       Am  E Am\r\nPentru apă am săpat un puţ\r\n\r\nPârâul din sat curgea-nspre mat\r\nUnde muzică-mi plăcea s-ascult\r\nÎntr-o zi pârăul s-a uflat\r\nEu ascultam refrene de demult\r\n\r\n\tRefren:\r\n\t\r\n\t                  Am\r\n\tVine valul, îmi ia calul\r\n                G            C\r\n\tÎmi ia scroafa din coteţ\r\n               Dm\r\n\tMi s-a dus averea toată\r\n               Am\r\n\tNumai soacra-n curte-noată\r\n                  F        Dm        E    F  E\r\n\tS-a dus casa şi fărâma de nutreţ\r\n\r\n\tVine valul, îmi ia calul\r\n\tMurgu-noată în aval\r\n\tSoacra-i bine ancorată\r\n\tDoamne cât de bine-noată\r\n               F           E          Am\r\n\tDe ce Doamne nu ai pus-o tu pe cal\r\n\r\nAm luat un împrumut de la Banccoop\r\nMă întorc în sat să torn ciment\r\nSă-mi refac căsuţa, am Casco\r\nDar f*cking Banccoop dă faliment\r\n\r\nMi-am luat alt căluţ de la Obor\r\nAm plătit pe el extrem de mult\r\nDar mi-l ia pârâul binişor\r\nEu stau şi-ascult refrene de demult\r\n\r\n\tRefren.\r\n\r\nIubesc ţara în care m-am născut\r\nPot să fac în ţara mea ce vreau\r\nPot să rabd, s-o iau de la-nceput\r\nMuzică s-ascult la max în timp ce beau\r\n\r\nLegea îmi dă dreptul colosal\r\nSă mai plec odată la Obor\r\nSpending money pe al treilea cal\r\nPutting bălegar pe legea lor\r\n\r\n\tRefren.\r\n\r\nIeri am împlinit 50 de ani\r\nViaţa încă nu mi-a pus capac\r\nChiar dacă n-am casă şi nici bani\r\nEste dreptul meu să spun ce.. fuck\r\n\r\nAm pierdut în viaţa mea trei cai\r\nN-am ştiut ca să-i mai ţin în frâu\r\nToţi îmi spun: \"O gloabă tot mai ai\"\r\n- Pe soacră-mea, privind către pârâu",
+    "author": {
+      "id": 52,
+      "name": "Daniel Iancu",
+      "slug": "daniel-iancu"
+    },
+    "author_id": 52,
+    "categories": [
+      {
+        "id": 4,
+        "name": "Satiră și umor",
+        "slug": "satira-si-umor",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "E",
+      "G",
+      "C",
+      "Dm",
+      "F"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 107,
+    "title": "Dacă ploaia s-ar opri",
+    "slug": "daca-ploaia-s-ar-opri-107",
+    "content": "Intro:\r\n\r\nDm G\r\nDm Am\r\nDm G Am\r\n\r\n      Dm                   Am\r\nDacă pleci, uşa nu o mai închide\r\n         Dm                  Am\r\nSper să treci poate mâine pe aici\r\n    Dm\r\nTe petrec şi mă uit la tine\r\n   Am\r\nParcă pierd ceva din mine\r\n B         E\r\nZău, îmi e greu\r\n\r\n\r\n\tRefren:\r\n\r\n\tAm               Dm\r\n\tPoate dacă ploaia s-ar opri\r\n\tG                       C    E     \r\n\tşi din cer n-o să mai cadă lacrimi\r\n\tAm          Dm           G\r\n\tStele-ar răsări, tu ai veni\r\n\tAm             Dm \r\n\tSupărat sunt Doamne iar\r\n\tG                       C     E \r\n\tStau în cârciumă să-mi 'nec amarul\r\n\tAm            Dm         G  \r\n\tBeau şi te aştept până la zi\r\n \r\n \r\n       Dm      G \r\nPlouă încet, încet\r\n            Dm G Am\r\nPlouă şi-mi este dor\r\n         Dm    G         Am \r\nDe ochii tăi căprui îmi e dor\r\n\r\nPlouă încet, încet\r\nPlouă şi-mi este dor\r\nDe ochii tăi să mor îmi e dor\r\n\r\nTe aştept să te-ntorci din nou la mine\r\nChipul tău şi de ochii tăi mi-e dor\r\nPoza ta din sertar o scot\r\nNu mă uit la ea nu pot\r\nZău, îmi e greu\r\n\r\n\tRefren",
+    "author": {
+      "id": 53,
+      "name": "Cargo",
+      "slug": "cargo"
+    },
+    "author_id": 53,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Dm",
+      "G",
+      "Am",
+      "B",
+      "E",
+      "C"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 108,
+    "title": "La fereastra ta",
+    "slug": "la-fereastra-ta-108",
+    "content": "Em            \r\nI.Vad,la fereastra ta tarziu\r\n                B7\r\nO lumina si nu stiu\r\n                     Em\r\nDe esti treaza sau visezi\r\n   \r\n   Em     \r\nII.Vad,in spectacolul nocturn\r\n                      B7      \r\nCavaleri din vechiul turn\r\n                     Em\r\nCe te-ndeamna sa-i urmezi\r\n       \r\n       G \r\nrefren:Si as dori sa pot intra\r\n                     D\r\nSa alung din preajma ta\r\n                            G\r\nTot ce-i trist si tot ce-i rau\r\n                    \r\nSi as dori sa fiu acum\r\n                 D\r\nO romanta cu parfum\r\n                     G    G D Em\r\nSa pot sta in parul tau\r\n\r\n     Em         \r\nIII.Vad, la fereastra ta tarziu\r\n                B7\r\nO lumina si nu stiu\r\n                      Em\r\nDaca razi sau daca plangi\r\n\r\n    Em  \r\nIV.Trec,si in drumu-mi nesfarsit\r\n                      B7\r\nMa primesc cu-n bun venit\r\n                      Em\r\nNumai plopii cei natangi\r\n\r\n         G                \r\nrefren ;Dar, am sa ma intorc candva\r\n                    D\r\nSa alung din preajma ta\r\n                           G\r\nTot ce-i trist si tot ce-i rau.\r\n                          \r\nSi as dori sa pot sa-tï spun\r\n                  D\r\nO poveste de pe drum\r\n                       G   G D Em \r\nCand visam sub geamul tau\r\n\r\n        A                  \r\nrefren:Si as dori sa pot intra\r\n                     E\r\nSa alung din preajma ta\r\n                            A\r\nTot ce-i trist si tot ce-i rau\r\n\r\nSi as dori sa fiu acum\r\n                 E\r\nO romanta cu parfum\r\n                     A\r\nSa pot sta in parul tau\r\n\r\nhave fun!",
+    "author": {
+      "id": 54,
+      "name": "Semnal M",
+      "slug": "semnal-m"
+    },
+    "author_id": 54,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Em",
+      "B7",
+      "G",
+      "D",
+      "A",
+      "E"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 109,
+    "title": "Aproape de voi",
+    "slug": "aproape-de-voi-109",
+    "content": "Am       C    G        Em\r\nIn seara asta vreau sa beau\r\nAm           C    G\r\nSa uit de-orice nevoi\r\nAm         C     G     Em\r\nSa sparg paharul si sa zic\r\nAm          G       Am\r\nSunt acum, aici, cu voi . . .\r\n\r\n\r\nNu stiu cat timp mi-a mai ramas\r\nDar vreau sa mi-l petrec\r\nCu voi care mi-ati fost alaturi \r\nLa bine si la greu\r\n\r\n         Am            C     G \r\nRefren:  Si de-o fi si eu sa mor\r\n                        Dm    Am\r\n         Nu vreau sa va intristati\r\n                       C    G\r\n         Sa cantati si sa jucati \r\n                Am\r\n         Pana-n zori . . . \r\n  \r\n                     C       G   \r\n         Si daca din cand in cand\r\n                    Dm      Am\r\n         O sa ma priviti in gand\r\n             C   G         Am\r\n         Voi fi aproape de voi . . .\r\n\r\n\r\nInchin paharul si va spun\r\nIi multumesc Celui de Sus\r\nCa mi va dat prieteni buni\r\nSi nu-s singur pe acest drum . . . \r\n\r\nRefren: ...\r\n\r\n\r\n\r\nPoate fi folosita orice ciupitura 4/4.\r\n\r\n*Nota: \r\nCantecul suna bine alternat de la ciupitura(pt. strofe) la bataie(pt. refren)\r\n\r\nSucces!",
+    "author": {
+      "id": 53,
+      "name": "Cargo",
+      "slug": "cargo"
+    },
+    "author_id": 53,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "C",
+      "G",
+      "Em",
+      "Dm"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "-",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Fingerstyle"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 110,
+    "title": "Fata verde",
+    "slug": "fata-verde-110",
+    "content": "Em            G     D\r\nFată verde cu părul pădure\r\nFată verde cu părul pădure\r\nSimţi cum privirea lor vrea să te fure\r\n \r\n        C        G   D    Em\r\n        Noaptea mieii ţese ie\r\n        Zburătorii ca să vie\r\n        Noaptea mieii ţese ie\r\n        Nimeni urma să le-o ştie\r\n \r\nFată verde ei te sărută\r\nCu privirea lor cea mută\r\nOchii negri, ochi de ţigan\r\n \r\n\tRefren.\r\n\r\n        D             G\r\n        Umezi sunt de dor\r\n          C     G      D\r\n        şi-al lor vis plin de zbor\r\n\tD               G\r\n        Noaptea-n ei se scaldă \r\n\t C      G          D\r\n        În sclipiri ca de salbă ...\r\n         C      G         D\r\n        În sclipiri de salbă ...\r\n\r\nFată verde cu părul pădure\r\nFată verde cu părul pădure\r\nSimţi cum privirea lor vrea să te fure\r\n\r\n\tRefren",
+    "author": {
+      "id": 55,
+      "name": "Phoenix",
+      "slug": "phoenix"
+    },
+    "author_id": 55,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Em",
+      "G",
+      "D",
+      "C"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 111,
+    "title": "In Umbra Marelui URSS",
+    "slug": "in-umbra-marelui-urss-111",
+    "content": "E o varianta modificata de mine pt cover la trupa mea.\r\n\r\n\r\nIntro:\r\n\r\nE|-3--2-3-2-5-0----------------------|\r\nB|-0--3-------0----------------------|\r\nG|-0--2-------0----------------------|\r\nD|-0--0-------2----------------------|\r\nA|-2--0-------2----0-2-3--3-2-0------|\r\nE|-3----------0--3--------------3-2-0|\r\n   G  D       Em\r\n\r\n------0-----------2-----------0-----------------------|  \r\n-------0-----------3-----------1-------1--------------|\r\n----0-----------2-----------2-----------0-------------|     \r\n---2-2---------0-0---------2-2------------------------|\r\n---------2-3-0-------3-2-0-------0-2-3-----3-2-0------|\r\n-------------------------------------------------3-2-0|\r\n  Em          D            Am          C\r\n\r\nStrofa I:\r\n\r\nEm          D\r\nStau singur si ma-ntreb\r\n   Am              C     B Em\r\nDe ce-am plecat de-acasa\r\n       D\r\nSa fie blestemul\r\n   Am            C     B Em\r\nDe veacuri ce ne-apasa\r\n             D        Am\r\nCaci n-am gresit cu nimic\r\n            C  D  Em\r\nDoar cat am patimit\r\n         D         Am\r\nHulit am fost fara rost\r\n          C    D Em\r\nDe cei ce i-am iubit\r\n\r\nIntro x3\r\n\r\n\r\nEm          D\r\nApus peste apus\r\n   Am         C     B  Em\r\nCe iute trece timpul\r\n       D\r\nSi zorile s-au dus\r\n   Am        C     B  Em\r\nCe rece bate vantul\r\n        D          Am\r\nAm asteptat infrigurat\r\n        C     D Em\r\nSa ma intorc 'napoi\r\n          D          Am\r\nM-ati judecat, condamnat\r\n          C  D       G  D  Em\r\nDar cine sunteti voi?\r\n\r\nRefren:\r\n\r\nEm                      G  D Em   \r\nCaci timpul nostru s-a scurs\r\n                 G  D Em\r\nIn umbra marelui urs\r\n                    C             A     A7\r\nDar ghearele v-au ramas in orice-mbratisare\r\n       Am      Em    G   D\r\nAstazi doare sarutul pe obraz\r\n                     G  D  Em\r\nDar dati-mi viata 'napoi\r\n                      G  D  Em\r\nCe-am risipit pentru voi\r\n                   C               A     A7\r\nUitand de dor si nevoi, ani de pribegie                              \r\n        Am  Em              D \r\nDintr-o mie multi n-au mai ramas\r\n\r\nIntro.\r\n\r\n\r\nEm       D                  \r\nCazut-au frunzele\r\n     Am         C B Em\r\nLe-a risipit furtuna\r\n          D\r\nUnde-s sperantele?                           \r\n    Am            C B Em\r\nN-a mai ramas niciuna\r\n          D         Am\r\nUn gand subit, nerostit                       \r\n         C  D     Em\r\nMa-ncremeneste-n loc\r\n           D            Am\r\nCe-am asteptat, ce-am visat\r\n         C   D       G D Em\r\nNimic nu s-a schimbat\r\n\r\n\r\n\r\nEm                  G D Em\r\nDar dati-mi viata 'napoi\r\n                     G D Em\r\nCe-am risipit pentru voi\r\n                    C\r\nUitand de tot si de voi\r\n           A     A7\r\nPrieteni de betie\r\n        Am  Em            D\r\nDintr-o mie cati au mai ramas\r\n                     G   D Em\r\nSi timpul vostru s-a scurs\r\n                 G  D  Em\r\nLa umbra marelui urs\r\n                    C\r\nDar ghearele v-au ramas\r\n              A     A7\r\nIn orice-mbratisare\r\n       Am      Em          D \r\nAstazi doare sarutul pe obraz.\r\n\r\nIntro+ Em",
+    "author": {
+      "id": 55,
+      "name": "Phoenix",
+      "slug": "phoenix"
+    },
+    "author_id": 55,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "G",
+      "D",
+      "Em",
+      "Am",
+      "C",
+      "B",
+      "A",
+      "A7",
+      "E"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 112,
+    "title": "Baby",
+    "slug": "baby-112",
+    "content": "Strofa:\r\n    Am                        Em\r\n   Cat am fost de singur, tu nu ai stiut\r\n      F                            Dm\r\n   Ti-ai ferit mereu privirea, de la inceput\r\n     Am                   Em\r\n   Anii trec, si viata merge iar\r\n      F                     Fm                         C\r\n   Te caut zi si noapte, te caut, dar stiu ca e-n zadar\r\n   \r\n     \r\n   Baby stiu acum ca mergi sa intalnesti\r\n   Un strain ce te va duce, la casa din povesti\r\n\r\n\r\n     Am                Em\r\n   Ce noroc, ce mare nenoroc\r\n      F              G         C           \r\n   Ca timpul stinge totul, dar focul naste foc\r\n     F       G          C      \r\n   Mai da-i o zi din viata ta,\r\n     F                  G\r\n   Acelui om care-ti spunea\r\n \r\n           C   G            Am\r\nRef :   Baby, baby, baby, tu vei fi a mea\r\n          F               Am       Dm         G\r\n         Ca un rasarit de soare, dupa noaptea grea\r\n         C    G            Am\r\n         Baby, baby, baby, tu vei fi a mea\r\n          F                   Fm\r\n         Tu esti unica iubire, unica iubire\r\n  \r\n\r\n         \r\nBridge :\r\n Eb                                 F\r\n E toamna-n viata mea, totul este scrum\r\n Eb                                 F\r\n Stiam ca vei pleca dar lasa-ma sa-ti spun\r\n\r\n\r\n\r\nRef:",
+    "author": {
+      "id": 56,
+      "name": "Iris",
+      "slug": "iris"
+    },
+    "author_id": 56,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "Em",
+      "F",
+      "Dm",
+      "Fm",
+      "C",
+      "G",
+      "Eb",
+      "E"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 113,
+    "title": "Fata din vis",
+    "slug": "fata-din-vis-113",
+    "content": "D         A     G   A\r\nImi amintesc de tine\r\nD          A    G  A\r\nStateai in fata mea\r\nD          A          G\r\nA fost de-ajuns o privire\r\nA       D        A     G\r\nCe n-o pot, n-o pot uita\r\n \r\nCu bratele-amandoua\r\nIncerc sa te regasesc\r\nSa fim din nou impreuna\r\nE tot ce pot sa imi doresc\r\n \r\nCu gandul pret de o clipa\r\nSa te-nteleg as fi vrut\r\nAs fi ramas cu tine\r\nC-am sa te pierd nu am crezut\r\n \r\nAfara numai vantul\r\nGonind prin noapte spunea\r\nCa lasa-n urma timpul\r\nCe mult prea, prea iute-alerga\r\n \r\n[_refren_]\r\n \r\nBm         A         G    A\r\nPornesc la drum prin noapte\r\nD            A          G   A\r\nIn noaptea-n care ti-am zis\r\nBm       A         G\r\nCa numai tu dintre toate\r\nA       D      A      G\r\nDoar tu esti fata din vis\r\n \r\n[_sfarsit_de_refren_]\r\n \r\nPrivesc la trenul care\r\nDucea nepasator\r\nCaldura soaptei tale\r\nCe-avea s-o piarda pana-n zori.\r\n \r\nAfara numai vantul\r\nGonind prin ploaie spunea\r\nCa lasa-n urma timpul ce mult prea\r\nPrea iute-alerga\r\n \r\n[_pasaj_]\r\n \r\nD          A    G\r\nDaca vrei (daca vrei)           \r\n    A     D-A-G-A\r\nVoi fi cu tine\r\nD          A    G\r\nDaca vrei (daca vrei)\r\n    A         D-A-G\r\nVoi sta langa tine",
+    "author": {
+      "id": 57,
+      "name": "Compact",
+      "slug": "compact"
+    },
+    "author_id": 57,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "D",
+      "A",
+      "G",
+      "Bm",
+      "E"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 114,
+    "title": "Flori de mai (simplificat)",
+    "slug": "flori-de-mai-simplificat-114",
+    "content": "(Originalul - Capo pe 3)\r\n\r\n\r\nintro: Dm  G  Am\r\n   \r\n  Dm\r\nLacata prinsa-n lemn, ascunde-ma ne-atins\r\n  Am\r\nPazeste-ma de ger, azi-noapte iar a nins\r\n     Dm          F\r\nCand tu visai \r\n                  Am\r\nAlbastre flori de mai\r\n    Dm\r\nCe flori în toiul iernei opreste-te-ti sopteam\r\n  Am\r\nAcum doar geru-n sticla picteaza flori la geam\r\n    Dm          F\r\nTu n-ascultai \r\n                   Am\r\nVisai doar flori de mai.\r\n\r\n           G     Dm\r\n     Mai stai\r\n                     Am\r\n     Si nu pleca de n-ai\r\n            G                        Dm\r\n     Sa-mi dai (nu ti-am cerut sa-mi dai)\r\n                       Am\r\n     Albastre flori de mai.\r\n\r\n   Dm \r\nDe ochi străini ma tem ce-n strada ard nestins\r\n   Am\r\nPrivind la ei te chem, tin minte tot ce-ai zis\r\n   Dm            F\r\nAtunci spuneai \r\n                     Am\r\n\"Plec dupa flori de mai\".\r\n   Dm\r\nVibrează pasii mei de parca merg pe clape\r\n   Am\r\nCu mine insumi cant refren-singuratate\r\n   Dm          F\r\nDe cand plecai \r\n              Am\r\nDupa flori de mai\r\n\r\n           G      Dm\r\n     Mai stai\r\n                      Am\r\n     Si nu pleca de n-ai\r\n             G                       Dm\r\n     Sa-mi dai (nu ti-am cerut sa-mi dai)\r\n                        Am\r\n     Albastre flori de mai.",
+    "author": {
+      "id": 58,
+      "name": "Alternosfera",
+      "slug": "alternosfera"
+    },
+    "author_id": 58,
+    "categories": [
+      {
+        "id": 23,
+        "name": "Din Republica Moldova",
+        "slug": "din-republica-moldova",
+        "description": ""
+      },
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Dm",
+      "Am",
+      "F",
+      "G"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 115,
+    "title": "Mica tiganiada",
+    "slug": "mica-tiganiada-115",
+    "content": "-are capodastru la tasta 4, deci e in C#m;\r\n-eu l-am scris in Am;\r\n\r\nintro:\r\n   Am    C    G      D           Am    \r\ne|----0----0---------2-----2p0------0-|\r\nB|----1----1------3--3---3-----3----1-|\r\nG|--------------0------2--------------|\r\nD|-------------------0----------------|\r\nA|--0----3------------------------0---|\r\nE|------------3-----------------------|\r\n\r\n   C      D      Am  C    G     D     C     E    Am\r\ne|--------2--------0---0--------3----|----0----0-----0---0-|\r\nB|-----1--3---3----1---1------3-2---3|----1----0----2-2----|\r\nG|---0------2---------------0-----2--|-------------2---2---|\r\nD|--------0---------------------0----|---------------------|\r\nA|-3-------------0---3---------------|--3----2----0--------|\r\nE|------------------------3----------|---------------------|\r\n\r\n\r\nHmmm hmmmm hmmmmmmm......\r\n\r\n    G       C           se repeta Am     \r\ne|--3---3---3------0------|----|\r\nB|--3-----3-----3----1----|----|\r\nG|----0-------0--------0--|----|\r\nD|------------------------|----|\r\nA|-----------------3------|----|\r\nE|--3---3---3-------------|----|\r\n\r\ne|--0---0---0-----0------0---0---0-----0------0-----|\r\nB|--1-1---1---1-----1------1---0-1-------1----------|\r\nG|--------------2-----2--------------2-----2--------|\r\nD|---------------------------------2----------------|\r\nA|--0---0---0-----0------3---2---0------------------|\r\nE|--------------------------------------------------|\r\n\r\nVers 1: \r\n\r\n   Am   C    G     D    Am   C          D\r\n   Trec tigani pe drum, drumu-i plin de fum\r\n   Am   C    G     D     C   E  Am\r\n   Fumu-i plin de scrum, foc ardea\r\n   Vai tigani, tigani, gipsy si gitani \r\n   Fara cer si ani, trec pe drum.\r\n\r\nVers 2:\r\n  \r\n   G       C    G         C\r\n   Tiganie rai, rai care erai\r\n   Am            C  E  Am\r\n   Caravan serai giacardea\r\n   Raiul meu beteag de pe alt meleag\r\n   Cat imi esti de drag, nu stiu cum.\r\n\r\nvers 1:\r\n   Trec tigani prin colb, colbul este orb\r\n   Orbul e un corb giacardea\r\n   Cade seara-n camp soarele-i scalamb\r\n   Cortul este stramb foc ardea.\r\n\r\nvers2:\r\n   Fac tiganii foc, focu-i la mijloc\r\n   Fete cu ghioc\r\n   Si cu carti de joc, hai noroc, noroc\r\n   Vino la soroc.\r\n\r\nvers 1\r\n   Vino sa-ti ghicesc cartile vorbesc\r\n   Si nu ne mintesc, giacardea\r\n   Fata de caro sub cer indigo\r\n   Sa-ti spun incotro foc ardea.\r\n\r\nvers 2\r\n   Ca multi ani s-au scurs de cand el s-a dus\r\n   Cu un pui de urs pe un drum\r\n   Cu belciug si lant fara nici un sfant \r\n   Spre un targ bizant foc ardea.\r\n\r\nvers 1\r\n   Zaiafet acum lautari duium\r\n   Numai tu nicicum, giacardea\r\n   Noaptea de-ar veni pe pamantul gri\r\n   De ne-ar adormi orisicum.\r\n\r\nvers2\r\n   O dar azi dar azi ceru-i de atlaz\r\n   Soarele-n extaz\r\n   Ei se duc la pas spre un alt popas\r\n   Satra de pripas\r\n   Pana nu-i mai vezi, pana nu-i mai crezi\r\n   Si din ochi ii pierzi\r\n   Printre ceturi verzi, ceturi de livezi\r\n   Vezi ca nu-i mai vezi.\r\n\r\nvers1\r\nGiacardea, cardea\r\nGialino mura\r\nGia mura mura\r\nCe misto ...",
+    "author": {
+      "id": 55,
+      "name": "Phoenix",
+      "slug": "phoenix"
+    },
+    "author_id": 55,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "C",
+      "G",
+      "D",
+      "E"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 116,
+    "title": "Mugur de fluier",
+    "slug": "mugur-de-fluier-116",
+    "content": "G  D  G  D\r\nG  D Am C G D G D\r\nG  D Am C G D G D\r\n\r\n\r\nG        D         Am       C   G  D  G  D\r\nÎmi simt sufletul mugur de fluier\r\nCe-a doinit cântec cu şuier\r\nPetru zilele ce-au fost trecute\r\nPentru nopţile negre si slute\r\n\r\nG D Am\r\nEm D Em D\r\n\r\nG        D       Am    C     G    D  G  D\r\nAm pornit cu roua-n picioare\r\nCa să cânt un cântec de soare\r\nPentru zilele ce au să vie\r\nPentru nopţile cu iasomie\r\n\t\r\n\tG      D     Am\r\n\tFreamătul apelor\r\n\tEm     D        Em    D\r\n\tşi foşnetul codrilor\r\n\tG      D      Am\r\n\tÎn el se intâlnesc\r\n\tEm      D       Em\r\n\tşi sufletu-mi încălzesc\r\n\t\r\n\tG    D      C       D\r\n\tHei, hei, verde e iarba\r\n\tC        D        G      D\r\n\tSoarele-i sus pe cer\r\n\tG     D     C      D\r\n\tHei, hei, dusă e iarna \r\n\tC      D         G       D\r\n\tCu dinţii ei de fier (2 ori)\r\n\r\nSolo\r\n\r\nHei, hei, verde e iarba\r\nSoarele-i sus pe cer\r\nHei, hei, dusă e iarna \r\nCu dintii ei de fier (se repetă până la sfârsit)",
+    "author": {
+      "id": 55,
+      "name": "Phoenix",
+      "slug": "phoenix"
+    },
+    "author_id": 55,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "G",
+      "D",
+      "Am",
+      "C",
+      "Em"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 117,
+    "title": "Strada ta",
+    "slug": "strada-ta-117",
+    "content": "INTRO: G D C D\r\n\r\n\r\nVERSURI:\r\n G     D      C    D    G   D C D \r\nIeri am trecut pe strada ta\r\nG   D   C    D      G  D  C  D\r\nSi soarele se tot juca\r\nG     D   C    D        G D C D\r\nCand aparea, cand disparea\r\nG     D    C   D     G D C D\r\nDin calea norilor fugea.\r\n\r\nEm        C   Em           D\r\nDoar o privire, atata asteptam\r\nEm        C            D\r\nDoar o privire, mai speram\r\n\r\n\r\nAi aparut la geam tarziu\r\nCe ora era nici nu mai stiu.\r\nO clipa doar tu m-ai zarit\r\nSi te-am strigat, dar n-ai venit.\r\n\r\nDoar o privire, atata asteptam\r\nDoar o privire, mai speram\r\n\r\n\r\nREFREN:\r\n          G  D C D              \r\nTe voi astepta, \r\n                G    D C D\r\nvoi veni pe strada ta\r\n        G      D C\r\nTe astept mereu, \r\nC               D\r\nfara tine mï-e greu\r\n\r\n.........\r\n\r\nOOOOUUAHHH!!!\r\n        A     E D E\r\nTe voi astepta, \r\n               A      E D E\r\nvoi veni pe strada ta\r\n     A         E D\r\nTe astept mereu, \r\nD               E\r\nfara tine mï-e greu\r\n\r\n\r\nZRANGA ZDRANGA......ne vedem in vama ;)",
+    "author": {
+      "id": 56,
+      "name": "Iris",
+      "slug": "iris"
+    },
+    "author_id": 56,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "G",
+      "D",
+      "C",
+      "Em",
+      "A",
+      "E"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 118,
+    "title": "Ziua vrajitoarelor",
+    "slug": "ziua-vrajitoarelor-118",
+    "content": "Em \r\nIntr-o zi de joi\r\nG\r\nCa asa-i la noi\r\nD\r\nSeara se lasa\r\nEm D   Em\r\nFara folos\r\nEm\r\nPoate nu-i asa\r\nG\r\nSi e altceva\r\nD\r\nNorii se lasau\r\nEm D Em\r\nPana jos\r\nG\r\nAzi e ziua lor\r\nD\r\nZiua ielelor\r\n\r\nVrajitoarelor\r\nEm D   Em\r\nPana-n zori\r\nG\r\nIata se pornesc\r\nD\r\nSi se sfatuiesc\r\n\r\nOalele pocnesc\r\nEm D  Em\r\nCu licori\r\nEm\r\nBoabe si furnici\r\nG\r\nIerburi si urzici\r\nD\r\nTot ce e aici\r\nEm D Em\r\nMana lor\r\nEm\r\nDragoste si vis\r\nG\r\nIad si paradis\r\nD\r\nIn palma ti-au scris\r\nEm D Em\r\nSoarta ta\r\n\r\n\r\nEm  G       D       Em\r\nO,o,o ai un mare noroc\r\nEm  G      D      Em\r\nO,o,o ghinioane deloc\r\nEm     G          D\r\nTot ce vezi sa nu crezi\r\n\r\nCa asa ti-e Soarta\r\nEm       G          D\r\nPoti sa-ntrebi,daca vrei\r\nEm\r\nVRAJITOARELE",
+    "author": {
+      "id": 53,
+      "name": "Cargo",
+      "slug": "cargo"
+    },
+    "author_id": 53,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Em",
+      "G",
+      "D"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 119,
+    "title": "Strunga",
+    "slug": "strunga-119",
+    "content": "Em    G     F      Dm    Em\r\nÎn pădurea de la strungă\r\nSunt de cei cu puşca lungă\r\nCare dau chiorâş la pungă\r\n\r\n\r\nEm    G       F       Em\r\nSunt de cei ce-mpuşcă-n lună\r\nCare noaptea-n frunze sună\r\nFeciori de lele nebună\r\n\r\n\r\nFă-te-n lături măi creştine, măi\r\nDacă vrei să treci cu bine\r\nSă rămâi cu viaţă-n tine\r\n\r\n\r\nOpt voinici cu spete late\r\nşi cu mâneci suflecate\r\nStau cu puştile-ncărcate\r\n\r\n\r\nOleleu, ciocoi bogate, hei\r\nIci te-i trece din păcate, hei\r\nSă-ţi arunc doi glonţi în spate, hei\r\n\r\n\r\nCă mi-e puşca hultuită \r\nşi mi-i ghioaga tintuită\r\nşi mi-e inima-ncoltită",
+    "author": {
+      "id": 55,
+      "name": "Phoenix",
+      "slug": "phoenix"
+    },
+    "author_id": 55,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Em",
+      "G",
+      "F",
+      "Dm"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 120,
+    "title": "Vremuri",
+    "slug": "vremuri-120",
+    "content": "Tonalitate originala F#\r\n\r\n G     C           D             G\r\nHei, tramvai, cu etaj şi tras de cai\r\nHei, joben, ce umblai la mon jardin\r\nHei, bunic, cu monoclu erai şic\r\nHei, can-can, cu picioarele-n tavan.\r\n\r\n        \t\tEm\r\nToate-au fost la timpul lor\r\n      C         D\r\nCeva exagerat\r\nAnii au trecut în zbor\r\nşi lumea le-a uitat.\r\n\r\nHei, pletoşi, cu pantaloni strâmţi şi soioşi\r\nChitarişti, zgomotoşi şi fantezişti\r\nMini-jupe, foarte scurt şi strâns pe trup\r\nHei, to shake, îndrăcit ca un berbec.\r\n\r\nToate sunt la modă acum\r\nCeva exagerat\r\nTimpul trece ca un fum\r\nşi tot va fi uitat.\r\n\r\nPrima strofa inca o data",
+    "author": {
+      "id": 55,
+      "name": "Phoenix",
+      "slug": "phoenix"
+    },
+    "author_id": 55,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "G",
+      "C",
+      "D",
+      "Em",
+      "F#"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 121,
+    "title": "Floare de iris",
+    "slug": "floare-de-iris-121",
+    "content": "Am         Dm      E           E7  E\nFloare de iris....floare de colt,\nAm         Dm       E          E7  E\nNe-ai ocrotit , ne-ai dat un rost\n             F           G\nIar cand noi nu vom mai fi\nDm        Am         C     G    Am\nVa veti aminti ca a fost odata Iris\n\n           F             G\nIar cand noi nu vom mai fi\nDm          Am        C     G    Am\nVa veti aminti ca a fost odata Iris \n\nla fel peste tot....;)\n\n\nPe strazile viselor am alergat\nSi v-am iubit si v-am cantat\nIar cand noi nu vom mai fi\nIar noaptea va fi zi\nVa veti aminti ca-a fost odata Iris\n\nIar cand noi nu vom mai fi\nVa veti aminti ca a fost odata Iris x2\nCa a fost odata Iris\n\n have fun! ne vedem la vama veche :D:D:D:D:D",
+    "author": {
+      "id": 56,
+      "name": "Iris",
+      "slug": "iris"
+    },
+    "author_id": 56,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "Dm",
+      "E",
+      "E7",
+      "F",
+      "G",
+      "C",
+      "D"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 122,
+    "title": "Singur",
+    "slug": "singur-122",
+    "content": "[1]\r\n  Am\r\nO vad tremurand cu ochii inchisi\r\n                              G\r\nCu poze in jur, genunchii stransi\r\n                                 Am \r\nSlabita si trista, cu cearcani adanci\r\n\r\n\r\n[2]\r\n    Am\r\nSi vrea sa-i promit ca n-o sa uit\r\n                         G\r\nImagini si locuri din trecut\r\n                          Am\r\nSi visele-n care noi am crezut\r\n\r\n\r\n\r\nAnterefren:\r\nF\r\nSunt nopti intregi cand palng\r\n    C\r\nSi-adorm cu tine-n gand\r\n  Dm\r\nPleacta esti ep veci\r\n    E\r\nDeparte-n umbre reci\r\n\r\n\r\nRefren:\r\n   C-G    Dm     C    \r\nSingur, atat de singur\r\n   Am           F \r\nSimt dureri pe care\r\n        C          G\r\nNu mai pot sa le-ndur\r\nC     G   Dm      Am  \r\nLacrimi, nopti in lacrimi\r\n   C        G             Am\r\nSi-n inima mea, doar lacrimi\r\n\r\n\r\n[3]\r\n  Am\r\nSi sta in genunchi la piept tinant\r\n                         G\r\nO veche scrisoare si plangand\r\n\r\nSi-mi spune prin lacrimi \r\n                  Am\r\nCe mult i-a palcut\r\n\r\n\r\n[4]\r\n Am\r\nMa roaga sa jur ca n-am mintit\r\n                                G   \r\nIn tot ce i-am scris si mi-a soptit\r\n\r\nCa pleaca cu gandul\r\n                Am \r\nCa noi ne'am iubit\r\n\r\n\r\nAnterefren + Refren\r\n\r\n\r\n[5]\r\n\r\nRevad ochii tai cum s-au stins\r\n\r\nCum tamplele reci le-am cuprins\r\n\r\nDestinul pe ne-a invins.\r\n\r\nSpor la zdranganit!",
+    "author": {
+      "id": 59,
+      "name": "Talisman",
+      "slug": "talisman"
+    },
+    "author_id": 59,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "G",
+      "F",
+      "C",
+      "Dm",
+      "E"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 123,
+    "title": "Doina haiducului",
+    "slug": "doina-haiducului-123",
+    "content": "Dm                     F \r\nFreamătă frunza în vânt\r\nGm            C\r\nMurmură apa în râu\r\nBb                 Gm\r\nSpicul plecat la pământ\r\n  C \r\nVălura lanul de grâu.\r\nF\r\nFiul codrului sunt,\r\nGm                C\r\nLiber ca pasărea-n zbor\r\nBb                Gm\r\nDoina haiducului cânt\r\nBb       Gm       Dm\r\nPlină de jale si dor\r\n\r\nPuşca-i logodnica mea,\r\nMurgul e fratele meu\r\nViaţa în codru e grea\r\nTraiul haiducului greu\r\nPune-ţi pistoalele-n brâu\r\nBoierul la târg a pornit\r\nSloboade armăsarul din frâu\r\nRăsplata prin noi a venit\r\n\r\n\tF                   C\r\n\tşi cum îmi place să dorm\r\n\tGm                   Dm  C\r\n\tNoaptea-n pădure la foc\r\n\tF                C\r\n\tStăm împreună cu toţi\r\n\tGm          Bb  Dm\r\n\tVisul, lângă izvor.\r\n \r\nSeara la rug, obositi\r\nCântă haiducii de dor\r\nLaşii au fost pedepsiti\r\nDe bogătiile lor\r\nDrumul omului - greu\r\nPână la ultima stea\r\nLiber e sufletul meu,\r\nLiberă-i inima mea.\r\n\r\n\tRefren",
+    "author": {
+      "id": 60,
+      "name": "Zdob și Zdub",
+      "slug": "zdob-si-zdub"
+    },
+    "author_id": 60,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Dm",
+      "F",
+      "Gm",
+      "C",
+      "Bb"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 124,
+    "title": "Adio, deci pe curand",
+    "slug": "adio-deci-pe-curand-124",
+    "content": "D             G        D    G D\r\nIubito, poti fugi cât vrei,\r\nD             G         D   G D\r\nÎn gând vei auzi pasii mei.\r\nD                  G        D  \r\nPoti spune vorbe multe în vânt,\r\n   A\r\nEu n-am sa ascult,\r\nOh! N-am sa le-ascult!\r\n\r\nIubito, poti în lume umbla\r\nDe mine nu mai poti scapa.\r\nVoi trece zilnic prin gândul tau\r\nPrin ochii tai.\r\nPrin ochii tai.\r\n\r\nRefren:\r\n              G             D\r\nDar spune-mi cine te-a mai purtat prin nori?\r\n              G             D\r\nSi spune-mi cine te-a mai visat în culori?\r\n             G              D\r\nSi stii tu cine de toate a uitat,\r\n             G               A\r\nDe când cu tine, prin ploaie   s-a plimblat?\r\n\r\nNu uiti tu zilele de mister\r\nNici clipa când stele pier\r\nNu uiti ziua aceea de mai\r\nCând îmi spuneai:\r\nMai stai, mai stai!\r\n\r\nNu uiti tu zilele de mister\r\nNici clipa când stele pier\r\nCând timpul pentru noi disparea\r\nSi inima ta\r\nBatea, batea!\r\n\r\nRefren\r\n\r\nTe vad acum grabita sa pleci\r\nCum cauti doar cuvinte mai reci\r\nLe spui, dar în spatele lor\r\nMai simt cum te dor.\r\nMai simt cum te dor.\r\n\r\nTe vad cum mai încerci sa zâmbesti\r\nDar ochii tai fug de povesti\r\nSi nu te uiti la mine plecând\r\nDeci, pe curând!\r\nDa, pe curând!",
+    "author": {
+      "id": 61,
+      "name": "Pasărea Colibri",
+      "slug": "pasarea-colibri"
+    },
+    "author_id": 61,
+    "categories": [
+      {
+        "id": 3,
+        "name": "Folk",
+        "slug": "folk",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "D",
+      "G",
+      "A"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 125,
+    "title": "Canarul",
+    "slug": "canarul-125",
+    "content": "E                         C#m\r\nCanarul galben ca un galbenus\r\nE        B  A           E\r\nCu pene moi  si ochii dusi\r\n                           C#m\r\nCanta de dupa sarmele de-argint\r\nE            B A            E\r\nSi viersu-i se  pierdea in vant\r\n                               C#m\r\nDeodata ochii tristi din cap tresar\r\nE           A   F#m          E\r\nSi da din aripi,   dar in zadar\r\n                               C#m\r\nLovind cu pieptul sarmele de argint\r\nB        A  F#m              E\r\nCade in jos     cu pieptul frant\r\n  A      B             E\r\nSarman canar, ti s-a parut\r\n    A  B              E\r\nCa zarile ti s-au deschis\r\n     A        B             C#m\r\nDar n-a fost doar, decat un vis\r\nA             E\r\nRanit tu ai cazut\r\n\r\nE                         C#m\r\nCanarul galben ca un galbenus\r\nE        B  A           E\r\nCu pene moi  si ochii dusi\r\n                          C#m\r\nCanta de dupa sarmele de-argint\r\n            A  B               E\r\nSi viersu-i se     pierdea in vant\r\nSi viersu-i se pierdea in vant\r\nSi viersu-i se pierdea in vant",
+    "author": {
+      "id": 61,
+      "name": "Pasărea Colibri",
+      "slug": "pasarea-colibri"
+    },
+    "author_id": 61,
+    "categories": [
+      {
+        "id": 3,
+        "name": "Folk",
+        "slug": "folk",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "E",
+      "C#m",
+      "B",
+      "A",
+      "F#m"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 126,
+    "title": "Cantec soptit",
+    "slug": "cantec-soptit-126",
+    "content": "Intro pian: D Em C Am D Em C Am G D G D G A Am C Bm G D\r\nD             G    D\r\nOdata am ucis   o vrabie.\r\n                                A\r\nAm tras cu prastia in ea si-am lovit-o.\r\nG          D   G                D\r\n Pe urma o zi   si o noapte intreaga  |\r\nG        A                   D        |  x2\r\n Am tot plans-o si am tot jelit-o.    |\r\n\r\nPian:\r\nD Em C Am D Em C Am\r\n\r\nNu m-a batut mama, nu m-a certat.\r\nIn mana tineam o bucata de paine.\r\nDegeaba mi-a spus, degeaba mai plangi,\r\nCe-ai omorat, omorat ramane.\r\n\r\nMai tarziu am crescut flacaiandru,\r\nM-am indragostit nebuneste de-o fata.\r\nNu stiu de ce, intr-o zi a murit\r\nSi-n alta zi a fost ingropata.\r\n\r\nDe mult nu mai trag cu prastia-n vrabii,\r\nDe mult nu mai merg la nici o-ngropare.\r\nSoarele apune dupa niste maguri\r\nSi rasare in flacari din mare.",
+    "author": {
+      "id": 61,
+      "name": "Pasărea Colibri",
+      "slug": "pasarea-colibri"
+    },
+    "author_id": 61,
+    "categories": [
+      {
+        "id": 3,
+        "name": "Folk",
+        "slug": "folk",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "D",
+      "Em",
+      "C",
+      "Am",
+      "G",
+      "A",
+      "Bm"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 127,
+    "title": "Daca ai ghici",
+    "slug": "daca-ai-ghici-127",
+    "content": "Intro: C Am F C G   C Am F G C\r\n\r\nC\r\nDaca ai ghici\r\n               Am\r\nTot ce-ti pot dori,\r\nEu ti-as prinde-n par\r\n            F\r\nCununa de sori,\r\n            C    G \r\nStopita cu floooori.\r\n\r\nC\r\nIncearca sa zambesti\r\n             Am\r\nFar'sa te-amagesti\r\nSi sa iti doresti\r\n           F  G\r\nUn lucru usor\r\n              C        \r\nFiindca-i trecator.\r\n\r\nA||---0--2----|\r\nAm                     \r\nDaca iei un strop de ploaie\r\n     Em\r\nIn palma ai sa vezi\r\nDm                      C\r\nCa nu-i atat de greu sa speri.\r\n\r\nA||---0--2----|\r\nAm\r\nFur-o raza de lumina,\r\nEm\r\nIncearca-n ea sa crezi\r\nDm                         G\r\nSi ridica-ti fruntea spre cer.\r\n\r\nC\r\nDaca ai ghici\r\n               Am\r\nTot ce-ti pot dori,\r\nEu ti-as prinde-n par\r\n            F\r\nCununa de sori,\r\n            C    G \r\nStopita cu floooori.\r\n\r\nC\r\nIncearca sa zambesti\r\n             Am\r\nFar'sa te-amagesti\r\nSi sa iti doresti\r\n           F  G\r\nUn lucru usor\r\n              C        \r\nFiindca-i trecator.\r\n\r\nIa un strop de fericire\r\nDintr-un colt de cer,\r\nOchii oglindeste-i in el.\r\nIa un fluture din soare,\r\nPuneti-l in par,\r\nLanga o cununa de mar.\r\n\r\n\r\nDaca ai ghici\r\nTot ce-ti pot dori,\r\nEu ti-as prinde-n par\r\nCununa de sori,\r\nStopita cu flori.\r\n\r\nIncearca sa zambesti\r\nFar'sa te-amagesti\r\nSi sa iti doresti\r\nUn lucru usor\r\nFiindca-i trecator.",
+    "author": {
+      "id": 61,
+      "name": "Pasărea Colibri",
+      "slug": "pasarea-colibri"
+    },
+    "author_id": 61,
+    "categories": [
+      {
+        "id": 3,
+        "name": "Folk",
+        "slug": "folk",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "C",
+      "Am",
+      "F",
+      "G",
+      "Em",
+      "Dm"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 128,
+    "title": "Esarfa in dar",
+    "slug": "esarfa-in-dar-128",
+    "content": "Capo pe II\r\n \r\nD\r\nCu ape de rosu-n ochi,\r\nBm\r\nValuri largi de alb,\r\nF#m\r\nMov si verde zboara cald\r\n              Em   A\r\nPe chipul tau drag,\r\n            D  G A\r\nEsarfa in dar.\r\n\r\nD\r\nTin minte si-acum\r\nBm\r\nNe-am oprit din drum\r\nF#m\r\nCe bine-mi amintesc, ce clar,\r\n          Em    A\r\nTi-am infasurat\r\n           G\r\nEsarfa in dar.\r\n\r\nPasaj: B E B E B \r\n\r\nD\r\nCulorile alergau,\r\nBm\r\nIn vant se certau\r\nF#m\r\nFata toata-ti lumina\r\n            Em   A\r\nCu albul de var,\r\n           D  G\r\nEsarfa in dar.\r\n\r\nAveam optsprezece ani,\r\nEram Beatles fani\r\nSi umblam in tenisi albi.\r\nPrimavara-n par\r\nSi miros de mar.\r\n\r\nRefren:\r\nBm         F#m\r\nAaaaaaaaaa mai trecut de-atunci ceva,\r\nBm           F#m\r\nAaaaaaaalbul de var nu-i chiar la fel\r\n      G\r\nTu gandesti altceva\r\nD           Bm\r\nSi mai e si el.\r\nEm\r\nEu, aici, tu, acolo,\r\nE          A\r\nNiciodata noi.\r\n\r\n\r\nTe mai vad, cand si cand,\r\nEl in stanga ta,\r\nSi nu pot sa-ti spun ce gandesc\r\nCand la gatu-i vad\r\nEsarfa in dar.\r\n\r\nCu ape de rosu-n ochi,\r\nValuri largi de alb,\r\nMov si verde zboara cald\r\nPe chipul tau drag,\r\nEsarfa in dar.\r\nPe chipul tau drag,\r\nEsarfa in dar...\r\nPe chipul tau drag...\r\nEsarfa in dar...\r\n \r\n\r\n\r\n\r\n\r\nE\r\nCu ape de rosu-n ochi,\r\nC#m\r\nValuri largi de alb,\r\nG#m\r\nMov si verde zboara cald\r\n              F#m  B\r\nPe chipul tau drag,\r\n            E  A B\r\nEsarfa in dar.\r\n\r\nE\r\nTin minte si-acum\r\nC#m\r\nNe-am oprit din drum\r\nG#m\r\nCe bine-mi amintesc, ce clar,\r\n          F#m   B\r\nTi-am infasurat\r\n           A\r\nEsarfa in dar.\r\n\r\nPasaj: B E B E B \r\n\r\nE\r\nCulorile alergau,\r\nC#m\r\nIn vant se certau\r\nG#m\r\nFata toata-ti lumina\r\n            F#m  B\r\nCu albul de var,\r\n           E  A\r\nEsarfa in dar.\r\n\r\nAveam optsprezece ani,\r\nEram Beatles fani\r\nSi umblam in tenisi albi.\r\nPrimavara-n par\r\nSi miros de mar.\r\n\r\nRefren:\r\nC#m        G#m\r\nAaaaaaaaaa mai trecut de-atunci ceva,\r\nC#m          G#m \r\nAaaaaaaalbul de var nu-i chiar la fel\r\n      A\r\nTu gandesti altceva\r\nE           C#m\r\nSi mai e si el.\r\nF#m\r\nEu, aici, tu, acolo,\r\nF#         B\r\nNiciodata noi.\r\n\r\n\r\nTe mai vad, cand si cand,\r\nEl in stanga ta,\r\nSi nu pot sa-ti spun ce gandesc\r\nCand la gatu-i vad\r\nEsarfa in dar.\r\n\r\nCu ape de rosu-n ochi,\r\nValuri largi de alb,\r\nMov si verde zboara cald\r\nPe chipul tau drag,\r\nEsarfa in dar.\r\nPe chipul tau drag,\r\nEsarfa in dar...\r\nPe chipul tau drag...\r\nEsarfa in dar...",
+    "author": {
+      "id": 61,
+      "name": "Pasărea Colibri",
+      "slug": "pasarea-colibri"
+    },
+    "author_id": 61,
+    "categories": [
+      {
+        "id": 3,
+        "name": "Folk",
+        "slug": "folk",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "D",
+      "Bm",
+      "F#m",
+      "Em",
+      "A",
+      "G",
+      "E",
+      "C#m",
+      "G#m",
+      "B",
+      "F",
+      "F#"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 129,
+    "title": "Hanul lui Manuc",
+    "slug": "hanul-lui-manuc-129",
+    "content": "C              F\r\nFata frumoasa, fata straina,\r\nC                G\r\nDiseara am sa te duc\r\n    C                 F\r\nPentru convorbiri pentru cina\r\n   C     G     C\r\nLa Hanul lui Manuc,\r\n   F     G     C\r\nLa Hanul lui Manuc.\r\n\r\nRefren:\r\nC          F\r\nNu sînt trasuri,\r\n   G       C\r\nNu poti sa pleci,\r\nF       G     C\r\nSecolul e douazeci.\r\nC          F\r\nNu sînt trasuri,\r\n     G      C\r\nN-ai cum sa pleci,\r\nF       G     C\r\nSecolul e douazeci.\r\n\r\nC             F\r\nDiseara sa fi pregatita,\r\n  C              G\r\nDiseara am sa te duc\r\n         C               F\r\nPentru o cafea turceasca si-o clatita,\r\n   C     G     C\r\nLa Hanul lui Manuc,\r\n   F     G     C\r\nLa Hanul lui Manuc.\r\n\r\nRefren\r\n\r\nC                F\r\nNu vin haiducii, sînt ospatarii\r\nC                G\r\nDulce iubito, eu sînt\r\n       C             F\r\nGândul meu afla-l tu si tîlharii,\r\n   C     G     C\r\nLa Hanul lui Manuc,\r\n   F     G     C\r\nLa Hanul lui Manuc.\r\n\r\nRefren\r\n\r\nC               F\r\nHaide frumoaso, haide straino,\r\nC                  G\r\nDragostea mea fara leac\r\nC               F\r\nVino cu mine, surâzi si vino,\r\n   C     G      C\r\nLa Hanul lui Nalbea,\r\n   F     G      C\r\nLa Hanul lui Nalbea.\r\n\r\nC          F\r\nSînt si trasuri,\r\nG          C\r\nPoti si sa pleci,\r\nF          C     G       C\r\nMai e un mileniu pâna sa fie\r\nF       G     C\r\nSecolul e douazeci.\r\nC          F\r\nSînt si trasuri,\r\nG          C\r\nPoti si sa pleci,\r\nF          C     G       C\r\nMai e un mileniu pâna sa fie\r\nF       G     C\r\nSecolul e douazeci.\r\nF          C     G       C\r\nMai e un mileniu pâna sa fie\r\nF       G     C\r\nSecolul e douazeci.",
+    "author": {
+      "id": 61,
+      "name": "Pasărea Colibri",
+      "slug": "pasarea-colibri"
+    },
+    "author_id": 61,
+    "categories": [
+      {
+        "id": 3,
+        "name": "Folk",
+        "slug": "folk",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "C",
+      "F",
+      "G"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 130,
+    "title": "Intoarcera la Orient",
+    "slug": "intoarcera-la-orient-130",
+    "content": "Intro: Va jucati pe Re si nota C (fretul 3)\r\n\r\nD                     C   \r\nSe intoarce iar acasa Fat Frumos din pribegie \r\nG                  D\r\nLa batranii sai parinti \r\n\r\nLa batranii sai parinti \r\nD                           C   \r\nSi cu gand sa-si ia mireasa ca un fir de papadie \r\nG                   D\r\nNumai bun de rupt in dinti \r\n\r\nNumai bun de rupt in dinti \r\n\r\nDar obloanele-s lasate pe o lipsa de mirese \r\nSi-asta inca nu-i destul \r\nSi-asta inca nu-i destul \r\nUmbla zvonul ca-s plecate sa devina-mparatese \r\nUndeva prin Istambul \r\nUndeva prin Istambul \r\n\r\nPrin dughene si tramvaie cu confort sporit de cusca \r\nTatal zvon e imparat \r\nTatal zvon e imparat \r\nSi se-arata ades pe ploaie zvon de mite goale pusca \r\nPrin Orient dupa vanat \r\nPrin Orient dupa vanat \r\n\r\nG            C         G            D    G\r\nRadeti voi, radeti voi vechi amici din Bizant \r\nG            C          G         D  \r\nRadeti voi dar priviti diligenta zace-n sant \r\nG         C         G        D        G\r\nChiar si calul abia mai respira de-un sfant \r\nG             C        G         D\r\nIar sub noi, ce belea, bicicleta n-are lant \r\n\r\nAlte zvonuri vand comploturi cu savante tevi de pusca \r\nSlugi marunte si mai mari \r\nSlugi marunte si mai mari \r\nUnele cu doua poturi ca sa-l afle in timp ce musca \r\nBiata lume de salvari \r\nBiata lume de salvari \r\nSub escorta din savana cic-ar fi sosit aseara \r\nIntr-un tren accelerat \r\nIntr-un tren accelerat \r\nChipul zeului banana ce va fi expus in gara \r\nSi apoi sanctificat \r\nSi apoi sanctificat \r\n\r\nRadeti voi, radeti voi, vechi amici din Bizant \r\nRadeti voi dar priviti diligenta zace-n sant \r\nChiar si calul abia mai respira de-un sfant \r\nIar sub noi, ce belea, bicicleta n-are lant \r\n\r\nPoate nu-i exact decorul, poate-mparatia-i trista \r\nInsa plina de umor \r\nInsa plina de umor \r\nHai sa tragem zdrang zavorul realitatea nu exista \r\nNoapte buna tuturor \r\nDoamnelor si domnilor.",
+    "author": {
+      "id": 61,
+      "name": "Pasărea Colibri",
+      "slug": "pasarea-colibri"
+    },
+    "author_id": 61,
+    "categories": [
+      {
+        "id": 3,
+        "name": "Folk",
+        "slug": "folk",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "D",
+      "C",
+      "G"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 131,
+    "title": "Laptaria lui Enache",
+    "slug": "laptaria-lui-enache-131",
+    "content": "D\r\nIti amintesti, se inserase,\r\n                    Em \r\nUmblam pe starzi intortocheate,\r\n                       G\r\nMergeam firesc pana la urma\r\n                   D\r\nLa Laptaria lui Enache.\r\n\r\nD\r\nIubito, hai, prin poarta noptii,\r\n                             Em\r\nSa trecem si-o sa-mi dai dreptate,\r\n                           G\r\nSa stam macar un ceas sau doua,\r\n                  D\r\nLa Laptaria lui Enache.\r\n\r\nF#m          G\r\n   Habar nu am, habar nu ai,\r\n        D                     A\r\n   Ca timpul trece, se prea poate,\r\nF#m         G\r\n   Pana la ziua sa ramanem,\r\n          D                    A\r\n   Deci iarasi suntem pusi pe fapte.\r\n\r\nIti mai spuneam din cand in cand,\r\nC-o sa ma pierd cu tine-n noapte,\r\nDar tot ne-oprim sa bem o bere,\r\nLa Laptaria lui Enache.\r\n\r\nErai usor infiorata,\r\nE-adevarat, trecuse anu',\r\nO, Doamne, cat de mult doreai\r\nSa cante Johnny Raducanu.\r\n\r\nHabar nu am, habar nu ai,\r\nCa timpul trece, se prea poate,\r\nPana la ziua sa ramanem,\r\nDeci iarasi suntem pusi pe fapte.\r\n\r\n(solo )\r\n\r\nHabar nu am, habar nu ai,\r\nCa timpul trece, se prea poate,\r\nPana la ziua sa ramanem,\r\nDeci iarasi suntem pusi pe fapte.\r\n                      E\r\nLa umbra ochilor tai mari,\r\n                        F#m\r\nSa stau s-ascult e-o sarbatoare,\r\n                     A\r\nAm reusit s-avem un loc\r\n                  E\r\nSi asta este de mirare.\r\n\r\nE\r\nSi fiindca te doresc prea mult\r\n                        F#m\r\nSi casa mea nu-i prea departe,\r\n                      A\r\nTe iau de mana si te duc\r\n                  E\r\nDin Laptaria lui Enache.\r\n\r\nE        A \r\nLaptaria  lui Enache (x5 & fade out)",
+    "author": {
+      "id": 61,
+      "name": "Pasărea Colibri",
+      "slug": "pasarea-colibri"
+    },
+    "author_id": 61,
+    "categories": [
+      {
+        "id": 3,
+        "name": "Folk",
+        "slug": "folk",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "D",
+      "Em",
+      "G",
+      "F#m",
+      "A",
+      "E",
+      "Am"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 132,
+    "title": "Mica Tiganiada",
+    "slug": "mica-tiganiada-132",
+    "content": "Pasarea Colibri-Mica tiganiada\r\n\r\nINTRO: Am\r\n\r\nAm      C      G\r\nTrec tigani pe drum,\r\nAm       C      G\r\nDrumu-i plin de fum,\r\nAm     C       G\r\nFumu-i plin de scrum,\r\nE     Am\r\nFoc ardea!\r\n\r\nVai tigani, tigani,\r\nGipsies si gitani,\r\nFara cer si ani,\r\nTrec pe drum!\r\n\r\nG        C\r\nTiganie, rai\r\nG         C\r\nRai care erai\r\nG   C   G\r\nCaravan serai\r\nE     Am\r\nGiacardea.\r\n\r\nRaiul meu beteag,\r\nDe pe alt meleag\r\nCat imi esti de drag,\r\nNu stiu cum.\r\n\r\n\r\nTrec tigani prin colb\r\nColbul este orb,\r\nOrbul e un corb,\r\nGiacardea.\r\nCade seara-n camp,\r\nSoarele-i scalamb,\r\nCortul este stramb,\r\nFoc ardea.\r\n\r\nFac tiganii foc,\r\nFocu-i la mijloc,\r\nFete cu ghioc.\r\nSi cu carti de joc,\r\nHai, noroc, noroc,\r\nVino la soroc.\r\n\r\nVino sa-ti ghicesc,\r\nCartile vorbesc\r\nSi nu ne mintesc,\r\nGiacardea.\r\nFata de caro,\r\nSub cer indigo,\r\nSa-ti spun incotro\r\nFoc ardea.\r\n\r\nCa multi ani s-au scurs\r\nDe cand el s-a dus\r\nCu un pui de urs\r\nPe un drum.\r\nCu belciug si lant,\r\nFara nici un sfant,\r\nSpre un targ bizant,\r\nFoc ardea.\r\n\r\nZaiafet acum,\r\nLautari duium,\r\nNumai tu nicicum,\r\nGiacardea.\r\nNoaptea de-ar veni,\r\nPe pamantul gri,\r\nDe ne-ar adormi,\r\nOrisicum.\r\n\r\nO, dar azi, dar azi,\r\nCeru-i de atlaz,\r\nSoarele-n extaz.\r\nEi se duc la pas\r\nSpre un alt popas,\r\nSatra de pripas.\r\nPana nu-i mai vezi,\r\nPana nu-i mai crezi\r\nSi din ochi ii pierzi.\r\nPrintre ceturi verzi,\r\nCeturi de livezi,\r\nVezi ca nu-i mai vezi.\r\n\r\nGiacardea, cardea,\r\nGialino mura,\r\nGia mura, mura,\r\nCe misto...\r\nGiacardea, cardea,\r\nGialino mura,\r\nGia mura, mura,\r\nCe misto...\r\nGiacardea, cardea,\r\nGialino mura,\r\nGia mura, mura,\r\nCe misto...\r\nGiacardea, cardea,\r\nGialino mura,\r\nGia mura, mura,\r\nCe misto...\r\n\r\nFoarte simplu si foarte corect asa. Nu inteleg de ce se compica toata lumea \r\ncu o gramada de acorduri la melodia asta :-?\r\nOricat de mult v-ati chinui, n-o sa va iasa niciodata ca lui Baniciu :))\r\n(Capodastru pe tasta 4 daca vreti sa sune ca originalul)\r\n\r\nzdranga-zdranga, fun fun fun :)",
+    "author": {
+      "id": 61,
+      "name": "Pasărea Colibri",
+      "slug": "pasarea-colibri"
+    },
+    "author_id": 61,
+    "categories": [
+      {
+        "id": 3,
+        "name": "Folk",
+        "slug": "folk",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "C",
+      "G",
+      "E"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 133,
+    "title": "Miruna",
+    "slug": "miruna-133",
+    "content": "Suna bine din D, cu capo pe III (originalul e in F)\r\n\r\nD\r\nDragă Miruna îţi spun printre şoapte\r\n    G\r\nÎmi place cămaşa ta de noapte\r\n    A\r\nDar mai ales vreau să-ţi dau de ştire\r\n        G        A\r\nSă mi-o laşi ca amintire,\r\n        G         A\r\nSă mi-o laşi ca amintire\r\n\r\nNespus de frumos dormeai o noapte blândă\r\nZâmbeai prin somn iau eu stăteam la pândă\r\nSă nu te trezesc, să tulbur visele tale\r\nDar vreau să-ţi iau şi costumul de baie\r\nSă te-admir cu şi fără costumul de baie\r\n\r\n     Bm                       G\r\nÎn Grădina Botanică, într-o duminică\r\n      D        A\r\nEa se plimbă\r\n          Bm                   G\r\nNe-am fotografiat cu un vechi aparat\r\n   D       A\r\nAutomat\r\n\r\nUn celebru şi bun coleg de facultate\r\nSpunea c-aveai blugii rupţi la spate\r\nVeneai spre casă când afară plouă\r\nCu troleibuzul 89\r\nBlondă şi tristă cum ne-ai plăcut nouă\r\n\r\nCu pălăria de paie cu panglică mov\r\nIeşeai din clădirea de pe strada Snagov\r\nUşor te-ndreptai spre calea Moşilor\r\nSă-ţi iei bluză pepit de la Bucur Obor\r\nBluză pepit de la Bucur Obor\r\n\r\nVenind din practică poşetă galbenă\r\nEa îşi luă\r\nÎn magazine-a intrat, fustă şi-a cumpărat\r\nMaxi-nflorat\r\n\r\nDragă Miruna, ce rost are să-ţi cumperi toate lucrurile acestea – cheltuieşti o... \r\nsumă prea mare de bani. De fapt, ştii foarte bine ce-ţi spuneam in seara aceea, \r\nprintre şoapte...\r\n\r\n...Îmi place cămaşa ta de noapte\r\nDar mai ales vreau să-ţi dau de ştire\r\nSă mi-o laşi ca amintire\r\nSă mi-o laşi ca amintire\r\n\r\nAcum mă priveşti dintr-o poză cu zimţi \r\nAtunci aveai nervi dar şi buze fierbinţi\r\nşi te auzeam cum strigai printre şoapte\r\nUnde-i cămaşa mea de noapte\r\nUnde-i cămaşa mea de noapte\r\nLa mine-i cămaşa ta de noapte\r\nLa mine-i cămaşa ta de noapte\r\nPlâng pe cămaşa ta de noapte\r\nPlâng pe cămaşa ta de noapte",
+    "author": {
+      "id": 61,
+      "name": "Pasărea Colibri",
+      "slug": "pasarea-colibri"
+    },
+    "author_id": 61,
+    "categories": [
+      {
+        "id": 3,
+        "name": "Folk",
+        "slug": "folk",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "D",
+      "G",
+      "A",
+      "Bm"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 134,
+    "title": "Ploaia care va veni",
+    "slug": "ploaia-care-va-veni-134",
+    "content": "(adaptare de Dorin Liviu Zaharia dupa\r\no piesa a grupului \"ECHIPA '84\", Dorin Liviu Zaharia)\r\n\r\nD                          F#m\r\nSunt un frate tanar, care crede in dreptate,\r\n         A                    D\r\nAm ochi negri dar am mainile curate.\r\nD                            F#m\r\nIubesc pletele si ploaia si camasile-nflorate,\r\n      A                               D\r\nNu raspund cand mi se-arunca vorbe-n spate.\r\n\r\nEm                 D\r\nUn fapt fara importanta\r\nEm                D\r\nma poate face sa sper,\r\nEm                  D\r\nMa-nclin si pun in balanta\r\nEm                   D\r\nce-i sfant cu ce-i efemer.\r\n                  Em\r\nPeste tot atarna greu\r\nA                D\r\n Teama de sinceritate...\r\n\r\nDar de cate ori, prieteni, n-am suras cu intristare\r\nCand sperantele pareau inselatoare.\r\nCand necinstea si prostia\r\nsi-ascundeau prin gropi norocul,\r\nStiti de cate ori, prieteni, le-am prins jocul.\r\n\r\nNe-am saturat de palavre,\r\nde carti si filme de soc,\r\nCu vampe, regi si cadavre,\r\ncu stele de iarmaroc.\r\nPloaia care va veni\r\nLe va potopi pe toate.\r\n\r\nNi-e lehamite de marsuri,\r\nde tromboane si plocoane,\r\nDe blazoane, de canoane si fasoane.\r\nFiindca banul si prostia\r\nsunt pericole morale\r\nCircul vietii ne-a impus salturi mortale.\r\n\r\nDeasupra florilor noastre\r\nciuperca cheama a pustiu,\r\nDin cer cad pasari albastre\r\nsi totusi nu e prea tarziu.\r\n\r\nPloaia care va veni\r\nLe va potopi pe toate.\r\nSa-ncercam sa facem noi\r\nUn oras fara pacate.\r\n4*| Ploaia care va veni\r\n| Le va potopi pe toate.",
+    "author": {
+      "id": 61,
+      "name": "Pasărea Colibri",
+      "slug": "pasarea-colibri"
+    },
+    "author_id": 61,
+    "categories": [
+      {
+        "id": 3,
+        "name": "Folk",
+        "slug": "folk",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "D",
+      "F#m",
+      "A",
+      "Em",
+      "Am"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 135,
+    "title": "Sfarsitul nu-i aici",
+    "slug": "sfarsitul-nu-i-aici-135",
+    "content": "(original: \"Death is not the end\") \r\nAutor muzica: Bob Dylan \r\nAutor versuri: Bob Dylan, trad. Florian Pittis\r\n\r\nA\r\nCand necazuri te doboara\r\nSi prieteni n-ai sa-i strigi,\r\n      E\r\nTine minte\r\n                A\r\nsfarsitul nu-i aici.\r\n\r\nA\r\nSi ce slaveai in taina\r\nE-asa cum nu-ti explici,\r\n       E\r\nTine minte\r\n                A\r\nsfarsitul nu-i aici.\r\n\r\nRefren\r\nA\r\nNu-i aici, (nu, nu)\r\nNu-i aici, (nu, nu)\r\n      E\r\nTine minte\r\n D       E     A\r\nsfarsitul nu-i aici. (nu, nu)\r\n\r\nCand oprit la o rascruce,\r\nDrumul nu stii sa-l prezici,\r\nTine minte\r\nsfarsitul nu-i aici.\r\n\r\nCand nu mai ai nici vise\r\nSi nu stii cum sa te ridici,\r\nTine minte\r\nsfarsitul nu-i aici.\r\n\r\nRefren\r\n\r\nCand se-aduna norii negri,\r\nPloaia cade ca un brici,\r\nTine minte\r\nsfarsitul nu-i aici.\r\n\r\nMangaiere n-ai, nu vezi acum\r\nMaini intinse de amici\r\nTine minte\r\nsfarsitul nu-i aici.\r\n\r\nRefren\r\n\r\nBridge\r\n        D\r\nPomul vietii creste mandru\r\n       A\r\nUnde spiritul e viu,\r\n     D\r\nLumineaza ea, salvarea,\r\n       A           E\r\nCerul gol si cenusiu.\r\n\r\n\r\nCand orasele-s in flacari,\r\nMusuroaie de furnici,\r\nTine minte\r\nsfarsitul nu-i aici.\r\n\r\nSi cand cauti in zadar un om\r\nPrintre-atatea mii de venetici,\r\nTine minte\r\nsfarsitul nu-i aici.\r\n\r\nRefren & fade out",
+    "author": {
+      "id": 61,
+      "name": "Pasărea Colibri",
+      "slug": "pasarea-colibri"
+    },
+    "author_id": 61,
+    "categories": [
+      {
+        "id": 3,
+        "name": "Folk",
+        "slug": "folk",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "A",
+      "E",
+      "D"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 136,
+    "title": "Vanare de vant",
+    "slug": "vanare-de-vant-136",
+    "content": "C               F     G7      C\nCate drumuri un om ar avea de facut \nC               F      G7\nPana ei sa-l considere om?\nCate mari pescarusii mai au de batut\nPan-ajung pe nisip pentru somn?\nCate bombe vor mai sfarteca vieti intregi\nPan'sa le interzicem pe veci?\n\n            F          G7         C       Am\nRefren : Raspunsul, prieteni, e vanare de vant\n            F          G7      C\n         Raspunsul e vanare de vant\n         Raspunsul, prieteni, e vanare de vant\n         Raspunsul e vanare de vant.\n\n\nCati ani poate-un munte in lume trai\nPana marea sa-l spele-ntr-o zi?\nSi cati ani si oamenii pot vietui\nPana liberi permis li-i a fi?\nDe cate ori omul vede un rau\nSi tace intorcand capul sau?\n\n\nRefren: ...\n\n\nDe cate ori omul in sus va privi\nPana cerul sa-l vada de-ajuns?\nCat de multe urechi necesare ii sunt\nCa s-auda al gurilor plans?\nCati mai au de murit ca s-aflam in sfarsit\nca oameni prea multi au pierit?\n\n\nRefren: ...\n\n\n\n*Nota: Cantec folk de referinta.\n\nSucces!",
+    "author": {
+      "id": 61,
+      "name": "Pasărea Colibri",
+      "slug": "pasarea-colibri"
+    },
+    "author_id": 61,
+    "categories": [
+      {
+        "id": 24,
+        "name": "Country",
+        "slug": "country",
+        "description": ""
+      },
+      {
+        "id": 3,
+        "name": "Folk",
+        "slug": "folk",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "C",
+      "F",
+      "G7",
+      "Am"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 137,
+    "title": "Viata la tara",
+    "slug": "viata-la-tara-137",
+    "content": "              \r\n  G\r\n| La, ra-ra-ru, la-p-ta,\r\n\r\n| La, ri-ra-ra-ra,\r\n  C\r\n| La, ri-li-lu-li-p-ti\r\n\r\n| La-la-ri-lu-la-la,\r\n  D\r\n| Lu, li-li-lu-li-p-ti,\r\n   \r\n| Lu-lu-lu-li-lu, \r\n                             G C G\r\n| Li-lu-lu, li-lu-lu, li-lu-lu !\r\n\r\nG    \r\nLocuinta mea de vara \r\nC\r\nE la tara ...\r\nD               G C G\r\nAcolo era sa mor \r\nG      \r\nDe urat si de-ntristare\r\nC\r\nBeat de soare\r\nD                 G C G              \r\nSi parlit ingrozitor!\r\n\r\n\r\nAcolo, cand n-are treaba, \r\nOrice baba\r\nEste medic comunal. (medic!)\r\nViata ce aci palpita\r\nE lipsita\r\nDe confort occidental.\r\n\r\nNu exista berarie, (au!)\r\nNici regie ...\r\nDoar un hot de carciumar (hot de carciumar! ha-ha!)\r\nCare are marfa proasta\r\nSi-o nevasta \r\nCe se tine c-un jandar'.\r\n\r\n| La, ra-ra-ru, la-p-ta,\r\n| La, ri-ra-ra-ra,\r\n| La, ri-li-lu-li-p-ti\r\n2* | La-la-ri-lu-la-la,\r\n| Lu, li-li-lu-li-p-ti,\r\n| Lu-lu-lu-li-lu, \r\n| Li-lu-lu, li-lu-lu, li-lu-lu !\r\n\r\nCand te duci pe drumul mare\r\nLa plimbare\r\nEste praf de nu te vezi: \r\nTrec, miscand domol din coada,\r\nSpre livada\r\nAle satului cirezi. (mmmmmmuu!)\r\n\r\nSi te poarta sub escorta\r\nO cohorta\r\nDe tantari subtiri la glas, (sss! tz-tz-tz-tz!)\r\nInzestrati la cap c-o scula\r\nMinuscula,\r\nCu pretentie de nas... (o-ho-hopa!)\r\n\r\n| La, ra-ra-ru, la-p-ta,\r\n| La, ri-ra-ra-ra,\r\n| La, ri-li-lu-li-p-ti\r\n2* | La-la-ri-lu-la-la,\r\n| Lu, li-li-lu-li-p-ti,\r\n| Lu-lu-lu-li-lu, \r\n| Li-lu-lu, li-lu-lu, li-lu-lu !\r\n\r\nCand se ia cate-o masura,\r\nLumea-njura\r\nPe agentul sanitar\r\nSi-l intreaba fara noima:\r\n\"CE-AI CU NOI, MA ?\r\nPENTRU CE SA DAM CU VAR ?\"\r\n\r\nAle satului mari fete\r\nFara ghete\r\nIes la garduri pe-nserat... (aaah!)\r\n(Am vazut aici-ntr-o noapte\r\nNiste fapte\r\nCare m-au scandalizat !)\r\n\r\n        A       \r\nDar in zori incep cocosii\r\nD\r\nPacatosii,\r\nE                   A D A\r\nCa sa faca iar scandal, (cucurigu!)\r\nA          \r\nSa te saturi de viata\r\nD\r\nSi dulceata\r\nE                 A D A\r\nTraiului patriarhal !\r\n\r\n\r\nD-aia zic eu, prin urmare,\r\nVorba mare:\r\nCa de-acuma, sa ma tai,\r\nNu-mi mai trebuie alta cura (nu!)\r\nIn natura\r\nSa ma duceti cu alai !\r\n\r\n| La, ra-ra-ru, la-p-ta,\r\n| La, ri-ra-ra-ra,\r\n| La, ri-li-lu-li-p-ti\r\n2* | La-la-ri-lu-la-la,\r\n| Lu, li-li-lu-li-p-ti,\r\n| Lu-lu-lu-li-lu, \r\n| Li-lu-lu, li-lu-lu, li-lu-lu !\r\n\r\nMearga pictorii la tara (da!)\r\nCa sa piara\r\nDe caldura si de praf ! (asa le trebuie!)\r\nMie dati-mi strazi pavate, (se-aude, primaria?)\r\nMaturate, (da!)\r\nDati-mi cinematograf ! (SI BINGO!)\r\n\r\nDati-mi, dati-mi strada-ngusta\r\nUnde gusta\r\nOmul viata mai din plin,\r\nCu trasuri, femei cochete (ee!)\r\nSi cu fete (EEE!)\r\nIncaltate cel putin ! (hei!)\r\n\r\n| La, ra-ra-ru, la-p-ta,\r\n| La, ri-ra-ra-ra,\r\n| La, ri-li-lu-li-p-ti\r\n2* | La-la-ri-lu-la-la,\r\n| Lu, li-li-lu-li-p-ti,\r\n| Lu-lu-lu-li-lu, \r\n| Li-lu-lu, li-lu-lu, lï-lu-lu !\r\n\r\n\r\nThis one is really easy ;););)    zdranga-zdranga :D:D:D",
+    "author": {
+      "id": 61,
+      "name": "Pasărea Colibri",
+      "slug": "pasarea-colibri"
+    },
+    "author_id": 61,
+    "categories": [
+      {
+        "id": 3,
+        "name": "Folk",
+        "slug": "folk",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "G",
+      "C",
+      "D",
+      "A",
+      "E",
+      "Am"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 138,
+    "title": "Vinovatii fara vina",
+    "slug": "vinovatii-fara-vina-138",
+    "content": "D \r\nSunt curat la trup, curat la suflet,\r\n                             Em\r\nVreau sa-i inteleg si sa-i iubesc.\r\n                           D\r\nNu conteaza cat de lung am parul,\r\nA                           D\r\nImportant e cat de mult gandesc.\r\n\r\nSimt in trup pletosii daci, comati,\r\nFirea mea e saltul omenesc.\r\nNu conteaza cat de lung am parul,\r\nImportant e cat si cum gandesc.\r\n\r\nG           C    G\r\nLume, lume, sora lume,\r\nG           C    G\r\nLume, lume, sora lume,\r\nC               G      \r\nDe ce esti rea, rea de gura,\r\nD                     G\r\nDe ce ne privesti cu ura?\r\nC               G\r\nVinovatii fara vina\r\nD                  G\r\nCer sa se faca lumina.\r\n\r\nVrea sa-nalt castele de gandire,\r\nVreau sa fiu lasat sa simt cum cresc.\r\nNu conteaza cat de lung am parul,\r\nImportant e cat si cum gandesc.\r\n\r\nNu e loc de noi in lumea voastra,\r\nNu-s din noi acei ce ne muncesc\r\nSi tin cont de cat de lung am parul,\r\nNu de cum si cat de mult gandesc.\r\n\r\nLume, lume, sora lume,\r\nLume, lume, sora lume,\r\nDe ce esti rea, rea de gura,\r\nDe ce ne privesti cu ura?\r\nVinovatii fara vina\r\nCer sa se faca lumina.\r\n\r\nE    \r\nHei, voi, neatenti la soarta noastra\r\n                               F#m\r\nHei, voi, ce ne credeti pui de drac!\r\n                          E\r\nGandurile voastr-s si-ale noastre,\r\nB                     E\r\nGusturile insa nu ne plac.\r\n\r\n\r\nHei, voi, care-ati fost odata tineri,\r\nHei, voi, care stiti ce-i omenesc!\r\nNu conteaza cat de lung am parul,\r\nMai presus e cat si cum gandesc.\r\n\r\nLume, lume, sora lume,\r\nLume, lume, sora lume,\r\nDe ce esti rea, rea de gura,\r\nDe ce ne privesti cu ura?\r\nVinovatii fara vina\r\nCer sa se faca lumïna.\r\n\r\nACORDURILE SUNT SIMPLE, VEDETI VOI CUM VA DESCURCATI KU RITMUL :)",
+    "author": {
+      "id": 61,
+      "name": "Pasărea Colibri",
+      "slug": "pasarea-colibri"
+    },
+    "author_id": 61,
+    "categories": [
+      {
+        "id": 3,
+        "name": "Folk",
+        "slug": "folk",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "D",
+      "Em",
+      "A",
+      "G",
+      "C",
+      "E",
+      "F#m",
+      "B"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
   }
 ];
 
@@ -4644,7 +8150,7 @@ export const authorsData: Author[] = [
     "id": 10,
     "name": "Ștefan Hrușcă",
     "slug": "stefan-hrusca",
-    "song_count": 3
+    "song_count": 9
   },
   {
     "id": 11,
@@ -4698,7 +8204,7 @@ export const authorsData: Author[] = [
     "id": 19,
     "name": "Ducu Bertzi",
     "slug": "ducu-bertzi",
-    "song_count": 2
+    "song_count": 3
   },
   {
     "id": 20,
@@ -4783,6 +8289,174 @@ export const authorsData: Author[] = [
     "name": "Roza Vânturilor",
     "slug": "roza-vanturilor",
     "song_count": 1
+  },
+  {
+    "id": 34,
+    "name": "Dida Drăgan",
+    "slug": "dida-dragan",
+    "song_count": 1
+  },
+  {
+    "id": 35,
+    "name": "Colinde",
+    "slug": "colinde",
+    "song_count": 6
+  },
+  {
+    "id": 36,
+    "name": "Mihai Constantinescu",
+    "slug": "mihai-constantinescu",
+    "song_count": 1
+  },
+  {
+    "id": 37,
+    "name": "Bulz Brotherz",
+    "slug": "bulz-brotherz",
+    "song_count": 1
+  },
+  {
+    "id": 38,
+    "name": "White Mahala",
+    "slug": "white-mahala",
+    "song_count": 1
+  },
+  {
+    "id": 39,
+    "name": "Mondial",
+    "slug": "mondial",
+    "song_count": 1
+  },
+  {
+    "id": 40,
+    "name": "Maria Tănase",
+    "slug": "maria-tanase",
+    "song_count": 1
+  },
+  {
+    "id": 41,
+    "name": "Maria Ciobanu",
+    "slug": "maria-ciobanu",
+    "song_count": 1
+  },
+  {
+    "id": 42,
+    "name": "Floarea Calotă",
+    "slug": "floarea-calota",
+    "song_count": 1
+  },
+  {
+    "id": 43,
+    "name": "Frații Petreuș",
+    "slug": "fratii-petreus",
+    "song_count": 1
+  },
+  {
+    "id": 44,
+    "name": "Ileana Sărăroiu",
+    "slug": "ileana-sararoiu",
+    "song_count": 1
+  },
+  {
+    "id": 45,
+    "name": "Traian Ilea",
+    "slug": "traian-ilea",
+    "song_count": 1
+  },
+  {
+    "id": 46,
+    "name": "Cristian Pățurcă",
+    "slug": "cristian-paturca",
+    "song_count": 1
+  },
+  {
+    "id": 47,
+    "name": "Bosquito",
+    "slug": "bosquito",
+    "song_count": 1
+  },
+  {
+    "id": 48,
+    "name": "Vunk",
+    "slug": "vunk",
+    "song_count": 1
+  },
+  {
+    "id": 49,
+    "name": "Vama",
+    "slug": "vama",
+    "song_count": 1
+  },
+  {
+    "id": 50,
+    "name": "Holograf",
+    "slug": "holograf",
+    "song_count": 1
+  },
+  {
+    "id": 51,
+    "name": "Vama Veche",
+    "slug": "vama-veche",
+    "song_count": 3
+  },
+  {
+    "id": 52,
+    "name": "Daniel Iancu",
+    "slug": "daniel-iancu",
+    "song_count": 1
+  },
+  {
+    "id": 53,
+    "name": "Cargo",
+    "slug": "cargo",
+    "song_count": 3
+  },
+  {
+    "id": 54,
+    "name": "Semnal M",
+    "slug": "semnal-m",
+    "song_count": 1
+  },
+  {
+    "id": 55,
+    "name": "Phoenix",
+    "slug": "phoenix",
+    "song_count": 6
+  },
+  {
+    "id": 56,
+    "name": "Iris",
+    "slug": "iris",
+    "song_count": 3
+  },
+  {
+    "id": 57,
+    "name": "Compact",
+    "slug": "compact",
+    "song_count": 1
+  },
+  {
+    "id": 58,
+    "name": "Alternosfera",
+    "slug": "alternosfera",
+    "song_count": 1
+  },
+  {
+    "id": 59,
+    "name": "Talisman",
+    "slug": "talisman",
+    "song_count": 1
+  },
+  {
+    "id": 60,
+    "name": "Zdob și Zdub",
+    "slug": "zdob-si-zdub",
+    "song_count": 1
+  },
+  {
+    "id": 61,
+    "name": "Pasărea Colibri",
+    "slug": "pasarea-colibri",
+    "song_count": 15
   }
 ];
 
@@ -4799,21 +8473,21 @@ export const categoriesData: Category[] = [
     "name": "Lăutărești",
     "slug": "lautaresti",
     "description": "",
-    "song_count": 6
+    "song_count": 7
   },
   {
     "id": 3,
     "name": "Folk",
     "slug": "folk",
     "description": "",
-    "song_count": 18
+    "song_count": 33
   },
   {
     "id": 4,
     "name": "Satiră și umor",
     "slug": "satira-si-umor",
     "description": "",
-    "song_count": 2
+    "song_count": 3
   },
   {
     "id": 5,
@@ -4862,14 +8536,14 @@ export const categoriesData: Category[] = [
     "name": "Despre Patrie",
     "slug": "despre-patrie",
     "description": "",
-    "song_count": 2
+    "song_count": 3
   },
   {
     "id": 12,
     "name": "Cântece pentru copii",
     "slug": "cantece-pentru-copii",
     "description": "",
-    "song_count": 1
+    "song_count": 2
   },
   {
     "id": 13,
@@ -4883,6 +8557,76 @@ export const categoriesData: Category[] = [
     "name": "Imnuri",
     "slug": "imnuri",
     "description": "",
-    "song_count": 4
+    "song_count": 5
+  },
+  {
+    "id": 15,
+    "name": "Colinde",
+    "slug": "colinde",
+    "description": "",
+    "song_count": 13
+  },
+  {
+    "id": 16,
+    "name": "Muzică ușoară",
+    "slug": "muzica-usoara",
+    "description": "",
+    "song_count": 2
+  },
+  {
+    "id": 17,
+    "name": "Etno / Folclor",
+    "slug": "etno-folclor",
+    "description": "",
+    "song_count": 9
+  },
+  {
+    "id": 18,
+    "name": "Rock",
+    "slug": "rock",
+    "description": "",
+    "song_count": 18
+  },
+  {
+    "id": 19,
+    "name": "Experimental",
+    "slug": "experimental",
+    "description": "",
+    "song_count": 1
+  },
+  {
+    "id": 20,
+    "name": "Eminescu",
+    "slug": "eminescu",
+    "description": "",
+    "song_count": 1
+  },
+  {
+    "id": 21,
+    "name": "Latino",
+    "slug": "latino",
+    "description": "",
+    "song_count": 1
+  },
+  {
+    "id": 22,
+    "name": "Pop-Rock",
+    "slug": "pop-rock",
+    "description": "",
+    "song_count": 6
+  },
+  {
+    "id": 23,
+    "name": "Din Republica Moldova",
+    "slug": "din-republica-moldova",
+    "description": "",
+    "song_count": 1
+  },
+  {
+    "id": 24,
+    "name": "Country",
+    "slug": "country",
+    "description": "",
+    "song_count": 1
   }
 ];
