@@ -1407,6 +1407,7 @@ export const songsData: Song[] = [
       "D",
       "C"
     ],
+    "strumming": [{"pattern":["D","-","D","U","-","U","D","U"],"timeSignature":"4/4","name":"Bază"},{"pattern":["D","x","U","-","U","D","x","U"],"timeSignature":"4/4","name":"Variație"}],
     "views": 0
   },
   {
@@ -1426,6 +1427,7 @@ export const songsData: Song[] = [
       "C",
       "D"
     ],
+    "strumming": [{"pattern":["D","-","U","-","D","U","-","U"],"timeSignature":"4/4","name":"Bază"},{"pattern":["D","-","-","U","-","-","D","-"],"timeSignature":"4/4","name":"Variație"}],
     "views": 0
   },
   {
@@ -1446,6 +1448,7 @@ export const songsData: Song[] = [
       "G",
       "D"
     ],
+    "strumming": [{"pattern":["D","D","U","-","U","D","U","-"],"timeSignature":"4/4","name":"Bază"}],
     "views": 0
   },
   {
@@ -1467,6 +1470,7 @@ export const songsData: Song[] = [
       "C",
       "E"
     ],
+    "strumming": [{"pattern":["D","-","D","U","-","U","D","U"],"timeSignature":"4/4","name":"Bază"},{"pattern":["D","x","U","-","U","D","x","U"],"timeSignature":"4/4","name":"Variație"}],
     "views": 0
   },
   {
@@ -1488,6 +1492,7 @@ export const songsData: Song[] = [
       "G",
       "D"
     ],
+    "strumming": [{"pattern":["D","-","U","-","D","U","-","U"],"timeSignature":"4/4","name":"Bază"}],
     "views": 0
   },
   {
@@ -1507,6 +1512,7 @@ export const songsData: Song[] = [
       "A",
       "G"
     ],
+    "strumming": [{"pattern":["D","-","U","-","U","-"],"timeSignature":"3/4","name":"Bază"}],
     "views": 0
   },
   {
@@ -1526,6 +1532,7 @@ export const songsData: Song[] = [
       "Dm",
       "E"
     ],
+    "strumming": [{"pattern":["D","D","U","-","U","D","U","-"],"timeSignature":"4/4","name":"Bază"},{"pattern":["D","x","U","-","U","D","x","U"],"timeSignature":"4/4","name":"Variație"}],
     "views": 0
   },
   {
@@ -1547,6 +1554,7 @@ export const songsData: Song[] = [
       "C",
       "G"
     ],
+    "strumming": [{"pattern":["D","-","D","U","-","U","D","U"],"timeSignature":"4/4","name":"Bază"}],
     "views": 0
   },
   {
@@ -1567,6 +1575,7 @@ export const songsData: Song[] = [
       "C",
       "D"
     ],
+    "strumming": [{"pattern":["D","-","U","-","D","U","-","U"],"timeSignature":"4/4","name":"Bază"},{"pattern":["D","-","-","U","-","-","D","-"],"timeSignature":"4/4","name":"Variație"}],
     "views": 0
   },
   {
@@ -1586,6 +1595,7 @@ export const songsData: Song[] = [
       "Dm",
       "E"
     ],
+    "strumming": [{"pattern":["D","-","-","U","D","U"],"timeSignature":"3/4","name":"Bază"}],
     "views": 0
   },
   {
@@ -1606,6 +1616,7 @@ export const songsData: Song[] = [
       "D",
       "B7"
     ],
+    "strumming": [{"pattern":["D","-","D","U","-","U","D","U"],"timeSignature":"4/4","name":"Bază"}],
     "views": 0
   },
   {
@@ -1628,6 +1639,7 @@ export const songsData: Song[] = [
       "E",
       "F"
     ],
+    "strumming": [{"pattern":["D","D","U","-","U","D","U","-"],"timeSignature":"4/4","name":"Bază"},{"pattern":["D","x","U","-","U","D","x","U"],"timeSignature":"4/4","name":"Variație"}],
     "views": 0
   },
   {
@@ -1648,6 +1660,7 @@ export const songsData: Song[] = [
       "D",
       "Em"
     ],
+    "strumming": [{"pattern":["D","-","U","-","D","U","-","U"],"timeSignature":"4/4","name":"Bază"}],
     "views": 0
   },
   {
@@ -1669,6 +1682,7 @@ export const songsData: Song[] = [
       "G",
       "D"
     ],
+    "strumming": [{"pattern":["D","-","D","U","-","U","D","U"],"timeSignature":"4/4","name":"Bază"},{"pattern":["D","-","-","U","-","-","D","-"],"timeSignature":"4/4","name":"Variație"}],
     "views": 0
   },
   {
@@ -1691,6 +1705,7 @@ export const songsData: Song[] = [
       "E",
       "F"
     ],
+    "strumming": [{"pattern":["D","-","U","-","U","-"],"timeSignature":"3/4","name":"Bază"}],
     "views": 0
   },
   {
@@ -1711,6 +1726,7 @@ export const songsData: Song[] = [
       "D",
       "G"
     ],
+    "strumming": [{"pattern":["D","-","D","-","D","U","D","U"],"timeSignature":"4/4","name":"Bază"}],
     "views": 0
   },
   {
@@ -1732,6 +1748,7 @@ export const songsData: Song[] = [
       "C",
       "E"
     ],
+    "strumming": [{"pattern":["D","-","D","U","-","U","D","U"],"timeSignature":"4/4","name":"Bază"}],
     "views": 0
   },
   {
@@ -1752,6 +1769,7 @@ export const songsData: Song[] = [
       "Em",
       "C"
     ],
+    "strumming": [{"pattern":["D","-","U","-","D","U","-","U"],"timeSignature":"4/4","name":"Bază"},{"pattern":["D","x","U","-","U","D","x","U"],"timeSignature":"4/4","name":"Variație"}],
     "views": 0
   },
   {
@@ -1773,6 +1791,7 @@ export const songsData: Song[] = [
       "C",
       "G"
     ],
+    "strumming": [{"pattern":["D","D","U","-","U","D","U","-"],"timeSignature":"4/4","name":"Bază"}],
     "views": 0
   },
   {
@@ -1793,6 +1812,7 @@ export const songsData: Song[] = [
       "D",
       "Em"
     ],
+    "strumming": [{"pattern":["D","-","-","U","-","U","D","-"],"timeSignature":"4/4","name":"Bază"}],
     "views": 0
   },
   {
@@ -1812,6 +1832,7 @@ export const songsData: Song[] = [
       "Dm",
       "E"
     ],
+    "strumming": [{"pattern":["D","-","D","U","-","U","D","U"],"timeSignature":"4/4","name":"Bază"},{"pattern":["D","-","-","U","-","-","D","-"],"timeSignature":"4/4","name":"Variație"}],
     "views": 0
   },
   {
@@ -1832,6 +1853,7 @@ export const songsData: Song[] = [
       "Em",
       "C"
     ],
+    "strumming": [{"pattern":["D","-","U","-","D","U","-","U"],"timeSignature":"4/4","name":"Bază"}],
     "views": 0
   },
   {
@@ -1853,6 +1875,7 @@ export const songsData: Song[] = [
       "G",
       "E"
     ],
+    "strumming": [{"pattern":["D","-","U","-","U","-"],"timeSignature":"3/4","name":"Bază"}],
     "views": 0
   },
   {
@@ -1873,6 +1896,7 @@ export const songsData: Song[] = [
       "G",
       "D"
     ],
+    "strumming": [{"pattern":["D","-","D","-","D","U","D","U"],"timeSignature":"4/4","name":"Bază"},{"pattern":["D","x","U","-","U","D","x","U"],"timeSignature":"4/4","name":"Variație"}],
     "views": 0
   },
   {
@@ -1893,6 +1917,7 @@ export const songsData: Song[] = [
       "C",
       "D"
     ],
+    "strumming": [{"pattern":["D","-","D","U","-","U","D","U"],"timeSignature":"4/4","name":"Bază"}],
     "views": 0
   },
   {
@@ -1914,6 +1939,7 @@ export const songsData: Song[] = [
       "C",
       "E"
     ],
+    "strumming": [{"pattern":["D","-","U","-","D","U","-","U"],"timeSignature":"4/4","name":"Bază"}],
     "views": 0
   },
   {
@@ -1933,6 +1959,7 @@ export const songsData: Song[] = [
       "A",
       "G"
     ],
+    "strumming": [{"pattern":["D","D","U","-","U","D","U","-"],"timeSignature":"4/4","name":"Bază"},{"pattern":["D","-","-","U","-","-","D","-"],"timeSignature":"4/4","name":"Variație"}],
     "views": 0
   },
   {
@@ -1954,6 +1981,7 @@ export const songsData: Song[] = [
       "D",
       "G"
     ],
+    "strumming": [{"pattern":["D","-","D","U","-","U","D","U"],"timeSignature":"4/4","name":"Bază"}],
     "views": 0
   },
   {
@@ -1975,6 +2003,7 @@ export const songsData: Song[] = [
       "G",
       "C"
     ],
+    "strumming": [{"pattern":["D","-","-","U","D","U"],"timeSignature":"3/4","name":"Bază"}],
     "views": 0
   },
   {
@@ -1995,6 +2024,7 @@ export const songsData: Song[] = [
       "Em",
       "C"
     ],
+    "strumming": [{"pattern":["D","-","-","U","-","U","D","-"],"timeSignature":"4/4","name":"Bază"}],
     "views": 0
   },
   {
@@ -2014,6 +2044,7 @@ export const songsData: Song[] = [
       "Dm",
       "E"
     ],
+    "strumming": [{"pattern":["D","-","D","U","-","U","D","U"],"timeSignature":"4/4","name":"Bază"},{"pattern":["D","x","U","-","U","D","x","U"],"timeSignature":"4/4","name":"Variație"}],
     "views": 0
   },
   {
@@ -2034,6 +2065,7 @@ export const songsData: Song[] = [
       "D",
       "Em"
     ],
+    "strumming": [{"pattern":["D","-","U","-","D","U","-","U"],"timeSignature":"4/4","name":"Bază"}],
     "views": 0
   }
 ];

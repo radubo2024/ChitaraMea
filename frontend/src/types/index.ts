@@ -31,6 +31,13 @@ export interface Chord {
   start_fret?: number;
 }
 
+export interface StrumPattern {
+  pattern: string[];  // Array of 'D' (down), 'U' (up), 'x' (mute), '-' (rest)
+  timeSignature?: string;  // e.g. '4/4', '3/4'
+  bpm?: number;
+  name?: string;  // e.g. 'Bază', 'Variație'
+}
+
 export interface Song {
   id: number;
   title: string;
@@ -40,6 +47,7 @@ export interface Song {
   author_id?: number;
   categories: Category[];
   chords: string[];
+  strumming?: StrumPattern[];
   views?: number;
   created_at?: string;
 }

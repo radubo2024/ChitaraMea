@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
-import { Music, Search, Heart, ListMusic, Menu, X } from 'lucide-react';
+import { Guitar, Search, Heart, ListMusic, Menu, X } from 'lucide-react';
 import { useFavorites } from '@/context/FavoritesContext';
 import { usePlaylists } from '@/context/PlaylistsContext';
 
@@ -37,8 +37,8 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 text-blue-600 font-bold text-xl shrink-0">
-            <Music size={24} />
-            <span className="hidden sm:inline">Acorduri.ro</span>
+            <Guitar size={24} />
+            <span className="hidden sm:inline">Chitara Mea</span>
           </Link>
 
           {/* Desktop Nav */}

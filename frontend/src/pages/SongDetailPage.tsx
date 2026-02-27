@@ -6,6 +6,7 @@ import { useFavorites } from '@/context/FavoritesContext';
 import SongContent from '@/components/SongContent';
 import ChordDiagram from '@/components/ChordDiagram';
 import ChordTag from '@/components/ChordTag';
+import StrummingPattern from '@/components/StrummingPattern';
 import AddToPlaylistModal from '@/components/AddToPlaylistModal';
 
 export default function SongDetailPage() {
@@ -123,6 +124,16 @@ export default function SongDetailPage() {
                   <ChordTag key={chord} name={chord} />
                 ))}
               </div>
+            </div>
+          )}
+
+          {/* Strumming Pattern */}
+          {song.strumming && song.strumming.length > 0 && (
+            <div className="mb-6">
+              <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">
+                Ritm (Strumming)
+              </h2>
+              <StrummingPattern patterns={song.strumming} />
             </div>
           )}
 
