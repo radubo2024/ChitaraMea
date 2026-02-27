@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+  }
+}
+
+@layer components {
+  .chord-tag {
+    @apply inline-flex items-center justify-center px-2 py-0.5 rounded-full text-xs font-bold cursor-pointer transition-all duration-200;
+  }
+  .chord-tag-major {
+    @apply bg-blue-100 text-blue-700 hover:bg-blue-200;
+  }
+  .chord-tag-minor {
+    @apply bg-green-100 text-green-700 hover:bg-green-200;
+  }
+  .chord-tag-seventh {
+    @apply bg-yellow-100 text-yellow-700 hover:bg-yellow-200;
+  }
+  .chord-tag-other {
+    @apply bg-purple-100 text-purple-700 hover:bg-purple-200;
+  }
+
+  .song-content {
+    @apply font-mono text-sm leading-relaxed whitespace-pre-wrap;
+  }
+  .song-content .chord-line {
+    @apply text-blue-600 font-bold;
+  }
+  .song-content .lyric-line {
+    @apply text-gray-800;
+  }
+}
+
+/* Print styles */
+@media print {
+  nav, footer, .no-print {
+    display: none !important;
+  }
+  .song-content {
+    font-size: 12px;
+  }
+}
