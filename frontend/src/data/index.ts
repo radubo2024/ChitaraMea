@@ -8088,6 +8088,365 @@ export const songsData: Song[] = [
       }
     ],
     "views": 0
+  },
+  {
+    "id": 139,
+    "title": "Pleaca",
+    "slug": "pleaca-139",
+    "content": "INTRO:\r\n\r\nEm  C  D  G  B   x2\r\n\r\nEm                  C\r\n  Era miercuri spre joi\r\nD                   G      B  Em\r\n  Ma iubeai pan' la cer si inapoi\r\n                    C\r\n  Doua nopti mai tarziu\r\nF#                 B\r\n  Nu puteam sa zbor sau sa mai fiu...\r\n\r\nEm             C\r\n  Poza ta la minut\r\nD                 G      B       Em\r\n  O scrisoare si-atat, nimic mai mult\r\n                 C\r\n  Scria negru pe alb\r\nF#             B\r\n  Adiooo! exclamat la final...\r\n\r\n  Em                    C\r\n  Pleaca! maine o sa-mi treaca\r\n     D                G      B      Em\r\n  Ce daca durerea a venit si nu mai pleaca\r\n             C      D\r\n  Lasa-ma sa mor de dor\r\n            G       B\r\n  Fericirea mea, la naiba!\r\n  Em\r\n  Pleaca!\r\n\r\nAm ramas ca un orb\r\nNu te mai vad la mine-n viitor\r\nAm ramas ca un mut\r\nNici n-am mai apucat sa te sarut...\r\n\r\nPleaca! maine o sa-mi treaca\r\nCe daca durerea a venit si nu mai pleaca\r\nLasa-ma sa mor de dor\r\nFericirea mea, la naiba!\r\n\r\nPleaca! maine o sa-mi treaca\r\nCe daca durerea a venit si nu mai pleaca\r\nLasa-ma sa mor de dor\r\nFericirea mea, la naiba!\r\n\r\nLacrimi nu mai incap\r\nNumai tu mi-ai dat lumea peste cap\r\nIn loc sa ne iubim\r\nNe purtam ca doi anonimi\r\n\r\nPleaca! maine o sa-mi treaca\r\nCe daca durerea a venit si nu mai pleaca\r\nLasa-ma sa mor de dor\r\nFericirea mea, la naiba!\r\n\r\nEm                    C\r\nPleaca! Maine o sa-mi treaca\r\nD\r\nPleaca!\r\n\r\nPleaca! Maine o sa-mi treaca\r\nPleaca!\r\nPleaca! Maine o sa-mi treaca\r\nPleaca!\r\nPleaca! Maine o sa-mï treaca\r\nPleaca!\r\nPleaca",
+    "author": {
+      "id": 48,
+      "name": "Vunk",
+      "slug": "vunk"
+    },
+    "author_id": 48,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Em",
+      "C",
+      "D",
+      "G",
+      "B",
+      "F",
+      "F#",
+      "Am"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 140,
+    "title": "Fie sa renasca",
+    "slug": "fie-sa-renasca-140",
+    "content": "Intro: \r\n  \r\nEm D x4\r\n\r\nEm        G    D            Em\r\nFie sa renasca numai cel ce har\r\nEm          G    D            Em\r\nAre de-a renaste curatit prin jar\r\nEm         G       D               Em\r\nDin cenusa proprie si din propriul scrum\r\nEm         G        D         Em\r\nAsctazi ca si maine pururi si acum\r\n\r\n   Am           D              Em\r\n   Cat am asteptat sa vina vara\r\n   Am            D                 G\r\n   Mugurii sa se preschimbe-n flori\r\n   Am                D        G                   Em\r\n   Am trait doar cu speranta, scump platitam cutezanta\r\n   Am                D           Bm\r\n   De-a ravni un cer fara de nori\r\n   Am                   D      G                       Em\r\n   Stai de veghe si i-a seama, sa nu-ti fure altul vama\r\n   Am                   D            Em D\r\n   Cum s-a intamplat de-atatea ori",
+    "author": {
+      "id": 55,
+      "name": "Phoenix",
+      "slug": "phoenix"
+    },
+    "author_id": 55,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Em",
+      "G",
+      "D",
+      "Am",
+      "Bm"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 141,
+    "title": "Sa nu crezi nimic",
+    "slug": "sa-nu-crezi-nimic-141",
+    "content": "intro:\r\n             repeta\r\ne|-----------|---|----/12--/12---12p10p8---7---10b12--10--8--7---10b12~~-|\r\nB|--<12>--0--|---|-------------------------------------------------------|\r\nG|-----------|---|-------------------------------------------------------|\r\nD|-----------|---|-------------------------------------------------------|\r\nA|-----------|---|-------------------------------------------------------|\r\nE|-----------|---|-------------------------------------------------------|\r\n\r\nStrofa:\r\n                  Am\r\n Sa nu crezi ce-ti spun acum\r\n                  Dm        G\r\n Vorbele-mi sunt vant nebun\r\n Am       G           F  \r\n Sa nu crezi ce-ti spun acum\r\n  F  \r\n Chiar de eu iti spun\r\n     Dm             G\r\n    vei fi a mea oricum\r\n\r\n Sa nu crezi ce-auzi acum\r\n E un cantec scris pe drum\r\n Pentru ea, doar pentru ea\r\n    il voi canta oricum\r\n\r\nRef:\r\n                Em \r\n Sa nu crezi nimic\r\n                Dm\r\n Vorbele-s doar fum\r\n                Dm\r\n Iar ce simti tu lasi in drum\r\n                Am\r\n In praf de amintire\r\n\r\n\r\nsolo:\r\n\r\ne|------5-7-8------------------------------------5-|\r\nB|-----5------5---6p5\\3-5----/5p3------------5h8--|\r\nG|----5---------------------------5-5p3--5/7-------|\r\nD|---7---------------------------------------------|\r\nA|-------------------------------------------------|\r\nE|-------------------------------------------------|\r\n\r\ne|---8-10-8-7----5-7-7/8-7-5--8/10-8-7--|\r\nB|--------------------------------------|\r\nG|--------------------------------------|\r\nD|--------------------------------------|\r\nA|--------------------------------------|\r\nE|--------------------------------------|\r\n\r\n\r\ne|--10/12-10-8-7-------10-10-10--8-8-8--7-7-7-|\r\nB|--------------------------------------------|\r\nG|--------------------------------------------|\r\nD|--------------------------------------------|\r\nA|--------------------------------------------|\r\nE|--------------------------------------------|\r\n\r\ne|-----------------------8-------------------|\r\nB|-10-9~~-----------/10----10----------------|\r\nG|----------10-9-10--------------------------|\r\nD|-------------------------------------------|\r\nA|-------------------------------------------|\r\nE|-------------------------------------------|\r\n\r\n\r\ne|------------------------8-7------7--------|\r\nB|----/5-------------8h10-------10----8-8-8-|\r\nG|-------7-5---5-7/9------------------9-9-9-|\r\nD|-----------7------------------------------|\r\nA|------------------------------------------|\r\nE|------------------------------------------|\r\n\r\ne|---------------------------------------------|\r\nB|-6-6-6--5-5-5-------------5-6-8/10-9---------|\r\nG|-7-7-7--5-5-5-0h2-4-5/7----------------------|\r\nD|---------------------------------------------|\r\nA|---------------------------------------------|\r\nE|---------------------------------------------|\r\n\r\n\r\nRef:",
+    "author": {
+      "id": 56,
+      "name": "Iris",
+      "slug": "iris"
+    },
+    "author_id": 56,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "Dm",
+      "G",
+      "F",
+      "Em",
+      "E"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 142,
+    "title": "Adeline",
+    "slug": "adeline-142",
+    "content": "-toata melodia e numai pe F#m, cu o bataie de manele\r\n\r\nStrofa:\r\n   \r\n   F#m\r\n    Te-ai uitat ca un tolin\r\n                               Adeline,Adeline\r\n    Din minutul cel mai fin\r\n                               Adeline,Adeline\r\n    Scoate cu un gest de lin \r\n                               Adeline,Adeline\r\n    Geaca ei din vinilin\r\n                               Geaca ei din vinilin\r\n\r\n Ref :   solo\r\n\r\nE l---------------------------------------------------------------------l\r\nB l---------------------------------------------------------------------l\r\nG l---------------------------------------------------------------------l\r\nD l-----------------------------2---------------------------------------l\r\nA l--------------------2--2---------4---------4p2------2--2-------------l\r\nE l----2--2----5--5-------------------------------5--------------5--5---l\r\n\r\n\r\n               Adeline,Adelina\r\n         Solo\r\n               Adeline,Adelina\r\n\r\n   Aaa,aai,aai,aaai,aaa\r\n                              La da di da di di da\r\n\r\nII  Adeline chiar daca termini\r\n    Sunt vascularizat pe deplin\r\n    Însa tin sa te previn\r\n    Ai pus prea mult revulsin\r\n                          Ai pus prea mult revulsin\r\n\r\n  Ref :   solo 2\r\n                                 Se repeta\r\nE l-------------------------------l----l-------------------0---------l\r\nB l-----------2---------------2---l----l------2---------------2------l\r\nG l--------------4---------4------l----l---------4-------------------l \r\nD l------4-------------4----------l----l--4-----------4--------------l\r\nA l-------------------------------l----l-----------------------------l\r\nE l-------------------------------l----l-----------------------------l\r\n (se repeta)\r\n\r\nIII  Adeline de lin e lin\r\n     Unduitul din bazin \r\n     Bântui iar cu-n carpatin\r\n     Prin talazul Bizantin\r\n                          Prin talazul Bizantin\r\n \r\n  Ref",
+    "author": {
+      "id": 62,
+      "name": "Timpuri Noi",
+      "slug": "timpuri-noi"
+    },
+    "author_id": 62,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "F#m",
+      "E",
+      "B",
+      "G",
+      "D",
+      "A"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 143,
+    "title": "Nunta",
+    "slug": "nunta-143",
+    "content": "Am         C\r\nBine-i mirelui\r\nF                G          Am\r\nCa nu-i nimeni-n lume ca mireasa lui\r\nAm         C\r\nUita-te la ea\r\nF            G            Am\r\nRupta e din cer si mandra ca o stea.\r\n\r\nRefren:\r\nAm             C \r\nMai, ce-om mai juca\r\nF            G         Am\r\nLai, la, lai, la, la, lai\r\nSi ce-om mai canta,\r\nLai, la, lai, la, la, lai\r\n\r\nAm          F  G    Am  \r\nCe-om mai rupe la opinci\r\nF          G        E\r\nSi-om face gropi adanci\r\nDara nu ne vom opri\r\nPana in zori de zi.\r\n\r\n2.\r\nNasii mirelui,\r\nLe duc fraga, grana campului, la, la\r\nIara nasii ei\r\nRoua norilor si florile de teï.",
+    "author": {
+      "id": 55,
+      "name": "Phoenix",
+      "slug": "phoenix"
+    },
+    "author_id": 55,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "C",
+      "F",
+      "G",
+      "E"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 144,
+    "title": "Mila 2 de langa 3",
+    "slug": "mila-2-de-langa-3-144",
+    "content": "      G C D         G  C D    G   C D       G  C  D\r\nO ghitara     si un cort,  si o mare  si un port.\r\n     G   C D       G  C D\r\nGeamandura, e pe nisip,\r\n       G  C D      G  C D      \r\nNorul are,  n-are slip.\r\n\r\nC        D          G\r\nHai sa vedem un Tarantino,\r\nC        D          Em\r\nIn delta lunii cand vrei\r\nC            D       G     C     D       G\r\nHai, fie-ti mila si vino, la mila 2 de langa 3\r\n\r\nD     G     D   C\r\nLa un semn delicat,\r\n      D         G\r\nNe-apucam de piratat,\r\nD        G  D    C\r\nSpargem banca de stuff,\r\n       D            Em\r\nCa in cel mai mare bluff.\r\n\r\n\r\nO sirena si-un calcan,\r\nBarca-i beata, baru-i van.\r\nHidro-fete, solduri gay,\r\nGhiata-i moale, ele-s ei.\r\nHai sa vedem un Tarantino,\r\nIn delta lunii cand vrei.\r\nHai, fie-ti mila si vino, la mila 2 de langa 3.\r\n\r\nLa un semn delicat,\r\nNe-apucam de piratat,\r\nSpargem banca de stuff,\r\nCa in cel mai mare bluff.\r\n\r\nHai sa vedem un Tarantino,\r\nIn delta lunii cand vrei.\r\nHai, fie-ti mila si vino, la mila 2 de langa 3.\r\n\r\nLa un semn delicat,\r\nNe-apucam de piratat,\r\nSpargem banca de stuff,\r\nCa in cel mai mare bluff.\r\n\r\nLa un semn delicat,\r\nNe-apucam de piratat,\r\nPiratam doar pirati,\r\nC-un pachet de mega-watti\r\n\r\nNumai crema, numai ruj,\r\nIasiul doarme langa Cluj\r\nJeepuri triste, Rolls-uri roi,\r\nIn reviste plin de ploi.\r\n\r\n\r\nthis song rulezzzzzzz....:D:D:D have fun!",
+    "author": {
+      "id": 55,
+      "name": "Phoenix",
+      "slug": "phoenix"
+    },
+    "author_id": 55,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "G",
+      "C",
+      "D",
+      "Em"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 145,
+    "title": "Ești frumoasă",
+    "slug": "esti-frumoasa-145",
+    "content": "G          D                     C\r\nEl avea ciocate, blugi originali și geacă\r\nG            D                   C\r\nEa avea cosiță până-n brâu și costum tradițional\r\nG                D                          C\r\nȘi zi de vară până-n seară făcând febră musculară la margine de codru s-au iubit\r\nG                        D\r\nDar când soarele era la asfințit\r\n         C\r\nEl ridicându-și pantalonii, exact așa-i spunea:\r\n \r\n\tG             D             C\r\n\tFă, ești frumoasă, dar ești proastă\r\n\r\n\tDar ești proastă, oo\r\n\tG            D\r\n\tFă, ești frumoasă,\r\n\t  C         G\r\n\tProasta dracului\r\n\t(2 ori)\r\n\r\nSeara când a ajuns acasă, taică-su' se antrena cu furca-n poartă\r\nUnde-ai fost fetița mea, ea că așa și-așa o tot scălda\r\nȘi zi de vară până-n seară făcând febră musculară mătura curtea cu eaiaiaiaiaa\r\nDar când soarele era la asfințit,\r\nEl aninându-și furca-n cui, părintește îi spunea:\r\n \r\n\tRefren.",
+    "author": {
+      "id": 63,
+      "name": "Antract",
+      "slug": "antract"
+    },
+    "author_id": 63,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      },
+      {
+        "id": 4,
+        "name": "Satiră și umor",
+        "slug": "satira-si-umor",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "G",
+      "D",
+      "C"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 146,
+    "title": "Doi pasi in urma ta",
+    "slug": "doi-pasi-in-urma-ta-146",
+    "content": "  C            F                      C\r\n1. Stau in urma trenului cu care vei pleca\r\n         G\r\nSi-mi pare rau.\r\nC                F\r\nCred ca-i semnul raului,\r\nC                               G\r\nNici nu te-am sarutat. Tare mi-e greu...\r\n\r\n         C      \r\n       R. Doi pasi nu sunt departe,\r\n          Bb     F         G\r\n      Doi pasi, doi pasi in urma ta.\r\n         C\r\n      Doi pasi nu sunt departe,\r\n          Bb\r\n      Doi pasi\r\n \r\n C                   F\r\n3. Stai sa mai vorbim putin\r\n C                      G\r\nSi sa ne amintim de prima zi.\r\nC                      F\r\nVreau ochii sa ti-i zaresc,\r\n C                           G\r\nSa pot sa iti soptesc ca te iubesc.\r\n \r\n F                              C\r\n4. Vad cum la geam iti aprinzi o tigara,\r\nF                          G\r\nTragi doar un fum si-o strivesti.\r\nF                                C\r\nMana prin par ti-o petreci intr-o doara,\r\nF                   G\r\nMa uit la ceas si oftez...\r\n \r\n             C       \r\n      R. Doi pasi nu sunt departe,\r\n      Bb        F            G\r\n      Doi pasi, doi pasi in urma ta.\r\n         C\r\n      Doi pasi nu sunt departe,\r\n         Bb\r\n      Doi pasi",
+    "author": {
+      "id": 53,
+      "name": "Cargo",
+      "slug": "cargo"
+    },
+    "author_id": 53,
+    "categories": [
+      {
+        "id": 18,
+        "name": "Rock",
+        "slug": "rock",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "C",
+      "F",
+      "G",
+      "Bb"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
   }
 ];
 
@@ -8378,7 +8737,7 @@ export const authorsData: Author[] = [
     "id": 48,
     "name": "Vunk",
     "slug": "vunk",
-    "song_count": 1
+    "song_count": 2
   },
   {
     "id": 49,
@@ -8408,7 +8767,7 @@ export const authorsData: Author[] = [
     "id": 53,
     "name": "Cargo",
     "slug": "cargo",
-    "song_count": 3
+    "song_count": 4
   },
   {
     "id": 54,
@@ -8420,13 +8779,13 @@ export const authorsData: Author[] = [
     "id": 55,
     "name": "Phoenix",
     "slug": "phoenix",
-    "song_count": 6
+    "song_count": 9
   },
   {
     "id": 56,
     "name": "Iris",
     "slug": "iris",
-    "song_count": 3
+    "song_count": 4
   },
   {
     "id": 57,
@@ -8457,6 +8816,18 @@ export const authorsData: Author[] = [
     "name": "Pasărea Colibri",
     "slug": "pasarea-colibri",
     "song_count": 15
+  },
+  {
+    "id": 62,
+    "name": "Timpuri Noi",
+    "slug": "timpuri-noi",
+    "song_count": 1
+  },
+  {
+    "id": 63,
+    "name": "Antract",
+    "slug": "antract",
+    "song_count": 1
   }
 ];
 
@@ -8487,7 +8858,7 @@ export const categoriesData: Category[] = [
     "name": "Satiră și umor",
     "slug": "satira-si-umor",
     "description": "",
-    "song_count": 3
+    "song_count": 4
   },
   {
     "id": 5,
@@ -8585,7 +8956,7 @@ export const categoriesData: Category[] = [
     "name": "Rock",
     "slug": "rock",
     "description": "",
-    "song_count": 18
+    "song_count": 26
   },
   {
     "id": 19,
