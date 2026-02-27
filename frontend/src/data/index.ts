@@ -35,6 +35,52 @@ export const chordsData: Chord[] = [
   },
   {
     "id": 2,
+    "name": "A#m",
+    "type": "minor",
+    "root_note": "A#",
+    "positions": [
+      {
+        "fret": 1,
+        "string": 1,
+        "finger": 1
+      },
+      {
+        "fret": 3,
+        "string": 2,
+        "finger": 3
+      },
+      {
+        "fret": 3,
+        "string": 3,
+        "finger": 4
+      },
+      {
+        "fret": 1,
+        "string": 4,
+        "finger": 1
+      },
+      {
+        "fret": 1,
+        "string": 5,
+        "finger": 1
+      },
+      {
+        "fret": 1,
+        "string": 6,
+        "finger": 1
+      }
+    ],
+    "open_strings": [],
+    "muted_strings": [],
+    "barre": {
+      "fret": 1,
+      "from_string": 1,
+      "to_string": 6
+    },
+    "start_fret": 1
+  },
+  {
+    "id": 3,
     "name": "A7",
     "type": "dominant 7th",
     "root_note": "A",
@@ -62,7 +108,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Am",
     "type": "minor",
     "root_note": "A",
@@ -94,7 +140,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Am/C",
     "type": "unknown",
     "root_note": "AC",
@@ -105,7 +151,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Asus4",
     "type": "sus4",
     "root_note": "A",
@@ -137,7 +183,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "B",
     "type": "major",
     "root_note": "B",
@@ -180,7 +226,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "B7",
     "type": "dominant 7th",
     "root_note": "B",
@@ -216,7 +262,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Bb",
     "type": "major",
     "root_note": "Bb",
@@ -259,7 +305,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "Bdim",
     "type": "diminished",
     "root_note": "B",
@@ -290,7 +336,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "Bm",
     "type": "minor",
     "root_note": "B",
@@ -333,7 +379,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "C",
     "type": "major",
     "root_note": "C",
@@ -365,7 +411,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "C#m",
     "type": "minor",
     "root_note": "C#",
@@ -408,7 +454,43 @@ export const chordsData: Chord[] = [
     "start_fret": 4
   },
   {
-    "id": 13,
+    "id": 14,
+    "name": "C7",
+    "type": "dominant 7th",
+    "root_note": "C",
+    "positions": [
+      {
+        "fret": 3,
+        "string": 2,
+        "finger": 3
+      },
+      {
+        "fret": 2,
+        "string": 3,
+        "finger": 2
+      },
+      {
+        "fret": 3,
+        "string": 4,
+        "finger": 4
+      },
+      {
+        "fret": 1,
+        "string": 5,
+        "finger": 1
+      }
+    ],
+    "open_strings": [
+      6
+    ],
+    "muted_strings": [
+      1
+    ],
+    "barre": null,
+    "start_fret": 1
+  },
+  {
+    "id": 15,
     "name": "Cdim",
     "type": "diminished",
     "root_note": "C",
@@ -439,7 +521,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 14,
+    "id": 16,
     "name": "Cm",
     "type": "minor",
     "root_note": "C",
@@ -482,7 +564,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 15,
+    "id": 17,
     "name": "D",
     "type": "major",
     "root_note": "D",
@@ -514,7 +596,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 16,
+    "id": 18,
     "name": "D7",
     "type": "dominant 7th",
     "root_note": "D",
@@ -546,7 +628,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 17,
+    "id": 19,
     "name": "Ddim",
     "type": "diminished",
     "root_note": "D",
@@ -578,7 +660,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 18,
+    "id": 20,
     "name": "Dm",
     "type": "minor",
     "root_note": "D",
@@ -610,7 +692,43 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 19,
+    "id": 21,
+    "name": "Dm7",
+    "type": "minor 7th",
+    "root_note": "D",
+    "positions": [
+      {
+        "fret": 2,
+        "string": 4,
+        "finger": 2
+      },
+      {
+        "fret": 1,
+        "string": 5,
+        "finger": 1
+      },
+      {
+        "fret": 1,
+        "string": 6,
+        "finger": 1
+      }
+    ],
+    "open_strings": [
+      3
+    ],
+    "muted_strings": [
+      1,
+      2
+    ],
+    "barre": {
+      "fret": 1,
+      "from_string": 5,
+      "to_string": 6
+    },
+    "start_fret": 1
+  },
+  {
+    "id": 22,
     "name": "E",
     "type": "major",
     "root_note": "E",
@@ -641,7 +759,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 20,
+    "id": 23,
     "name": "E7",
     "type": "dominant 7th",
     "root_note": "E",
@@ -668,7 +786,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 21,
+    "id": 24,
     "name": "Eb",
     "type": "major",
     "root_note": "Eb",
@@ -703,7 +821,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 22,
+    "id": 25,
     "name": "Em",
     "type": "minor",
     "root_note": "E",
@@ -730,7 +848,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 23,
+    "id": 26,
     "name": "F",
     "type": "major",
     "root_note": "F",
@@ -776,7 +894,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 24,
+    "id": 27,
     "name": "F#",
     "type": "major",
     "root_note": "F#",
@@ -822,7 +940,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 25,
+    "id": 28,
     "name": "F#7",
     "type": "dominant 7th",
     "root_note": "F#",
@@ -868,7 +986,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 26,
+    "id": 29,
     "name": "G",
     "type": "major",
     "root_note": "G",
@@ -899,7 +1017,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 27,
+    "id": 30,
     "name": "G#",
     "type": "major",
     "root_note": "G#",
@@ -945,7 +1063,7 @@ export const chordsData: Chord[] = [
     "start_fret": 4
   },
   {
-    "id": 28,
+    "id": 31,
     "name": "G7",
     "type": "dominant 7th",
     "root_note": "G",
@@ -976,7 +1094,7 @@ export const chordsData: Chord[] = [
     "start_fret": 1
   },
   {
-    "id": 29,
+    "id": 32,
     "name": "Gm",
     "type": "minor",
     "root_note": "G",
@@ -3120,6 +3238,1350 @@ export const songsData: Song[] = [
       }
     ],
     "views": 0
+  },
+  {
+    "id": 44,
+    "title": "Rău mă dor ochii, mă dor",
+    "slug": "rau-ma-dor-ochii-ma-dor-44",
+    "content": "Capo III\r\n\r\n   G                       C\r\n1. Rau ma dor ochii, ma dor\r\n\tD\tG\r\nDe durerea frunzelor\r\n\r\n         Em              D C\r\nR: Si ma duc si iar ma duc\r\n\tD\t\tG\r\n   Pana la izvor sub nuc\r\n         Em\t    D \t   C\r\n   Si ma fac si iar ma fac\r\n            D              G\r\n   Lemn de brad si lemn de fag\r\n\r\n\r\n 2. Rau ma dor picioarele\r\n    De batut cararile\r\n\r\n3. Rau ma dor ochii, ma dor\r\n   De lumina stelelor\r\n\r\n4. Unde ai plecat nu stiu\r\n   Dar mi-e sufletul pustiu\r\n\r\n5. Si-am sa plec fara sa stiu\r\n   Dus de dorul meu tarziu",
+    "author": {
+      "id": 3,
+      "name": "Anonim",
+      "slug": "anonim"
+    },
+    "author_id": 3,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "G",
+      "C",
+      "D",
+      "Em"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 45,
+    "title": "Râpa",
+    "slug": "rapa-45",
+    "content": "Em          D     Em\r\nLa marginea pantei abrupte (o-o-o-o)\r\nC         D         Em\r\nLa un han s-a oprit un strain (strain-strain)\r\nC         D               G       D   Em\r\nEra trist si avea hainele rupte o-o-o-o \r\nEm          D        Em\r\nSi pe masa o cana cu vin (cu vin-cu vin) [Era trist.... x2         \r\n\r\nOm nebun ce-nconjoara pamantul (o-o-o-o)\r\nStai la mine, ramai doar un ceas (un ceas-un ceas) \r\nSa te-ntorci inapoi nu mai ai unde o-o-o-o\r\nInainte sa maergi ti-a ramas (ramas-ramas)  [Sa te-n.... x2\r\n\r\nMi-amintesc de o vara fierbinte (o-o-o-o)\r\nDe o padure cu muguri pe ram (pe ram-pe ram)\r\nMi-amintesc de prieteni si de iubita 0-0-0-0 \r\nSi de-o casa cu mama la geam. (la geam-la geam) [Mi-amintesc... x2\r\n \r\n\r\nSi am ajuns la un han pe o stanca  (o-o-o-o)\r\nSa-mi inec tot amarul nu pot (nu pot-nu pot)\r\nSi ma-ntreb daca apa e adanca o-o-o-o \r\nSa ma-nec azi cu jale cu tot. (cu tot-cu tot) [ Si ma-.... x2\r\n\r\nL-am vazut ridicandu-se agale (o-o-o-o)\r\nAvea ochi plini de lacrimi de dor (de dor-de dor)\r\nMultumesc pentru vinul mariei tale o-o-o-o\r\nEu ma duc azi la rapa sa mor (sa mor-sa mor)  [Multumesc.... x2\r\n\r\nLinia melodica o gasiti la coverul facut de mine pe youtube\r\nhttp://www.youtube.com/watch?v=ef7sddFChaQ",
+    "author": {
+      "id": 22,
+      "name": "Trupa Şanţ",
+      "slug": "trupa-sant"
+    },
+    "author_id": 22,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Em",
+      "D",
+      "C",
+      "G"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 46,
+    "title": "Castelul",
+    "slug": "castelul-46",
+    "content": "Am               C \r\nCandva demult un crang de brazi\r\nG              Am  \r\nPazea un vechi castel\r\nAm              C \r\nSi-o satra de tigani nomazi\r\nG            Am\r\nA poposit in el\r\n\r\nRefren:   Am      C   G       Am\r\n          Aaaaaaaaa   nananananana\r\n          Am      C   G       Am\r\n          Ooooooooo   nananananana\r\n\r\nSi-aveau tiganii ochi adanci \r\nSi galbeni prinsi in plete\r\nSi-aveau cu ei un card de tanci\r\nSi-un card de negre fete\r\n\r\nRefren: \r\n\r\n\r\n3. Si cum faceau tiganii foc \r\nDin crengile de pin\r\nTiganci cu carti si cu ghioc\r\nPlecara prin vecini\r\n\r\nRefren:\r\n\r\n4. Candva un tanar castelan\r\nPrivind prin vechi ferestre\r\nZari o fata de tigan\r\nFrumoasa ca-n poveste\r\n\r\nRefren:\r\n\r\n5.Si-avea cu el în drumul sau\r\nUn biet copil de casa\r\nL-a pus s-aduca la castel\r\nTiganca cea frumoasa\r\n\r\nRefren:\r\n\r\n6.Trecu un an, mai mult de-atunci\r\nSi-n patul de matasa\r\nFrumoasa fata de tigan\r\nEra acum craiasa\r\n\r\nRefren:\r\n\r\n7. Of, domnul meu, iubitul meu\r\nMi-ai spus acum un an\r\nC-ai vrea sa-ti fiu mireasa eu\r\nEu, fata de tigan\r\n\r\nRefren:\r\n\r\n8.Si cum statea într-un balcon\r\nSi-si acorda chitara\r\nUn cântec rasuna duios\r\nPentru tiganca seara\r\n\r\n\r\nPuteti pune capo pe 1 , dar se poate canta fara capo .....",
+    "author": {
+      "id": 23,
+      "name": "Nae Berechet",
+      "slug": "nae-berechet"
+    },
+    "author_id": 23,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "C",
+      "G",
+      "A"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 47,
+    "title": "Refugiu Diana / Imnul Dianei",
+    "slug": "refugiu-diana-imnul-dianei-47",
+    "content": "1.\r\n Em        B7        Em\r\nAm pornit sa recladim Diana  \r\n      G     D       Em\r\nUn refugiu vechi si parasit\r\n    G        D          G D Em\r\nAm lasat spritul si damigeana\r\n          C     B7       Em\r\nSi spre Plaiul Foii am pornit.\r\n\r\n\r\n        Refren:\t\r\n\t\r\n\t Am   D    G     Am          Em\r\n\tMama unde esti? Bate-ma de vrei\r\n              B7        Em\r\n\tDar vino sa ma iei !\r\n\tMama unde esti? Poti sa ma si bati\r\n\tDar lasa-ma in Carpati !\r\n\r\n2.\r\nSi intr-o zi cu ploaie si cu ceata\r\nCu rucsacii-n spate si vopsea\r\nIn alertul nostru pas de rata\r\nAm atacat-o pe Diana.\r\n\r\n3.\r\nScândura mica, scândurica lata\r\nTe-am purta pana ne facem mici\r\nSi echipa noastra cocosata\r\nParca-ar fi o ceata de pitici.\r\n\r\n4.\r\nTotu-i bine pana la-nserare\r\nCând cu lacrimi calde ne rugam\r\nO, Ceresc Parinte, îndurare!\r\nFa mai cald sa nu mai înghetam.\r\n\r\n5.\r\nSi-am ajuns acolo toti o forta\r\nSi-ntr-o scurta clipa de ragaz\r\nAm aprins a tineretii torta\r\nDe indata ce-am ajuns in Crai.",
+    "author": {
+      "id": 24,
+      "name": "Cântece de munte",
+      "slug": "cantece-de-munte"
+    },
+    "author_id": 24,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      },
+      {
+        "id": 14,
+        "name": "Imnuri",
+        "slug": "imnuri",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Em",
+      "B7",
+      "G",
+      "D",
+      "C",
+      "Am"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 48,
+    "title": "Ninge astazi pentru tine",
+    "slug": "ninge-astazi-pentru-tine-48",
+    "content": "G           Am          C       D        G\r\n1. Ninge astazi pentru tine muntele e alb de nea,\r\n   G          Am          C    D             G\r\n   Soarele din ceruri vine doar pentru iubita mea.\r\n   Acum coboara si dorul chemat de la locul lui,\r\n   Tocmai de pe Vârful Omu pâna-n Valea Cerbului.\r\n   \r\n\r\n                   R:  Când te scuturi de zapada\r\n                       Nu stii cât esti de frumoasa\r\n                       Ochii-ti verzi zapada-i alba\r\n                       Si se face cald în casa.\r\n\r\n2. Si calugarii din schit vor cu totii a te vedea,\r\n   La cabana au venit doar pentru iubita mea.\r\n   Si zapada de pe culme în vale s-a rostogolit,\r\n   Muntele e pus pe glume de când stie c-ai venit.\r\n   \r\n3. Jepii Mici ca sa te vada si-au cumparat ochelari,\r\n   Si în cea mai mare graba i-au chemat pe Jepii Mari.\r\n   Nu stiu sigur azi sau mâine pe Morar am sa te sui,\r\n   Sa ne logodim iubito sus în vârful muntelui.\r\n\r\nhttp://www.youtube.com/watch?v=0ZztyJ1zcy4&feature=player_detailpage\r\nInterpretare :Puiu Cazan",
+    "author": {
+      "id": 25,
+      "name": "Puiu Cazan",
+      "slug": "puiu-cazan"
+    },
+    "author_id": 25,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "G",
+      "Am",
+      "C",
+      "D"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 49,
+    "title": "Floare de Colt",
+    "slug": "floare-de-colt-49",
+    "content": "Em       B7          Em   \r\nVis de-argint si de petale\r\nD                    G     ( G7 )\r\nCuibul tau e sus pe creste\r\nC      D             G\r\nRaza ta-mi coboara-n cale\r\nAm     B7            Em     ( G7 )\r\nMai frumos ca-ntr-o poveste\r\nC      D              ( Bm A#m Am ) /G\r\nRaza ta-mi coboara-n cale\r\nAm      B7             Em\r\nMai frumos ca-ntr-o poveste\r\n\r\n\r\nE--0-2-3- Am  \r\n\r\nAm            Em\r\nTu floare de colt\r\nB7            Em\r\nMinune sub bolti\r\nAm         Em\r\nFrageda stea\r\nB7         Em\r\nIubita mea !\r\nX2",
+    "author": {
+      "id": 19,
+      "name": "Ducu Bertzi",
+      "slug": "ducu-bertzi"
+    },
+    "author_id": 19,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      },
+      {
+        "id": 3,
+        "name": "Folk",
+        "slug": "folk",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Em",
+      "B7",
+      "D",
+      "G",
+      "G7",
+      "C",
+      "Am",
+      "Bm",
+      "A#m"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 50,
+    "title": "Imnu Pietrei Craiului",
+    "slug": "imnu-pietrei-craiului-50",
+    "content": "   Dm             F     C          Dm\r\n1. Avem un singur Crai ce-asteapta neclintit\r\nDm          F           C       Dm\r\nCu ale sale creste ce-s rosii-n asfintit\r\nPlecam sâmbata seara, urcam toti împreuna\r\nSi liberi ca sa fim sub cerul clar de luna\r\nSa vii sa îl strabatem pe ale sale drumuri\r\nSa vezi cum cresc la brazi cu miile de muguri\r\nSa vezi si jneapanul cum creanga si-a plecat\r\nCe vitrega-i natura si-i vântu-i neîncetat\r\n\r\n   Dm                 F   C         Dm\r\nR: Si vreau sa vii si tu, sa mergem împreuna\r\nDm          F       C        Dm\r\nSa împletim acolo a Craiului cununa\r\nDm           F     C                Dm\r\nDin garofite rosii si din bujori de munte\r\nC          Am               Dm\r\nDin liliac si flori de colt carunte\r\nDm         C      Am               Dm\r\nHei, hai,  liliac si flori de colt carunte\r\n\r\n\r\n2. De pleci din Plaiul Foii pe drumul pietruit\r\nAi sa ajungi la Spirla, refugiul poleit \r\nSa-i întâlnesti pe marius, pe ghimpe si pe dan\r\nSi vei vedea ce-nseamna sa fii un muntoman \r\nDe urci înspre Ascunsa pe Hornul Nisipos\r\nE noapte si e iarna si vântul e taios \r\nSa simti rucsacu-n spate, o munca de Sisif\r\nSi mâna pe chitara lipindu-se de griff\r\n\r\n\r\n3. De pleci din Curmatura, traseu pe banda-albastra\r\nAjungi în Saua Caprei, cobori apoi sub creasta\r\nSa treci si de Gavan, de Padina Închisa\r\nDe stânca Orgii Mari si de Diana stinsa\r\nDe vrei sa stii ce-i munte, sa urci pe Crapatura\r\nSi prin zapada inalta , sa mângâi stânca dura\r\nSa treci si de-Ascutiti, Timbalele-amândoua\r\nDe stanca orgii mari cand ninge si când ploua\r\n\r\n4. Pe Lanturi de te-ncumeti în nopti cu luna plina\r\nSi prin zapada-nalta sa tai poteca lina\r\nCând ochii tai se-nalta spre bolta înstelata\r\nLa crucea unei fete sa-ngenunchezi o data\r\nCând râuri de sudoare-ti vor sirui pe fata\r\nSa ai credinta-n munte si-ncredere în viata\r\nAicea sus pe munte nimic nu e usor\r\nMai bine stati acasa în poala mamelor\r\n\r\n\r\n\r\nRitmul este foarte usor , voi poasta un video cu aceasta piesa\r\nVideoul pe care lam facut pentru aceasta piesa : http://www.youtube.com/watch?v=YaYROYlEhnI",
+    "author": {
+      "id": 24,
+      "name": "Cântece de munte",
+      "slug": "cantece-de-munte"
+    },
+    "author_id": 24,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      },
+      {
+        "id": 14,
+        "name": "Imnuri",
+        "slug": "imnuri",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Dm",
+      "F",
+      "C",
+      "Am",
+      "E"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 51,
+    "title": "Sunt sărac",
+    "slug": "sunt-sarac-51",
+    "content": "Am           Dm            \r\nMă întreb ce s-ar fi întâmplat\r\nF      C         E           Am   - Am E\r\nDacă-n zori m-aș fi trezit bogat.\r\nAm         Dm\r\nDeseori la asta m-am gândit,\r\nF    C     E              Am\r\nÎnsă visul meu nu s-a-mplinit.\r\n\r\nRefren: \r\n\r\n       Dm           Am\r\nSunt sărac, sunt sărac,\r\n        Dm          Am\r\nN-am un ban în buzunar,\r\n       Dm         Am\r\nSunt sărac, și ce dacă,\r\n      E           Am      \r\nEu cu soarta mă împac.  \r\n           Dm           Am\r\n     Sunt sărac, sunt sărac,\r\n             Dm          Am\r\n     N-am un ban în buzunar,\r\n            Dm         Am\r\n     Sunt sărac, și ce dacă,\r\n           E           Am      - Am E\r\n     Eu cu soarta mă împac.  \r\n\r\n\r\nBanul e - vorba țăranului,\r\nBanul este ochiul dracului. \r\nCând îl ai îți pare foarte mic,\r\nCând nu-l ai, nu valorezi nimic.\r\n\r\nFericirea n-o poți cumpăra\r\nNici cu bani și nici cu altceva.\r\nCânt și nimeni nu mă poate-opri\r\nSă dau glas tăcerii inimii.",
+    "author": {
+      "id": 26,
+      "name": "Karma",
+      "slug": "karma"
+    },
+    "author_id": 26,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "Dm",
+      "F",
+      "C",
+      "E"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 52,
+    "title": "Visul",
+    "slug": "visul-52",
+    "content": "G                    Em                 C               D        \r\nA fost odata un vis frumos un vis frumos cu un baiat si-o fata\r\nG                  Em                 C             D\r\nA fost un vis cam dureros cam dureros de te ranesc ma iarta.\r\nA fost un vis nascut în munti, nascut în munti crescut la o cabana\r\nUmbrit de brazi înalti carunti înalti carunti ce astazi se destrama\r\n\r\n\r\nRefren:\r\n\r\n\r\nG                       Em\r\nDe ce va destramati usor va destramati\r\nC            D\r\nVoi vise pe poteci\r\nG                       Em\r\nÎn amintirea muntilor, a muntilor\r\n      C        D\r\nSa dainuiti pe veci.\r\n\t\r\nCad stelele ard lumânari pe-al muntelui altar\r\nVin cerbii iarasi pe carari padurile tresar\r\nIzvoarele în sopot lin vestesc iubirea  noastra\r\nIar ale tale vise vin sa-ti bata la fereastra.\r\n\r\n\r\nRamâi cu bine visul meu si s-auzim de bine\r\nTe voi pastra în gând mereu voi fi mereu cu tine\r\nIar cel ce va veni apoi pe munte tu sa-l aduci\r\nVa voi veghea pe amândoi pe creste de-ai sa-l urci.",
+    "author": {
+      "id": 24,
+      "name": "Cântece de munte",
+      "slug": "cantece-de-munte"
+    },
+    "author_id": 24,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "G",
+      "Em",
+      "C",
+      "D",
+      "A"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 53,
+    "title": "Padure Nebuna",
+    "slug": "padure-nebuna-53",
+    "content": "Em\r\nO vara intreaga m-a tinut padurea\r\nG\r\nCu fata in iarba si cu gandul aiuria\r\nEm\r\nIar acum in toamna la plecare\r\nG                    D            Em\r\nSe tanguie ca ma rup din inima ei si o doare\r\n\r\n\r\nrefren:\r\nG\r\nPadure, padure nebuna\r\nEm\r\nIn fiecare noapte cu luna\r\nG\r\nVoi ratacii fara tinta agale\r\nEm                  D                  Em\r\nCa o frunza manata de vant pe potecile tale\r\n\r\n\r\nEm\r\nIn fiecare noapte de iarna\r\nG\r\nUmbra mea alba va veni sa se-astearna\r\nEm\r\nCa o ursoaica cu puii ucisi\r\nG                     D          Em\r\nLa umbra stejarilor pradati de frunzis \r\n\r\n\r\nrefren:\r\nG\r\nPadure,padure nebuna\r\nEm\r\nIn fiecare noapte cu luna\r\nG\r\nVoi ratacii fara tinta agale\r\nEm                   D                 Em\r\nCa o frunza manata de vant pe potecile tale\r\n\r\n\r\nEm\r\nIn fiecare dimineata\r\nG\r\nUneori ca o umbra,alteori ca o ceata\r\nEm\r\nCa o negura sau ca o bruma\r\nG                    D                Em\r\nVoi veni,voi veni,nu te mai tangui padure nebuna",
+    "author": {
+      "id": 27,
+      "name": "Carmen Ciocolata",
+      "slug": "carmen-ciocolata"
+    },
+    "author_id": 27,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Em",
+      "G",
+      "D"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 54,
+    "title": "Muntele alb",
+    "slug": "muntele-alb-54",
+    "content": "Bataia: clasica (jjssjs)\r\nIntro: Am Am\r\n\"-\" reprezinta jumatati de acord\r\n\r\n    Am  -    E     Am \r\n1.Ninge cu vorbe secate\r\n        G  \r\n  Când iarna e grea\r\n        C \r\n  Si viscolul bate\r\n    Dm  -     E     Am    \r\n  Ninge cu vorbe secate.\r\n  Am   -   E      Am       \r\n  Si iarna e solitarã\r\n        G \r\n  Când stele de gheatã\r\n      C \r\n  Scânteie afarã\r\n  Dm   -   E       Am      \r\n  Si iarna e solitarã.\r\n\r\n           G              C        \r\nR: Tu esti muntele alb pe care urcãm\r\n         Dm             Am     \r\n   Si-nãltimile tale ne cad la picioare,\r\n           E       Am    \r\n   Tu esti muntele alb.\r\n   Tu esti visul meu alb În care mã-mbrac\r\n   În miresme de crin si de liliac\r\n   Tu esti visul meu alb. +Am\r\n\r\n2.Ninge cu vorbele tale\r\n  E iarnã fierbinte\r\n  Ca o rugãminte\r\n  Ninge cu vorbele tale.\r\n  Si te-as iubi în ianuarie\r\n  Ca pe-o floare de crin\r\n  Ca pe-o stea cãzãtoare\r\n  Si te-as iubi în ianuarie.\r\n\r\n\r\n3.Si îmi pãstrez jurãmântul\r\n  Sã fiu o biatã frunzã\r\n  Ce-o leagãnã vântul\r\n  Si îmi pãstrez jurãmântul.\r\n  Iar tu rãmâi ca o sete\r\n  Pe care-o astâmperi\r\n  Când iarna începe\r\n  Iar tu rãmâi ca o sete.",
+    "author": {
+      "id": 24,
+      "name": "Cântece de munte",
+      "slug": "cantece-de-munte"
+    },
+    "author_id": 24,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "E",
+      "G",
+      "C",
+      "Dm"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 55,
+    "title": "Rau ma dor ochii",
+    "slug": "rau-ma-dor-ochii-55",
+    "content": "Bataia :clasica (jjssjs)\r\nIntro: c c \r\n\r\n  C       C             C   C          \r\n1. Rau ma dor ochii, ma dor\r\n  G     G           C   C   \r\n   De durerea frunzelor\r\n\r\n         Am        Am            G             G     \r\nR: Si ma duc,si ma duc,si iar ma duc,si iar ma duc\r\n                     C    C\r\n   Pana la izvor sub nuc\r\n         Am        Am            G             G   \r\n   Si ma fac,si ma fac,si iar ma fac,si iar ma fac\r\n                           C    C  \r\n   Lemn de brad si lemn de fag\r\n\r\n2. Rau ma dor picioarele\r\n   De batut cararile\r\n\r\nRefren:\r\n\r\n3. Rau ma dor ochii, ma dor\r\n   De lumina stelelor\r\n\r\nRefren:\r\n\r\n4. Rau ma doare inima\r\n   Ca iubesti pe-altcineva\r\n\r\nRefren:\r\n\r\n5. Unde ai plecat nu stiu\r\n   Dar mi-e sufletul pustiu\r\n\r\nRefren:\r\n\r\n6. Si-am sa plec fara sa stiu\r\n   Dus de dorul meu tarziu",
+    "author": {
+      "id": 28,
+      "name": "Vârf Carpatin",
+      "slug": "varf-carpatin"
+    },
+    "author_id": 28,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "C",
+      "G",
+      "Am"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 56,
+    "title": "Imnul Dianei",
+    "slug": "imnul-dianei-56",
+    "content": "Am             E        Am\r\nSi-am pornit sa recladim Diana\r\nAm        E      Am       Am\r\nUn refugiu ars si parasit/(parasit)\r\nAm    C           E        Am\r\nSi-am lasat sticla si damigeana\r\nAm     C     E       Am\r\nSi din Plaiul Foii am pornit, \r\nAm   C            E        Am\r\nSi-am lasat sticla si damigeana\r\nAm    C      E       Am\r\nSi din Plaiul Foii am pornit. \r\n\r\n\r\n                 Refren:\r\n                     Am E  Am\r\n                     O, O, O, \r\n                     Am   E    Am    Dm            Am\r\n                     Mama unde esti? Poti sa ma si bati\r\n                     E             Am\r\n                     Dar lasa-ma-n Carpati !\r\n                     Am      C     E   E   Am\r\n                     Darira, rira, ri, ra, ra\r\n                     Am   G    C     Dm         Am\r\n                     Mama unde esti? Bate-ma de vrei\r\n                     E              Am\r\n                     Dar lasa-ma cu ei !\r\n\r\n\r\n   Si intr-o zi cu ploaie si cu ceata\r\n   Cu rucsaci in spate si vopsea/ (si vopsea)\r\n   In alertul nostru pas de rata\r\n   Am atacat-o pe Diana,\r\n   In alertul nostru pas de rata\r\n   Am atacat-o pe Diana.\r\n\r\n\r\n   Scandura mica, scandura lata\r\n   O caram pana ne facem mici/ (ne facem mici)\r\n   Si echipa noastra-i cocosata\r\n   Parc-ar fi o ceata de pitici,\r\n   Si echipa noastra-i cocosata\r\n   Parc-ar fi o ceata de pitici.\r\n\r\n   Totu-i bine pan'la inserare\r\n   Cand cu calde lacrimi ne rugam/ (ne rugam)\r\n   O, Ceresc Parinte, indurare!\r\n   Fa mai cald sa nu mai inghetam,\r\n   O, Ceresc Parinte, indurare!\r\n   Fa mai cald sa nu mai inghetam.\r\n\r\n   Si-am ajuns acolo toti o forta\r\n   Si-ntr-o scurta clipa de ragaz (de ragaz)\r\n   Am aprins a tineretii torta\r\n   De indata ce-am ajuns in Crai,\r\n   Am aprins a tineretii torta\r\n   De indata ce-am ajuns in Crai.",
+    "author": {
+      "id": 24,
+      "name": "Cântece de munte",
+      "slug": "cantece-de-munte"
+    },
+    "author_id": 24,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      },
+      {
+        "id": 14,
+        "name": "Imnuri",
+        "slug": "imnuri",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "E",
+      "C",
+      "Dm",
+      "G"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 57,
+    "title": "Puiul de drac (Cade copacu`)",
+    "slug": "puiul-de-drac-cade-copacu-57",
+    "content": "G         Em              C        D \r\nHei m-am dus m-am dus, sa tai un copac\r\n\r\n       G        Em        C        D\r\nSi-a venit a venit, un mic pui de drac\r\n\r\n        G          Em       C        D\r\nSi mi-a spus mi-a spus, sa nu tai copacul,\r\n \r\n         G           Em            C            D\r\nC-o sa-mi scoata un ochi si-o sa-mi sparga si capul,\r\n\r\n      G       Em      C        D\r\nInsa eu insa eu, nu l-am ascultat\r\n \r\n         G        Em        C      D\r\nSi m-am dus m-am dus, sa tai un copac.\r\n\r\n\r\n\r\n G          D         G\r\nCadeee, da-te ba ca cadeee\r\n\r\nG           G          Em       C        D\r\nDaa-te ba ca cade cade cade cade cade copacu`\r\n\r\nG           Em          C       D\r\nCurge curge curge curge curge coniacu`\r\n\r\n\r\n\r\n           G        Em       c       D\r\nHei m-am dus m-am dus, sa beau un coniac\r\n\r\n       G       Em      C          D\r\nSi-a venit a venit, acel pui de drac\r\n\r\n         G          Em      C         D\r\nSi mi-a spus mi-a spus, sa nu beau coniacul,\r\n\r\n          G           Em             C          D\r\nC-o sa-mi scoata un ochi si-o sa-mi sparga si capul,\r\n\r\n      G       Em      C         D\r\nInsa eu insa eu, nu l-am ascultat\r\n\r\n        G       Em        C       D\r\nSi m-am dus m-am dus, sa beau un coniac.\r\n\r\n  G          D           G\r\nCurgeee, da-te ba ca curgeee\r\n\r\n   G           G          Em          C      D\r\nDaa-te ba ca curge curge curge curge curge coniacu`\r\n\r\n G        Em         C     D\r\nCade cade cade cade cade copacu`.\r\n\r\n\r\n\r\n G          D         G\r\nCadeee, da-te ba ca cadeee\r\n\r\nG           G          Em       C        D\r\nDaa-te ba ca cade cade cade cade cade copacu`\r\n\r\nG           Em          C       D\r\nCurge curge curge curge curge coniacu`",
+    "author": {
+      "id": 3,
+      "name": "Anonim",
+      "slug": "anonim"
+    },
+    "author_id": 3,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "G",
+      "Em",
+      "C",
+      "D"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 58,
+    "title": "Omul bun si pomul copt",
+    "slug": "omul-bun-si-pomul-copt-58",
+    "content": "F\r\n 1 Omul bun si pomul copt , dar\r\n    Bb   Dm          C\r\n   Hai mai dorule hai\r\n     F\r\n   Astia n-or avut noroc\r\n    Bb   C7         F\r\n   Hai mai dorule hai\r\n \r\n \r\n   Ref:   Bb       C         F\r\n         Stau la margine de drum\r\n           Bb     C7          F \r\n         Pomul copt si amul bun\r\n             Bb        C         F   \r\n         Si stau la margine de drum\r\n           Bb      C7           F\r\n         Pomu-i copt si omu-i bun\r\n \r\n      F\r\n  2 Dupa ce-or da ce-or avuta\r\n     Bb   Dm         C \r\n    Hai mai dorule hai\r\n      F\r\n    I-o lasat i-o parasita\r\n     Bb   Dm         F \r\n    Hai mai dorule hai\r\n\r\n      F\r\n  3 Si-asa ca-i venea sa creasca\r\n     Bb   Dm         C \r\n    Hai mai dorule hai\r\n      F\r\n    Poate-o mai rodi vreidata\r\n     Bb   Dm         F\r\n    Hai mai dorule hai",
+    "author": {
+      "id": 29,
+      "name": "Mircea Rusu Band",
+      "slug": "mircea-rusu-band"
+    },
+    "author_id": 29,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "F",
+      "Bb",
+      "Dm",
+      "C",
+      "C7"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 59,
+    "title": "Tu sa stai cuminte acasa",
+    "slug": "tu-sa-stai-cuminte-acasa-59",
+    "content": "C                F\r\nE greu urcusul, vantul ma sfasie\r\nG                      C\r\nSi viata mi-e legata de-o franghie\r\nC                   F\r\nIn jurul meu se lasa ceata deasa\r\nG                   C\r\nIubito, tu sa stai cuminte acasa.\r\nC                   F\r\nIn jurul meu se lasa ceata deasa\r\nG                   C\r\nIubito, tu sa stai cuminte acasa.\r\n\r\nSi bate crivat rece dintr-o parte\r\nStau atarnat intre destin si moarte\r\nUn fel de liniste incet m-apasa\r\nIubito, tu sa stai cuminte acasa.\r\n\r\nMai fac un pas si-ncremenesc pe stanca\r\nSub mine e prapastie adanca\r\nSimt cum puterile incet ma lasa\r\nIubito, tu sa stai cuminte acasa.\r\n\r\nPe-o piatra mi-a alunecat piciorul\r\nSub mine se intinde negru golul\r\nSi franghia-i pe jumatate roasa\r\nIubito, tu sa stai cuminte acasa.\r\n\r\nDin clipa-n clipa vantul se-nteteste\r\nSi-n stanca inghetata ma izbeste\r\nS-a pus ca din senin o ceata deasa\r\nIubito, tu sa stai cuminte acasa.\r\n\r\nAm inghetat, nimic nu ma mai doare\r\nSi parca urla lupii-n departare\r\nUn fel de liniste incet m-apasa\r\nIubito, tu sa stai cuminte acasa.\r\n\r\nAud o voce ca din nefiinta\r\nCare-mi sopteste groaznic o sentinta\r\nSi simt o ameteala pacatoasa\r\nIubito, tu sa stai cuminte acasa.\r\n\r\nMana-nghetata-ncet mi se desprinde\r\nSi-n liniste infinitul ma cuprinde\r\nUn ultim salt de circ dar fara plasa\r\nIubito, tu sa stai cuminte acasa.\r\n\r\nSi cand in muntii goi un vant va bate\r\nTu pleaca-ti ochii in singuratate\r\nSi cand tacuta noapte-n geam se lasa\r\nIubito, tu sa stai cuminte acasa.",
+    "author": {
+      "id": 24,
+      "name": "Cântece de munte",
+      "slug": "cantece-de-munte"
+    },
+    "author_id": 24,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "C",
+      "F",
+      "G",
+      "E",
+      "Am"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 60,
+    "title": "M-a tinut mama acasa",
+    "slug": "m-a-tinut-mama-acasa-60",
+    "content": "C          F              ritm:2 batai in jos 2 in sus 1 in jos 1 in sus..\r\nM-a tinut mama acasa\r\nG             C\r\nSa nu vin la tine\r\n            F\r\nInsa eu am tot rugat-o\r\nG              C\r\nPan' s-a plictisit de mine\r\n\r\n\r\nREFREN:\r\n\r\n\r\n       F\r\nNu mai pot hei hei\r\nG        C\r\nSa mai suport\r\n   F\r\nLa munte vreau\r\nG\r\n###Sa ma intorc\r\n\r\ndaca ai un ghid nebun\r\nsi-un nebun sa-ti cante \r\nori ce-ar zice-ai tai parinti\r\ntu sa te intorci la munte\r\n\r\n\r\nrefren",
+    "author": {
+      "id": 24,
+      "name": "Cântece de munte",
+      "slug": "cantece-de-munte"
+    },
+    "author_id": 24,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "G",
+      "C",
+      "F"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 61,
+    "title": "Omagiu unui alpinist",
+    "slug": "omagiu-unui-alpinist-61",
+    "content": "Am\t    C\t  Dm   F    C\t \r\nNinge peste munte cu melancolie \r\nDm\t    E\t    Dm\t F   E\t \r\nNinge peste moartea unui alpinist \r\nNinge peste creste, ninge si sfarseste\r\nInima ce-mi bate azi in pieptu-mi trist.\r\n\r\nRefren:\r\nAm\t    E\t \r\nNinge sfant si pagan, \r\nF\t    C\t \r\nNumai ochii ne raman \r\nAm\t    E7        Am\t\r\nDespartirea s-o mai vada \r\nCaci in munti noi ne-am strans\r\nSi-am ajuns de-atata nins\r\nNiste oameni de zapada.\r\n\r\nStanca grea si dura viata i-a rapit\r\nDuhurile vaii casa i-au facut\r\nGiulgiu-i de zapada pe care-a iubit-o\r\nVantul il jeleste ca la inceput.\r\n\r\nVoi cei ce astazi dormiti in munte\r\nVoi pe care stanca dura v-a invins\r\nO, pustietatea lasa sa v-asculte\r\nIar soptirea blanda mi se pare plans.\r\n\r\nPulberea uitarii ninge pe morminte\r\nCei legati in coarda nu va vom uita\r\nCatre culmea vietii mergem inainte\r\nPana-n cllipa-n care stanca ne-o trada.",
+    "author": {
+      "id": 3,
+      "name": "Anonim",
+      "slug": "anonim"
+    },
+    "author_id": 3,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "C",
+      "Dm",
+      "F",
+      "E",
+      "E7"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 62,
+    "title": "Imnul Bucegilor",
+    "slug": "imnul-bucegilor-62",
+    "content": "Capo I\r\n\r\nC\t \r\nDaca ai un dor ce te framanta \r\n                       Dm7\r\nNu cata ca-i drum obositor \r\nG\t \r\nHai prietene cu noi pe stanca \r\nG7                C\t \r\nPe cararile Bucegilor. \r\nPe cararile umblate doar de ciute\r\nSub aripa Caraimanului\r\nAi s-auzi povesti necunoscute\r\nSpuse doar de glasul muntelui.\r\n\r\n\r\nRefren:\r\n       C\t \r\nCand Bucegii  \r\n                        Dm\t\r\nDau zvon de piatra si izvoare \r\n           G\t \r\nOriunde-ai fi  \r\n                     C\t \r\nRaspunde la a lor chemare \r\nCaraimanul, Costila-ascunsa dup-un nor\r\nSi Morarul te vor primi la pieptul lor.\r\n\r\nPe platou la mare inaltime\r\nBabele la sfat s-au adunat\r\nNumai Baba Mare sta deoparte\r\nSi-si pune intrebari neincetat.\r\nOare Sfinxul care tace-ntr-una\r\nSi priveste in zari nepasator\r\nSe iubeste-n taina cu Batrana\r\nSau le face curte Doamnelor.\r\n\r\nJos in Pestera intunecoasa\r\nSta batranul schit uitat de ani\r\nAici doina-ti pare mai duioasa\r\nInganata de batrani ciobani.\r\nNumai staretul cu barba-i alba\r\nAdancit in rugaciunea lui\r\nSpune-ncet cu vocea lui domola\r\nPravila straveche a muntelui.\r\n\r\nPe Morar in nopti cu luna plina\r\nSau pe branele Bucsoiului\r\nVin scaldate parca in lumina\r\nZanele din Valea Cerbului.\r\nAu pe cap cununi de campanula\r\nSi in plete flori de colt de-argint\r\nCapre negre-n colt de piatra sura\r\nStrajuiesc in noapte locul sfant.\r\n\r\nDe la Varful Omu pana-n zare\r\nDunarea albastra poti s-o vezi\r\nPiatra Craiului si Piatra Mare\r\nFagarasul cu-ale lui zapezi.\r\nHoinarind vreodata pe-o carare\r\nDac-o cruce-n cale-ai intalnit\r\nNu uita sa pui macar o floare\r\nPentru cel ce muntele-a iubit.",
+    "author": {
+      "id": 24,
+      "name": "Cântece de munte",
+      "slug": "cantece-de-munte"
+    },
+    "author_id": 24,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      },
+      {
+        "id": 14,
+        "name": "Imnuri",
+        "slug": "imnuri",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "C",
+      "G",
+      "G7",
+      "Dm",
+      "Dm7"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 63,
+    "title": "Sobita",
+    "slug": "sobita-63",
+    "content": "Din cate am putut afla e melodia unui club de munte A.T.M. Acropolis Aiud, \r\nsa fie clar: nu este melodia unui plagiator...\r\n\r\n    \r\nR:  G       \r\n    DURU DU DURU\r\n    D\r\n    DÃ-I CU CURU'\r\n    A           D\r\n    şI-AşA MICA CUM E EA\r\n    DURU DU DURU CU CURU\t \r\n    E SOBIÞA MEA\r\n     \r\n    D                \r\n    MÃ PUSE DRACU SÃ MÃ-NSOR\r\n    A            D\r\n    CE MARE DANDANA E\r\n    G                  D\r\n    SA-MI IAU NEVASTA CU AVERE\r\n    A            D\r\n    SI SOBA DE ODAIE - BIS\r\n  \t \r\n    ÎN PRIMA NOAPTE EA N-A VRUT\r\n    A ZIS CA-I FAC DURERE\r\n    CA-I STRIC SOBIÞA CE I-A DAT\r\n    MÃICUÞA CA AVERE\r\n  \t \r\n    A DOUA NOAPTE A FOST LA FEL\r\n    N-A SCOS MÃCAR O VORBA\r\n    DAR ERAM TÂNÃR SI-AS FI VRUT\r\n    SA BAG UN LEMN IN SOBA\r\n  \t \r\n    A TREIA NOAPTE-AM ÎNCERCAT\r\n    SOBIÞA ERA SPARTA\r\n    CU MULTE LUNI ÎNAINTEA MEA\r\n    BÃGASE ALTU-O CIOATA\r\n  \t \r\n    VECINII MEI SUNT VECINI BUNI\r\n    NU SCOT MÃCAR O VORBA\r\n    MAI VIN SI EI DIN CÂND IN CÂND\r\n    SA BAGE-UN LEMN IN SOBA\r\n  \t \r\n    ACUM SOBIÞA S-A LÃRGIT\r\n    SI-NCAP LEMNE MAI MULTE\r\n    NOROC CA-S GHIZI LA ALBATROS\r\n    CE VIN SA MÃ AJUTE",
+    "author": {
+      "id": 24,
+      "name": "Cântece de munte",
+      "slug": "cantece-de-munte"
+    },
+    "author_id": 24,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      },
+      {
+        "id": 4,
+        "name": "Satiră și umor",
+        "slug": "satira-si-umor",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "D",
+      "A",
+      "G",
+      "E"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 64,
+    "title": "Ma intorc si pasi-s grei",
+    "slug": "ma-intorc-si-pasi-s-grei-64",
+    "content": "Fill            G         C\r\n1. Merg pe unduite caaaaaaaaaai\r\n                     Em\r\nIncalciti sunt pasii mei\r\n                  G          C\r\nRucsacul m-apasa greeeeeeeeeu\r\n                   Em\r\nIara eu prin munti mereu\r\n   D                    Em\r\nR: Ma intorc si pasii-s grei\r\n G        D  \r\nIa, hai, Ia, hai\r\n                   Em\r\nLas in urma muntii mei\r\n G        D\r\nIa, hai, hai, hai\r\n\r\nMa intorc si pasii-s grei\r\nIa, hai, hai, hai\r\nMa gandesc numai la ei\r\n\r\n2. Muntii cat am strabatut\r\nSa m-opresc nu am putut\r\nInfruntand si ploi si vant\r\nVreau pe creste sa ajung\r\n\r\n3. Cerul arde-n curcubeu\r\nIara eu prin munti mereu\r\nRucsacul m-apasa greu\r\nIncalc&#239;t e drumul meu",
+    "author": {
+      "id": 30,
+      "name": "Amurg",
+      "slug": "amurg"
+    },
+    "author_id": 30,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Em",
+      "G",
+      "C",
+      "D"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 65,
+    "title": "Ciobanas cu 300 de oi",
+    "slug": "ciobanas-cu-300-de-oi-65",
+    "content": "D           A           D\r\nCiobanas cu trei sute de oi,\r\n   D                   G          D\r\nCând vii si treci cu turma pe la noi,\r\n    G            A            D\r\nDe-i vedea pe mândra, draga mea,\r\nSpune-i ca m-am departat de ea.\r\n\r\nCând luna-apare dintre munti în sus,\r\nPleaca-ti mândro ochii cum ti-am spus,\r\nSpune-i numai lui ca ma iubesti\r\nSi-atunci mândro tot mai draga-mi esti.\r\n\r\nCând soarele rasare dintr-un negru nor,\r\nMa cuprinde mândro al tau dor,\r\nJale mi-e si nu te pot uita,\r\nDar n-am ce face c-asa-i soarta mea.",
+    "author": {
+      "id": 8,
+      "name": "Folclor",
+      "slug": "folclor"
+    },
+    "author_id": 8,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "D",
+      "A",
+      "G"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 66,
+    "title": "Batranul refugiu",
+    "slug": "batranul-refugiu-66",
+    "content": "Am                                     Dm\r\n1. Departe în munti ascuns  printre stânci\r\n G                        C              E\r\nSe afla batrânul refugiu\r\nAcolo se întâlnesc acei ce iubesc\r\nPeretii de stînca si cerul.\r\n\r\nAm                                    Dm\r\nR:Nu-i nimeni sa-i înteleaga\r\nG               C                     E \r\nNu-i nimeni la fel ca ei, la fel ca noi\r\nDoar dorul în dulce leagan\r\nSa-i urce spre creste mereu.\r\n\r\n2. Mi-e inima-n furci, de vrei poti sa urci\r\nSa simti primul pas în perete\r\nSperanta apoi sa facem în doi\r\nSi-apoi tot mai sus printre creste.",
+    "author": {
+      "id": 3,
+      "name": "Anonim",
+      "slug": "anonim"
+    },
+    "author_id": 3,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "Dm",
+      "G",
+      "C",
+      "E"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 67,
+    "title": "Ana lui Manole",
+    "slug": "ana-lui-manole-67",
+    "content": "Am    G                 Am\r\n1.Voi ziditi în jurul meu\r\nAm    G                 Am\r\nDar aici în zid sunt eu\r\nAm    G    Em           Am\r\nDar aici în zid sunt eu, sunt eu.\r\nHai, Manole, pune zid\r\nSa nu pot sa-l mai deschid\r\nHai îmbraca-ma în zid, zid greu.\r\n\r\n               C\r\nR: Turla-mi soarbe capu-n ea\r\nDm                        Am\r\nÎn altar e fruntea mea\r\nG      Em         Am        G\r\nOchii ei feresti vor sta, spre cer\r\nVoi lucrati si va e greu\r\nÎnsa de murit, mor eu\r\nJertfa voastra sunt chiar eu, eu pier.\r\n\r\n2.Pe oriunde sunt zidiri\r\nOmul meu, sa nu te miri\r\nLe-au întruchipat doi miri de rând.\r\nDara tu de-a pururi pleci\r\nEu ramân aici pe veci\r\nPrada caramizii reci, plângând.\r\n\r\n3.Sângele mi-i înca viu\r\nVoi nu stiti ca si eu stiu\r\nC-am sa mor dintr-un pariu stupid.\r\nHai Manole fii mai demn\r\nCum sa-ti faci aripi de lemn\r\nMi se face-a moarte semn în zid.\r\n \r\n4.Sa te-nchini când vei pleca\r\nSa nu uiti, sa uiti cumva\r\nCa-nauntru-i Ana ta, om crud.\r\nMila cum nu poti sa ai\r\nVoi plecati catre alt Rai\r\nEu din zid abia va mai aud.",
+    "author": {
+      "id": 31,
+      "name": "Magda Pușcaș",
+      "slug": "magda-puscas"
+    },
+    "author_id": 31,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "G",
+      "Em",
+      "C",
+      "Dm"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 68,
+    "title": "Noapte la mare, noapte la munte",
+    "slug": "noapte-la-mare-noapte-la-munte-68",
+    "content": "   Am              Dm\r\n1. Noi n-am fost niciodata doi\r\n      G             C\r\n   Ci unul singur amandoi,\r\n      Am          Dm\r\n   Salbatic cuplu-nsingurat,\r\n      E           Am\r\n   Pe care timpul l-a uitat.\r\n\r\nR: Noapte la mare, noapte la mare,\r\n   Buzele tale au gust de sare,\r\n   Pielea-ti miroase a scoici si a soare, \r\n   Noapte la mare, noapte la mare.\r\n   Noapte la munte, noapte carpatina,\r\n   Buzele tale au gust de rasina,\r\n   Paru-ti miroase a flori si a fructe,\r\n   Noapte la munte, noapte la munte.\r\n\r\n2. Noapte la mare, noapte-nstelata,\r\n   Inima mea e o scoica furata,\r\n   Perla din ea e chiar dragostea mea,\r\n   Stai langa mine, tu esti a mea.\r\n\r\n3. Buzele tale pe buzele mele\r\n   In intunericul noptii-s mai grele\r\n   Bratele tale, flacari in noapte,\r\n   Roiuri de stele, roiuri de soapte.",
+    "author": {
+      "id": 24,
+      "name": "Cântece de munte",
+      "slug": "cantece-de-munte"
+    },
+    "author_id": 24,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "Dm",
+      "G",
+      "C",
+      "E"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 69,
+    "title": "Tincturi de frunze",
+    "slug": "tincturi-de-frunze-69",
+    "content": "G                     Em\r\n1. Nu pot sa stau drept, merg cu toamna-n piept\r\nC                 D\r\nVantu-n toate ranile ma doare\r\nG                 Em\r\nSi pe orice drum, ca-ntr-un vers postum\r\nC                  D\r\nVine frunza in intampinare\r\n\r\nR: Si-am sa-ti scriu scrisori pe tulpini de flori\r\nDe lumina stelelor patrunse\r\nSi-un roman sa-ti scriu, folosind pe viu\r\nSub umbra de nuc, tincturi de frunze\r\nTincturi de frunze\r\n\r\n2. Putredul accent a lovit atent\r\nFiecare fir de iarba verde\r\nClipe indigo, care incotro\r\nSa n-avem motive de-a ne pierde\r\n\r\n3. Frunze iti trimit, scrise cu grafit\r\nIar din albul iernii care vine\r\nCe sa-ti mai insir, frunzele-n delir\r\nTe iubesc si ma gandesc la tine\r\n\r\n4. Nu vad pe unde merg, frunze cad din cer\r\nSi in tropot mi se-aude mersul\r\nScriu scrisori pe foi, lacrimez in ploi\r\nIntr-un liber schimb cu universul\r\n\r\n5. Te iubesc profund, nu ma mai ascund\r\nIn mine e toamna si ma doare\r\nCe sa-ti spun acum, cad frunze pe drum\r\nTe astept cu multa nerabdare",
+    "author": {
+      "id": 32,
+      "name": "Ursul Trubadur",
+      "slug": "ursul-trubadur"
+    },
+    "author_id": 32,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "G",
+      "Em",
+      "C",
+      "D"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 70,
+    "title": "Numai noi",
+    "slug": "numai-noi-70",
+    "content": "   Em           G        D\r\n1. Numai noi, suntem împreună\r\n   Em           G        D\r\n   Numai noi sub clarul de lună\r\n     G    Em      D      Em\r\n   Suntem doi fericiţi în munte\r\n   Tu şi eu cuplul fericirii\r\n   Eu şi tu vis al împlinirii\r\n   Iar în păr porţi doar flori de munte.\r\n\r\n     G                   D        Am   \r\n  R: Vom fi singuri prin văi şi pe creste\r\n     Din noi doi va rămâne o poveste\r\n     G        D      B7        Em\r\n     Împreună vom fi şi ne vom iubi.\r\n\r\n2.Numai noi, câtă poezie\r\n   Numai noi, noaptea e târzie\r\n   Focul doar mai trosneşte parcă\r\n   Sunt al tău, nu mai sunt cuvinte\r\n   Eşti a mea, ne iubim pe munte\r\n   Pat de flori, şi-mpărţim o soartă\r\n\r\nR:\r\n\r\n3.Jos sunt flori, pe cer numai stele\r\n   Ne iubim martore-s doar ele\r\n   Adormim ca şi doi copii\r\n   Numai vis sub clarul de lună\r\n   Numai vis, suntem împreună\r\n   Amândoi plini de bucurie.\r\n\r\nR:\r\n\r\n(interpretat si de Karma)",
+    "author": {
+      "id": 24,
+      "name": "Cântece de munte",
+      "slug": "cantece-de-munte"
+    },
+    "author_id": 24,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Em",
+      "G",
+      "D",
+      "Am",
+      "B7"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U",
+          "-"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 71,
+    "title": "Refugiul Diana",
+    "slug": "refugiul-diana-71",
+    "content": "   Em        D        Em\r\nAm pornit sa recladim Diana  \r\n      G     D       Em\r\nUn refugiu vechi si parasit\r\n    G        D          G D Em\r\nAm lasat spritul si damigeana\r\n          C     D       Em\r\nSi spre Plaiul Foii am pornit.\r\n\r\n\tRefren:\t\r\n\t\r\n\t Em   D    G     C          Em\r\n\tMama unde esti? Bate-ma de vrei\r\n              D        Em\r\n\tDar vino sa ma iei !\r\n\tMama unde esti? Bate-ma de vrei\r\n\tDar vino sa ma iei !\r\n\r\nScândura mica, scândurica lata\r\nTe-am purta pana ne facem mici\r\nSi echipa noastra cocosata\r\nParca-ar fi o ceata de pitici.\r\n\r\nTotu-i bine pana la-nserare\r\nCând cu lacrimi calde ne rugam\r\nO, Ceresc Parinte, îndurare!\r\nFa mai cald sa nu mai înghetam.",
+    "author": {
+      "id": 33,
+      "name": "Roza Vânturilor",
+      "slug": "roza-vanturilor"
+    },
+    "author_id": 33,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Em",
+      "D",
+      "G",
+      "C",
+      "Am"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "U",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 72,
+    "title": "Delirul",
+    "slug": "delirul-72",
+    "content": "    Am                   Dm\r\n1.Curând va fi o noapte lungă\r\n          E                Am  \r\n  şi fără tine-mi va fi greu\r\n  Iubita mea vino la mine\r\n  Te aştept să vii de Anul Nou.\r\n                                      \r\n      Am               Dm\r\nR: Râd şi plâng şi te strig delirând\r\n       G                 C\r\n   E soare e ploaie e cald şi e vânt \r\n         Am                  Dm   \r\n   Din somn mă trezesc şi tresar speriat\r\n         E                  Am  \r\n   Dar nu-i nimic doar am visat.\r\n\r\n2.De vrei să vii curând cu munţii\r\n  La marea mea cu valuri verzi\r\n  Să ne jurăm credinţă pururi\r\n  Să nu te pierd să nu mă pierzi.\r\n\r\n3.Tu nu ai timp tu nu ai suflet\r\n  Nimic din tine n-ai să-mi dai\r\n  Când vii şi pleci şi nu rămâne\r\n  Nimic din serile de mai.\r\n\r\n4.Când te-am văzut ultima oară\r\n  Ah, ce frumos tu m-ai privit\r\n  Nu pot să uit a ta privire\r\n  şi parc-o văd şi parc-o simt.\r\n\r\n5.şi de vei face-o nouă punte\r\n  Să n-o arunci în amintiri\r\n  şi lasă-mă să vin la tine\r\n  Cu braţul plin de trandafiri.\r\n\r\n6.Curând va fi o noapte lungă\r\n  şi fără tine-mi va fi greu\r\n  Iubirea mea te rog revino\r\n  Te-aştept să te întorci mereu.",
+    "author": {
+      "id": 24,
+      "name": "Cântece de munte",
+      "slug": "cantece-de-munte"
+    },
+    "author_id": 24,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "Dm",
+      "E",
+      "G",
+      "C"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "D",
+          "-",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
+  },
+  {
+    "id": 73,
+    "title": "Ninge",
+    "slug": "ninge-73",
+    "content": "   D              G          A             D\r\n1.Ninge astăzi pentru tine, muntele e alb de nea\r\n   Soarele din ceruri vine doar pentru iubita mea\r\n   Și călugării din schituri vor cu toţii a te vedea\r\n   La cabană au venit doar pentru iubita mea.\r\n\r\n                   R: Când te scuturi de zăpadă\r\n                       Nu ştii cât eşti de frumoasă\r\n                       Ochii-ţi verzi, zăpada-i albă\r\n                       Și se face cald în casă.\r\n\r\n2.Și zăpada de pe culme în vale s-a rostogolit\r\n   Muntele e pus pe glumă de când ştie c-ai venit\r\n   Acum coboară şi dorul chemat de la locul lui\r\n   Tocmai de pe Vârful Omu până-n Valea Dorului.\r\n\r\n3.Jepii Mici ca să te vadă şi-au cumpărat ochelari\r\n   şi în cea mai mare grabă i-au chemat pe Jepii Mari\r\n   Nu ştiu sigur azi sau mâine pe Morar am să te sui\r\n   Să ne logodim iubito sus în vârful muntelui.",
+    "author": {
+      "id": 24,
+      "name": "Cântece de munte",
+      "slug": "cantece-de-munte"
+    },
+    "author_id": 24,
+    "categories": [
+      {
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "D",
+      "G",
+      "A"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
   }
 ];
 
@@ -3140,7 +4602,7 @@ export const authorsData: Author[] = [
     "id": 3,
     "name": "Anonim",
     "slug": "anonim",
-    "song_count": 3
+    "song_count": 7
   },
   {
     "id": 4,
@@ -3170,7 +4632,7 @@ export const authorsData: Author[] = [
     "id": 8,
     "name": "Folclor",
     "slug": "folclor",
-    "song_count": 1
+    "song_count": 2
   },
   {
     "id": 9,
@@ -3236,7 +4698,7 @@ export const authorsData: Author[] = [
     "id": 19,
     "name": "Ducu Bertzi",
     "slug": "ducu-bertzi",
-    "song_count": 1
+    "song_count": 2
   },
   {
     "id": 20,
@@ -3248,6 +4710,78 @@ export const authorsData: Author[] = [
     "id": 21,
     "name": "Radu Gheorghe",
     "slug": "radu-gheorghe",
+    "song_count": 1
+  },
+  {
+    "id": 22,
+    "name": "Trupa Şanţ",
+    "slug": "trupa-sant",
+    "song_count": 1
+  },
+  {
+    "id": 23,
+    "name": "Nae Berechet",
+    "slug": "nae-berechet",
+    "song_count": 1
+  },
+  {
+    "id": 24,
+    "name": "Cântece de munte",
+    "slug": "cantece-de-munte",
+    "song_count": 13
+  },
+  {
+    "id": 25,
+    "name": "Puiu Cazan",
+    "slug": "puiu-cazan",
+    "song_count": 1
+  },
+  {
+    "id": 26,
+    "name": "Karma",
+    "slug": "karma",
+    "song_count": 1
+  },
+  {
+    "id": 27,
+    "name": "Carmen Ciocolata",
+    "slug": "carmen-ciocolata",
+    "song_count": 1
+  },
+  {
+    "id": 28,
+    "name": "Vârf Carpatin",
+    "slug": "varf-carpatin",
+    "song_count": 1
+  },
+  {
+    "id": 29,
+    "name": "Mircea Rusu Band",
+    "slug": "mircea-rusu-band",
+    "song_count": 1
+  },
+  {
+    "id": 30,
+    "name": "Amurg",
+    "slug": "amurg",
+    "song_count": 1
+  },
+  {
+    "id": 31,
+    "name": "Magda Pușcaș",
+    "slug": "magda-puscas",
+    "song_count": 1
+  },
+  {
+    "id": 32,
+    "name": "Ursul Trubadur",
+    "slug": "ursul-trubadur",
+    "song_count": 1
+  },
+  {
+    "id": 33,
+    "name": "Roza Vânturilor",
+    "slug": "roza-vanturilor",
     "song_count": 1
   }
 ];
@@ -3272,21 +4806,21 @@ export const categoriesData: Category[] = [
     "name": "Folk",
     "slug": "folk",
     "description": "",
-    "song_count": 17
+    "song_count": 18
   },
   {
     "id": 4,
     "name": "Satiră și umor",
     "slug": "satira-si-umor",
     "description": "",
-    "song_count": 1
+    "song_count": 2
   },
   {
     "id": 5,
     "name": "Cântece de munte",
     "slug": "cantece-de-munte",
     "description": "",
-    "song_count": 5
+    "song_count": 35
   },
   {
     "id": 6,
@@ -3343,5 +4877,12 @@ export const categoriesData: Category[] = [
     "slug": "de-iarna",
     "description": "",
     "song_count": 1
+  },
+  {
+    "id": 14,
+    "name": "Imnuri",
+    "slug": "imnuri",
+    "description": "",
+    "song_count": 4
   }
 ];
