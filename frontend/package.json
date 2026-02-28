@@ -1,5 +1,5 @@
 {
-  "homepage": "https://yourusername.github.io/my-react-app",
+  "homepage": "https://radubo2024.github.io/chitaramea",
   "name": "acorduri-ro",
   "private": true,
   "version": "1.0.0",
@@ -9,7 +9,9 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "lucide-react": "^0.460.0",
