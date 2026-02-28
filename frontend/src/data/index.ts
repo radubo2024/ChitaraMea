@@ -8447,6 +8447,49 @@ export const songsData: Song[] = [
       }
     ],
     "views": 0
+  },
+  {
+    "id": 147,
+    "title": "1000 de pahare",
+    "slug": "1000-de-pahare-147",
+    "content": "Am             E\nBună, dar şi nebună-i viaţa mea,\n Am              E\nÎmi dă, din când în când, câte-o belea,\n Dm                Am\nDar, niciodată, nu sparg şi nu dau foc\n E           Am  E Am\nCând e să n-am noroc.\n\nFemei am tot iubit şi-am să iubesc,\nNormal că unele mă părăsesc,\nDar, niciodată, nu plâng şi nu turbez\nCând e să divorţez.\n\n          Dm\nRefren: Şi iar beau tare\n          Am\n1000 dă pahare,\n          E\nSă uit de supărare,\n          Am  A7\nSă râd şi să petreeec,   x2\n          Dm\nViaţa-i zbanghie,\n          Am\nO iau în băşcălie,\n          E\nO dau pă veselie\n          Am   E Am\nŞi toate trec.\n\nPrieteni în viaţa mea grămadă sunt,\nŢeapă îmi trag şi ei, din când în când,\nDar, niciodată, nu mă apuc să-njur\nCând, relaxat, mi-o fur.\n\nRefren:   x2\n\nMereu prin viaţă vesel am să trec,\nChiar şi când pierd toţi banii, de zevzec,\nDar, niciodată, privirea nu mi-e rea\nCând n-am nicio para.\n\nRefren:   x2\n\nOutro (pe acordurile de la refren): Ta-ra-ra-ra, ta-ra-ra-ra...   x2",
+    "author": {
+      "id": 38,
+      "name": "White Mahala",
+      "slug": "white-mahala"
+    },
+    "author_id": 38,
+    "categories": [
+      {
+        "id": 2,
+        "name": "Lăutărești",
+        "slug": "lautaresti",
+        "description": ""
+      }
+    ],
+    "chords": [
+      "Am",
+      "E",
+      "Dm",
+      "A7"
+    ],
+    "strumming": [
+      {
+        "pattern": [
+          "D",
+          "-",
+          "D",
+          "U",
+          "-",
+          "U",
+          "D",
+          "U"
+        ],
+        "timeSignature": "4/4",
+        "name": "Bază"
+      }
+    ],
+    "views": 0
   }
 ];
 
@@ -8677,7 +8720,7 @@ export const authorsData: Author[] = [
     "id": 38,
     "name": "White Mahala",
     "slug": "white-mahala",
-    "song_count": 1
+    "song_count": 2
   },
   {
     "id": 39,
@@ -8844,7 +8887,7 @@ export const categoriesData: Category[] = [
     "name": "Lăutărești",
     "slug": "lautaresti",
     "description": "",
-    "song_count": 7
+    "song_count": 8
   },
   {
     "id": 3,
