@@ -1830,7 +1830,7 @@ export const songsData: Song[] = [
     "id": 3,
     "title": "Jeana",
     "slug": "jeana-3",
-    "content": "Ultimul vers din fiecare strofa se poate canta liber, sau folosind acordul E (eu prefer fara). Ca bataie, folosesc jos-jos, pauza, jos-jos.\r\n\r\nAm\r\nJeana era croitoreasă\r\nDm\r\nJan frizeru' o iubea\r\nE\r\nŞi-a murit tuberculoasă\r\nE\r\nJan frizerul o jelea.  Am E\r\n\r\nRefren:\r\nNu mai plânge Jane\r\nPlânsul e de formă\r\nJeana nu e moartă\r\nJeana să transformă.\r\n\r\nŞi când a fost la înmormântare\r\nPlângea şi ultimu' calic\r\nŞi când Jănel mai puse o floare\r\nDoamne plângea şi caii dă la dric.\r\n\r\nNu mai plânge Jane\r\nPlânsul e de formă\r\nJeana nu e moartă\r\nJeana se transformă\r\n\r\nColo-n deal la croitorie\r\nStătea cearceafuri la uscat\r\nCurgea bacilii de fizie\r\nCurgea încet treptat treptat\r\n\r\nNu mai plânge Jane\r\nPlânsul e de formă\r\nJeana nu e moartă\r\nJeana se transformă\r\n\r\nStă paduchii întinţi la soare\r\nStă paduchii câte doi\r\nPăi cum stăteau odinioară\r\nJan şi Jeana amandoi.\r\n\r\nNu mai plânge Jane\r\nPlânsul e de formă\r\nJeana nu e moartă\r\nJeana se transformă.",
+    "content": "Ultimul vers din fiecare strofa se poate canta liber, sau folosind acordul E (eu prefer fara). Ca bataie, folosesc jos-jos, pauza, jos-jos.\r\n\r\nAm\r\nJeana era croitoreasă\r\nDm\r\nJan frizeru' o iubea\r\nE7\r\nŞi-a murit tuberculoasă\r\nE              Am    E  Am \r\nJan frizerul o jelea.\r\n\r\nRefren:\r\nNu mai plânge Jane\r\nPlânsul e de formă\r\nJeana nu e moartă\r\nJeana să transformă.\r\n\r\nŞi când a fost la înmormântare\r\nPlângea şi ultimu' calic\r\nŞi când Jănel mai puse o floare\r\nDoamne plângea şi caii dă la dric.\r\n\r\nNu mai plânge Jane\r\nPlânsul e de formă\r\nJeana nu e moartă\r\nJeana se transformă\r\n\r\nColo-n deal la croitorie\r\nStătea cearceafuri la uscat\r\nCurgea bacilii de fizie\r\nCurgea încet treptat treptat\r\n\r\nNu mai plânge Jane\r\nPlânsul e de formă\r\nJeana nu e moartă\r\nJeana se transformă\r\n\r\nStă paduchii întinţi la soare\r\nStă paduchii câte doi\r\nPăi cum stăteau odinioară\r\nJan şi Jeana amandoi.\r\n\r\nNu mai plânge Jane\r\nPlânsul e de formă\r\nJeana nu e moartă\r\nJeana se transformă.",
     "author": {
       "id": 2,
       "name": "Mihai Mărgineanu",
@@ -1864,44 +1864,6 @@ export const songsData: Song[] = [
         ],
         "timeSignature": "4/4",
         "name": "Bază"
-      }
-    ],
-    "views": 0
-  },
-  {
-    "id": 4,
-    "title": "Jana era croitoreasa",
-    "slug": "jana-era-croitoreasa-4",
-    "content": "capo pe tasta 3\r\nEm, Am, B7, C\r\n\r\ndoua batai diferite:\r\npe strofa bataie lautareasca: j sjs j sj j\r\npe refren bataie de vals: s jj\r\n\r\nEm\r\nJeana era croitoreasă\r\nAm\r\nJan frizeru' o iubea\r\nB7                 Em  Am\r\nŞi-a murit tuberculoasă\r\nC            B7   Em\r\nJan frizerul o jelea\r\n\r\nEm\r\nNu mai plânge Jane\r\nAm           Em        \r\nPlânsul e de formă\r\nB7\r\nJeana nu e moartă\r\nAm    B7      Em\r\nJeana să transformă\r\n\r\nŞi când a fost la înmormântare\r\nPlângea şi ultimu' calic\r\nŞi când Jănel mai puse o floare\r\nDoamne plângea şi caii dă la dric\r\n\r\nNu mai plânge Jane\r\nPlânsul e de formă\r\nJeana nu e moartă\r\nJeana se transformă\r\n\r\nColo-n deal la croitorie\r\nStătea cearceafuri la uscat\r\nCurgea bacilii de fizie\r\nCurgea încet treptat treptat\r\n\r\nNu mai plânge Jane\r\nPlânsul e de formă\r\nJeana nu e moartă\r\nJeana se transformă\r\n\r\nStă paduchii întinţi la soare\r\nStă paduchii câte doi\r\nPăi cum stăteau odinioară\r\nJan şi Jeana amandoi.\r\n\r\nNu maï plânge Jane\r\nPlânsul e de formă\r\nJeana nu e moartă\r\nJeana se transformă.",
-    "author": {
-      "id": 2,
-      "name": "Mihai Mărgineanu",
-      "slug": "mihai-margineanu"
-    },
-    "author_id": 2,
-    "categories": [
-      {
-        "id": 1,
-        "name": "Cântece de mahala",
-        "slug": "cantece-de-mahala",
-        "description": ""
-      }
-    ],
-    "chords": [
-      "Em",
-      "Am",
-      "B7",
-      "C"
-    ],
-    "strumming": [
-      {
-        "pattern": [
-          "D",
-          "U",
-          "U"
-        ],
-        "timeSignature": "3/4",
-        "name": "Vals"
       }
     ],
     "views": 0
@@ -1948,55 +1910,6 @@ export const songsData: Song[] = [
           "U",
           "D",
           "U"
-        ],
-        "timeSignature": "4/4",
-        "name": "Bază"
-      }
-    ],
-    "views": 0
-  },
-  {
-    "id": 6,
-    "title": "M-am dus sa tai un copac (cadee')",
-    "slug": "m-am-dus-sa-tai-un-copac-cadee-6",
-    "content": "G        Em\r\nHei hei m-am dus m-am dus\r\n    C        D\r\nSa tai un copac,\r\n              G       Em\r\nHei hei m-am dus m-am dus\r\n       C        D\r\nSa-mi tai un copac,\r\n      G      Em\r\nCu prietenii mei\r\n    C         D\r\nSa tai un copac,\r\n            G     Em\r\nCu toti prietenii mei\r\n      C       D\r\nSa tai un copac,\r\n           G\r\nSi-atunci, am strigat:\r\n\r\nG         \r\nCADEEEEEEEE!!!!!!!!\r\nD            G        \r\nDa-te ba ca cade!\r\nD            G              \r\nDa-te ba ca cade,\r\nG          Em        C     D             \r\ncade cade cade cade cade copacul!\r\n\r\nHei hei m-am dus m-am dus\r\nSa beau un coniac,\r\nHei hei m-am dus m-am dus\r\nSa beau un coniac,\r\nCu toti prietenii mei\r\nSa beau un coniac,\r\nCu prietenii mei\r\nSa tai un copac\r\nSi-atunci am strigat\r\nCade copacul!\r\nSi-atunci am urlat\r\nCurge coniacul!\r\nSi-atunci a venit\r\nUn mic pui de drac,\r\nSi-atunci am urlat:\r\n\r\nCURGEEEEEE!!!!!!!!\r\nCurge coniacul!\r\nPana ne ia dracu'\r\nCurge coniacul,curge \r\nCade copacul\r\n\r\nHei hei m-am dus m-am dus\r\nSa tai un copac,\r\nHei hei m-am dus m-am dus\r\nSa-mi tai un copac,\r\nCu prietenii mei\r\nSa tai un copac,\r\nCu toti prietenii mei\r\nSa tai un copac,\r\nSi-atunci am strigat\r\nCade copacul!\r\nSi-atunci am urlat\r\nCurge coniacul!\r\nSi-atunci a venit\r\nUn mic pui de drac\r\nSi-atunci am urlat:\r\n\r\nCADEEEEEEEE!!!!!!!!!\r\nDa-te ba ca cade!\r\nDa-te ba ca cade\r\ncade cade cade cade cade copacul!",
-    "author": {
-      "id": 2,
-      "name": "Mihai Mărgineanu",
-      "slug": "mihai-margineanu"
-    },
-    "author_id": 2,
-    "categories": [
-      {
-        "id": 1,
-        "name": "Cântece de mahala",
-        "slug": "cantece-de-mahala",
-        "description": ""
-      },
-      {
-        "id": 4,
-        "name": "Satiră și umor",
-        "slug": "satira-si-umor",
-        "description": ""
-      }
-    ],
-    "chords": [
-      "G",
-      "Em",
-      "C",
-      "D"
-    ],
-    "strumming": [
-      {
-        "pattern": [
-          "D",
-          "D",
-          "U",
-          "-",
-          "U",
-          "D",
-          "U",
-          "-"
         ],
         "timeSignature": "4/4",
         "name": "Bază"
@@ -2112,9 +2025,9 @@ export const songsData: Song[] = [
         "description": ""
       },
       {
-        "id": 1,
-        "name": "Cântece de mahala",
-        "slug": "cantece-de-mahala",
+        "id": 5,
+        "name": "Cântece de munte",
+        "slug": "cantece-de-munte",
         "description": ""
       }
     ],
@@ -2272,56 +2185,6 @@ export const songsData: Song[] = [
           "U",
           "D",
           "-",
-          "D",
-          "U"
-        ],
-        "timeSignature": "4/4",
-        "name": "Bază"
-      }
-    ],
-    "views": 0
-  },
-  {
-    "id": 13,
-    "title": "A fost odată",
-    "slug": "a-fost-odata-13",
-    "content": "G Em C D\r\n\r\nG                     Em                  C               D        \r\nA fost odată un vis frumos un vis frumos cu un băiat şi-o fată\r\nG                     Em                  C               D G Em C D\r\nA fost un vis cam dureros cam dureros de te rănesc mă iartă.\r\nA fost un vis născut în munţi, născut în munţi crescut la o cabană\r\nUmbrit de brazi înalţi cărunţi înalţi cărunţi ce astăzi se destramă\r\n\r\n\tRefren:\r\n\r\n\tG                       Em\r\n\tDe ce va destrămaţi uşor vă destrămaţi\r\n\tC            D\r\n\tVoi vise pe poteci\r\n\tG                           Em\r\n\tÎn amintirea munţilor, a munţilor\r\n\tC              D\r\n\tSă dăinuim pe veci\r\n\tG                    Em C D\r\n\tSă dăinuim-im-dim-di....\r\n\t\r\nA fost odată un vis frumos un vis frumos cu un băiat şi-o fată\r\nA fost un vis cam dureros cam dureros de te rănesc mă iartă.\r\nA fost un vis născut în munţi, născut în munţi crescut la o cabană\r\nUmbrit de brazi înalţi cărunţi înalţi cărunţi ce astăzi se destramă\r\n\r\nDim-di-di-di...",
-    "author": {
-      "id": 2,
-      "name": "Mihai Mărgineanu",
-      "slug": "mihai-margineanu"
-    },
-    "author_id": 2,
-    "categories": [
-      {
-        "id": 1,
-        "name": "Cântece de mahala",
-        "slug": "cantece-de-mahala",
-        "description": ""
-      },
-      {
-        "id": 5,
-        "name": "Cântece de munte",
-        "slug": "cantece-de-munte",
-        "description": ""
-      }
-    ],
-    "chords": [
-      "G",
-      "Em",
-      "C",
-      "D",
-      "A"
-    ],
-    "strumming": [
-      {
-        "pattern": [
-          "D",
-          "-",
-          "D",
-          "U",
-          "-",
-          "U",
           "D",
           "U"
         ],
@@ -3012,103 +2875,6 @@ export const songsData: Song[] = [
     "views": 0
   },
   {
-    "id": 28,
-    "title": "La o cana cu vin",
-    "slug": "la-o-cana-cu-vin-28",
-    "content": "cipitura :  T:3-2-1-2-3 pentru acordurile normale(intregi)\r\n            1-2-3-6-2-1 pentru jumatati (D-E)\r\n\r\n\"-\" la acorduri reprezinta jumatate de masura.\r\n\r\nIntro: A A D-E A D-E A A\r\n\r\n   A                A\r\n1.Aseara te-am asteptat\r\n  E         A  \r\n  Si n-ai venit\r\n  A               A\r\n  Poate te-ai suparat\r\n      D  -  E      A \r\n  Sau poate-ai adormit\r\n\r\n     A               D\r\nR: Deseara sa nu m-astepti\r\n     E             A  \r\n   Deseara n-am sa vin  \r\n   A           D \r\n   Pentru doua vorbe\r\n E              A \r\n   La o cana cu vin \r\n              D\r\n   Deseara sa nu m-astepti\r\n      E           A  \r\n   O, nu, n-am sa vin\r\n   A               D  \r\n   Pentru-un \"buna seara\"\r\n   E                 Intro   \r\n   Atat,si-o cana cu vin\r\n\r\n\r\n2.Speram ca intr-o zi\r\n  Si tu sa ma iubesti\r\n  Dar din romante stiu\r\n  Ca sperand gresesti\r\n\r\nRefren:\r\n\r\n3.De-acuma poti sa pleci\r\n  La alta linistit\r\n  Mi-am pierdut si timpul\r\n  Si tot nu m-ai iubit",
-    "author": {
-      "id": 12,
-      "name": "Ecoul",
-      "slug": "ecoul"
-    },
-    "author_id": 12,
-    "categories": [
-      {
-        "id": 5,
-        "name": "Cântece de munte",
-        "slug": "cantece-de-munte",
-        "description": ""
-      },
-      {
-        "id": 10,
-        "name": "Cenaclul 'Flacăra'",
-        "slug": "cenaclul-flacara",
-        "description": ""
-      }
-    ],
-    "chords": [
-      "A",
-      "E",
-      "D"
-    ],
-    "strumming": [
-      {
-        "pattern": [
-          "D",
-          "-",
-          "D",
-          "U",
-          "D",
-          "-",
-          "D",
-          "U"
-        ],
-        "timeSignature": "4/4",
-        "name": "Bază"
-      }
-    ],
-    "views": 0
-  },
-  {
-    "id": 29,
-    "title": "Copaci fara padure",
-    "slug": "copaci-fara-padure-29",
-    "content": "Dm          Asus4   Dm\r\nÎn povestea copacilor goi\r\n                         Gm  \r\nScârţâind într-o singură uşă\r\n                     Dm\r\nEste vorba de noi amândoi\r\n         Asus4          Dm\r\nEste vorba de foc şi cenuşă\r\nDm             Asus4     Dm\r\nDoi copaci fără frunze pe drum\r\n                         Gm  \r\nDupă cum îi priveşte înaltul\r\n                      Dm\r\nDoi copaci prin sărutul de scrum\r\n     Asus4                A \r\nAplecându-se unul spre altul.\r\n\t\r\n\tRefren:\r\n\t\r\n\tDm                       A\r\n\tSpune-mi pădure cu frunza rară\r\n                   A           Dm\r\n\tUnde-i iubirea de astă vară?\r\n                             Gm\r\n\tNu ştie iarna să se îndure\r\n                   Dm    A     Dm\r\n\tDe noi, copacii fără pădure.\r\n\r\nToată vara a fost numai foc\r\nşi-au fost stele în nopţi fără stele\r\nşi prin toamna şederii pe loc\r\nCade ultima frunză spre ele\r\nÎn zadar către tine întind\r\nNişte crengi ce-mi fuseseră braţe\r\nAlte uşi se aud scârţâind\r\nDe tomnatecul vânt să se agaţe.\r\n\r\nNu mai suntem decât doi copaci\r\nVor veni taietori să ne tundă\r\nVor lua crengi toţi copiii săraci\r\nPentru flacăra lor muribundă\r\nşi chiar dacă mă vei mai iubi\r\nPeste crivăţul iernii ce vine\r\nFără braţe cu ochii pustii\r\nN-am să am ce întinde spre tine.\r\n\r\n\r\n\r\nhttp://www.youtube.com/watch?v=9OceatS7ZkM\r\n\r\ncam asa sunt din ce mi-am dat eu seama de-aici .",
-    "author": {
-      "id": 13,
-      "name": "Tatiana Stepa",
-      "slug": "tatiana-stepa"
-    },
-    "author_id": 13,
-    "categories": [
-      {
-        "id": 10,
-        "name": "Cenaclul 'Flacăra'",
-        "slug": "cenaclul-flacara",
-        "description": ""
-      },
-      {
-        "id": 3,
-        "name": "Folk",
-        "slug": "folk",
-        "description": ""
-      }
-    ],
-    "chords": [
-      "Dm",
-      "Asus4",
-      "Gm",
-      "A"
-    ],
-    "strumming": [
-      {
-        "pattern": [
-          "D",
-          "-",
-          "D",
-          "U",
-          "-",
-          "U",
-          "D",
-          "U"
-        ],
-        "timeSignature": "4/4",
-        "name": "Bază"
-      }
-    ],
-    "views": 0
-  },
-  {
     "id": 30,
     "title": "Ostasii luminii colinda",
     "slug": "ostasii-luminii-colinda-30",
@@ -3730,7 +3496,7 @@ export const songsData: Song[] = [
     "id": 42,
     "title": "Copacii fara padure",
     "slug": "copacii-fara-padure-42",
-    "content": "Dm             A7     Dm\r\nÎn povestea copacilor goi\r\nF                         Gm  \r\nScârţâind într-o singură uşă\r\n                     Dm\r\nEste vorba de noi amândoi\r\n         A     A7      Dm\r\nEste vorba de foc şi cenuşă\r\nDm             A7     Dm\r\nDoi copaci fără frunze pe drum\r\nF                         Gm  \r\nDupă cum îi priveşte înaltul\r\n                      Dm\r\nDoi copaci prin sărutul de sus\r\n     A                 A7  \r\nAplecându-se unul spre altul.\r\n\t\r\n\tRefren:\r\n\t\r\n\tDm                       A\r\n\tSpune-mi pădure cu frunza rară\r\n                   A7            Dm\r\n\tUnde-i iubirea de astă vară?\r\n                          D7  Gm\r\n\tNu ştie iarna să se îndure\r\n                   Dm    A      Dm\r\n\tDe noi, copacii fără pădure.\r\n\r\nToată vara au fost numai ploi\r\nşi-au fost stele în nopţi fără stele\r\nşi prin toamna şederii pe nori\r\nCade ultima frunză spre ele\r\nÎn zadar către tine întind\r\nNişte crengi ce-mi fuseseră braţe\r\nAlte uşi se aud scârţâind\r\nDe tomnatecul vânt să se agaţe.\r\n\r\nNu mai suntem decât doi copaci\r\nVor veni călători să ne tundă\r\nVor lua crengi toţi copiii săraci\r\nPentru flacăra lor muribundă\r\nşi chiar dacă mă vei mai iubi\r\nPeste crivăţul iernii ce vine\r\nFără braţe cu ochii pustii\r\nN-am să am ce întinde spre tine.",
+    "content": "Dm          A         Dm\r\nÎn povestea copacilor goi\r\n                         Gm  \r\nScârţâind într-o singură uşă\r\n                     Dm\r\nEste vorba de noi amândoi\r\n         A7          Dm\r\nEste vorba de foc şi cenuşă\r\nDm             A7         Dm\r\nDoi copaci fără frunze pe drum\r\nF                         Gm  \r\nDupă cum îi priveşte înaltul\r\n                      Dm\r\nDoi copaci prin sărutul de sus\r\n     A7                   A \r\nAplecându-se unul spre altul.\r\n\t\r\n\tRefren:\r\n\t\r\n\tDm                       A\r\n\tSpune-mi pădure cu frunza rară\r\n               A7            Dm\r\n\tUnde-i iubirea de astă vară?\r\n            D                Gm\r\n\tNu ştie iarna să se îndure\r\n                   Dm    A      Dm\r\n\tDe noi, copacii fără pădure.\r\n\r\nToată vara au fost numai ploi\r\nşi-au fost stele în nopţi fără stele\r\nşi prin toamna şederii pe nori\r\nCade ultima frunză spre ele\r\nÎn zadar către tine întind\r\nNişte crengi ce-mi fuseseră braţe\r\nAlte uşi se aud scârţâind\r\nDe tomnatecul vânt să se agaţe.\r\n\r\nNu mai suntem decât doi copaci\r\nVor veni călători să ne tundă\r\nVor lua crengi toţi copiii săraci\r\nPentru flacăra lor muribundă\r\nşi chiar dacă mă vei mai iubi\r\nPeste crivăţul iernii ce vine\r\nFără braţe cu ochii pustii\r\nN-am să am ce întinde spre tine.",
     "author": {
       "id": 13,
       "name": "Tatiana Stepa",
@@ -4586,55 +4352,6 @@ export const songsData: Song[] = [
           "D",
           "U",
           "-"
-        ],
-        "timeSignature": "4/4",
-        "name": "Bază"
-      }
-    ],
-    "views": 0
-  },
-  {
-    "id": 63,
-    "title": "Sobita",
-    "slug": "sobita-63",
-    "content": "Din cate am putut afla e melodia unui club de munte A.T.M. Acropolis Aiud, \r\nsa fie clar: nu este melodia unui plagiator...\r\n\r\n    \r\nR:  G       \r\n    DURU DU DURU\r\n    D\r\n    DÃ-I CU CURU'\r\n    A           D\r\n    şI-AşA MICA CUM E EA\r\n    DURU DU DURU CU CURU\t \r\n    E SOBIÞA MEA\r\n     \r\n    D                \r\n    MÃ PUSE DRACU SÃ MÃ-NSOR\r\n    A            D\r\n    CE MARE DANDANA E\r\n    G                  D\r\n    SA-MI IAU NEVASTA CU AVERE\r\n    A            D\r\n    SI SOBA DE ODAIE - BIS\r\n  \t \r\n    ÎN PRIMA NOAPTE EA N-A VRUT\r\n    A ZIS CA-I FAC DURERE\r\n    CA-I STRIC SOBIÞA CE I-A DAT\r\n    MÃICUÞA CA AVERE\r\n  \t \r\n    A DOUA NOAPTE A FOST LA FEL\r\n    N-A SCOS MÃCAR O VORBA\r\n    DAR ERAM TÂNÃR SI-AS FI VRUT\r\n    SA BAG UN LEMN IN SOBA\r\n  \t \r\n    A TREIA NOAPTE-AM ÎNCERCAT\r\n    SOBIÞA ERA SPARTA\r\n    CU MULTE LUNI ÎNAINTEA MEA\r\n    BÃGASE ALTU-O CIOATA\r\n  \t \r\n    VECINII MEI SUNT VECINI BUNI\r\n    NU SCOT MÃCAR O VORBA\r\n    MAI VIN SI EI DIN CÂND IN CÂND\r\n    SA BAGE-UN LEMN IN SOBA\r\n  \t \r\n    ACUM SOBIÞA S-A LÃRGIT\r\n    SI-NCAP LEMNE MAI MULTE\r\n    NOROC CA-S GHIZI LA ALBATROS\r\n    CE VIN SA MÃ AJUTE",
-    "author": {
-      "id": 24,
-      "name": "Cântece de munte",
-      "slug": "cantece-de-munte"
-    },
-    "author_id": 24,
-    "categories": [
-      {
-        "id": 5,
-        "name": "Cântece de munte",
-        "slug": "cantece-de-munte",
-        "description": ""
-      },
-      {
-        "id": 4,
-        "name": "Satiră și umor",
-        "slug": "satira-si-umor",
-        "description": ""
-      }
-    ],
-    "chords": [
-      "D",
-      "A",
-      "G",
-      "E"
-    ],
-    "strumming": [
-      {
-        "pattern": [
-          "D",
-          "-",
-          "U",
-          "-",
-          "D",
-          "U",
-          "-",
-          "U"
         ],
         "timeSignature": "4/4",
         "name": "Bază"
@@ -6248,7 +5965,7 @@ export const songsData: Song[] = [
     "id": 101,
     "title": "Perfect fara tine",
     "slug": "perfect-fara-tine-101",
-    "content": "F\r\nNu mai urla \r\nC\r\nSe aude in bloc\r\nDm\r\nAm inteles ideea \r\nB\r\nAi risipit iubirea pe un dobitoc \r\n\r\nIesi naibii din casa \r\nEu asta astept iubito \r\nEsti libera sa cauti fraierul \r\n\r\nRefren:\r\n\r\nPerfect (draga mea, draga mea)\r\n Fara tine (draga mea, draga mea)\r\n E mai bine (draga mea, draga mea)\r\n Am timp si pentru mine (draga mea, draga mea)\r\n Perfect (draga mea, draga mea) \r\n \r\n Nu ma doare (draga mea, draga mea)\r\n Piesa asta (draga mea, draga mea)\r\n O cant in drum spre mare (draga mea, draga mea) \r\n\r\n Te-am inselat \r\n Ma declar vinovat \r\n Am circumstante insa \r\n Am vrut si eu sa vad cum e sa fii barbat\r\n Te-ai transformat In instanta morala\r\n Dar ai uitat Dansai prin vama goala si era\r\n\r\n Perfect (draga mea, draga mea)\r\n Fara tine (draga mea, draga mea)\r\n E mai bine (draga mea, draga mea)\r\n Am timp si pentru mine (draga mea, draga mea) \r\n Perfect (draga mea, draga mea) \r\n Nu ma doare (draga mea, draga mea)\r\n Piesa asta (draga mea, draga mea)\r\n O cant in drum spre mare (draga mea, draga mea)\r\n\r\n Ti-aduci aminte cand ne-am combinat\r\n Era frumos, era perfect, era adevarat\r\n Pe mese sau sub mese dar numai impreuna\r\n Iubirea si distractia se cam tineau de mana\r\n Apoi te-ai transformat usor, usor in profesoara\r\n Si-am inceput sa am restante in fiecare seara\r\n Ziceai ceva de genul “iubirea-i lupta grea” \r\n Dar o cam luasesi razna, luptai doar pentru ea\r\n\r\n Acum sunt singur in masina dar nu e suparare\r\n De cat premiant in inchisoare Mai bine repetent\r\n In drum spre mare Perfect (draga mea, draga mea)\r\n\r\n Fara tine (draga mea, draga mea)\r\n E mai bine (draga mea, draga mea)\r\n Am timp si pentru mine (draga mea, draga mea)\r\n Perfect (draga mea, draga mea)\r\n Nu ma doare (draga mea, draga mea)\r\n Piesa asta (draga mea, draga mea) \r\n O cant in drum spre mare (draga mea, draga mea)\r\n Perfect (draga mea, draga mea)\r\n Fara tine (draga mea, draga mea)\r\n E mai bine (draga mea, draga mea)\r\n Am timp si pentru mine (draga mea, draga mea)\r\n Perfect (draga mea, draga mea)\r\n Nu ma doare (draga mea, draga mea)\r\n Piesa asta (draga mea, draga mea)\r\n O cant in drum spre mare (draga mea, draga mea)",
+    "content": "F\nNu mai urla \nDm\nSe aude in bloc\nBb\nAm inteles ideea \nBbm\t\t\t\t\tF\nAi risipit iubirea pe un dobitoc \n\nIesi naibii din casa \nEu asta astept iubito \nEsti libera sa cauti fraierul \n\nRefren:\nF\nPerfect (draga mea, draga mea)\nC\nFara tine (draga mea, draga mea)\nDm\nE mai bine (draga mea, draga mea)\nBb\nAm timp si pentru mine (draga mea, draga mea)\nPerfect (draga mea, draga mea) \n\nNu ma doare (draga mea, draga mea)\nPiesa asta (draga mea, draga mea)\nO cant in drum spre mare (draga mea, draga mea) \n\nTe-am inselat \nMa declar vinovat \nAm circumstante insa \nAm vrut si eu sa vad cum e sa fii barbat\nTe-ai transformat In instanta morala\nDar ai uitat Dansai prin vama goala si era\n\nPerfect (draga mea, draga mea)\nFara tine (draga mea, draga mea)\nE mai bine (draga mea, draga mea)\nAm timp si pentru mine (draga mea, draga mea) \nPerfect (draga mea, draga mea) \nNu ma doare (draga mea, draga mea)\nPiesa asta (draga mea, draga mea)\nO cant in drum spre mare (draga mea, draga mea)\n\nF\nTi-aduci aminte cand ne-am combinat\nC\nEra frumos, era perfect, era adevarat\nDm\nPe mese sau sub mese dar numai impreuna\nBb\nIubirea si distractia se cam tineau de mana\nApoi te-ai transformat usor, usor in profesoara\nSi-am inceput sa am restante in fiecare seara\nZiceai ceva de genul \"iubirea-i lupta grea\" \nDar o cam luasesi razna, luptai doar pentru ea\n\nG                          Dm               C     \nAcum sunt singur in masina dar nu e suparare\nGm                            Dm               \nDe cat premiant in inchisoare Mai bine repetent\nC           Bb\nIn drum spre mare Perfect (draga mea, draga mea)\n\nFara tine (draga mea, draga mea)\nE mai bine (draga mea, draga mea)\nAm timp si pentru mine (draga mea, draga mea)\nPerfect (draga mea, draga mea)\nNu ma doare (draga mea, draga mea)\nPiesa asta (draga mea, draga mea) \nO cant in drum spre mare (draga mea, draga mea)\nPerfect (draga mea, draga mea)\nFara tine (draga mea, draga mea)\nE mai bine (draga mea, draga mea)\nAm timp si pentru mine (draga mea, draga mea)\nPerfect (draga mea, draga mea)\nNu ma doare (draga mea, draga mea)\nPiesa asta (draga mea, draga mea)\nO cant in drum spre mare (draga mea, draga mea)",
     "author": {
       "id": 49,
       "name": "Vama",
@@ -6265,11 +5982,12 @@ export const songsData: Song[] = [
     ],
     "chords": [
       "F",
-      "C",
       "Dm",
-      "B",
-      "Am",
-      "E"
+      "Bb",
+      "Bbm",
+      "C",
+      "G",
+      "Gm"
     ],
     "strumming": [
       {
@@ -7822,12 +7540,6 @@ export const songsData: Song[] = [
     "author_id": 61,
     "categories": [
       {
-        "id": 24,
-        "name": "Country",
-        "slug": "country",
-        "description": ""
-      },
-      {
         "id": 3,
         "name": "Folk",
         "slug": "folk",
@@ -8894,13 +8606,6 @@ export const categoriesData: Category[] = [
     "id": 23,
     "name": "Din Republica Moldova",
     "slug": "din-republica-moldova",
-    "description": "",
-    "song_count": 1
-  },
-  {
-    "id": 24,
-    "name": "Country",
-    "slug": "country",
     "description": "",
     "song_count": 1
   }
