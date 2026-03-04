@@ -22,7 +22,7 @@ export default function SongContent({ content }: SongContentProps) {
   }, [content]);
 
   return (
-    <div className="song-content bg-gray-50 rounded-xl p-4 sm:p-6 border border-gray-200 overflow-x-auto">
+    <div className="song-content bg-gray-50 rounded-xl p-3 sm:p-6 border border-gray-200 overflow-x-auto">
       {formattedLines.map((line, i) => {
         if (line.type === 'empty') {
           return <div key={i} className="h-4" />;

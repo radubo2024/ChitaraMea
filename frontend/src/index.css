@@ -26,7 +26,7 @@
   }
 
   .song-content {
-    @apply font-mono text-sm leading-relaxed whitespace-pre-wrap;
+    @apply font-mono text-xs sm:text-sm leading-relaxed whitespace-pre-wrap;
   }
   .song-content .chord-line {
     @apply text-blue-600 font-bold;

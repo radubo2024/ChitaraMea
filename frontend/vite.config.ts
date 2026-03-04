@@ -5,6 +5,9 @@ import path from 'path'
 export default defineConfig({
   base: '/ChitaraMea/',
   plugins: [react()],
+  build: {
+    target: ['es2018', 'safari12'],
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),

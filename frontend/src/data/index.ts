@@ -3957,57 +3957,6 @@ export const songsData: Song[] = [
     "views": 0
   },
   {
-    "id": 47,
-    "title": "Refugiu Diana / Imnul Dianei",
-    "slug": "refugiu-diana-imnul-dianei-47",
-    "content": "1.\r\n Em        B7        Em\r\nAm pornit sa recladim Diana  \r\n      G     D       Em\r\nUn refugiu vechi si parasit\r\n    G        D          G D Em\r\nAm lasat spritul si damigeana\r\n          C     B7       Em\r\nSi spre Plaiul Foii am pornit.\r\n\r\n\r\n        Refren:\t\r\n\t\r\n\t Am   D    G     Am          Em\r\n\tMama unde esti? Bate-ma de vrei\r\n              B7        Em\r\n\tDar vino sa ma iei !\r\n\tMama unde esti? Poti sa ma si bati\r\n\tDar lasa-ma in Carpati !\r\n\r\n2.\r\nSi intr-o zi cu ploaie si cu ceata\r\nCu rucsacii-n spate si vopsea\r\nIn alertul nostru pas de rata\r\nAm atacat-o pe Diana.\r\n\r\n3.\r\nScândura mica, scândurica lata\r\nTe-am purta pana ne facem mici\r\nSi echipa noastra cocosata\r\nParca-ar fi o ceata de pitici.\r\n\r\n4.\r\nTotu-i bine pana la-nserare\r\nCând cu lacrimi calde ne rugam\r\nO, Ceresc Parinte, îndurare!\r\nFa mai cald sa nu mai înghetam.\r\n\r\n5.\r\nSi-am ajuns acolo toti o forta\r\nSi-ntr-o scurta clipa de ragaz\r\nAm aprins a tineretii torta\r\nDe indata ce-am ajuns in Crai.",
-    "author": {
-      "id": 24,
-      "name": "Cântece de munte",
-      "slug": "cantece-de-munte"
-    },
-    "author_id": 24,
-    "categories": [
-      {
-        "id": 5,
-        "name": "Cântece de munte",
-        "slug": "cantece-de-munte",
-        "description": ""
-      },
-      {
-        "id": 14,
-        "name": "Imnuri",
-        "slug": "imnuri",
-        "description": ""
-      }
-    ],
-    "chords": [
-      "Em",
-      "B7",
-      "G",
-      "D",
-      "C",
-      "Am"
-    ],
-    "strumming": [
-      {
-        "pattern": [
-          "D",
-          "-",
-          "U",
-          "-",
-          "D",
-          "U",
-          "-",
-          "U"
-        ],
-        "timeSignature": "4/4",
-        "name": "Bază"
-      }
-    ],
-    "views": 0
-  },
-  {
     "id": 48,
     "title": "Ninge astazi pentru tine",
     "slug": "ninge-astazi-pentru-tine-48",
@@ -4327,54 +4276,11 @@ export const songsData: Song[] = [
       }
     ],
     "views": 0
-  },
-  {
-    "id": 55,
-    "title": "Rau ma dor ochii",
-    "slug": "rau-ma-dor-ochii-55",
-    "content": "Bataia :clasica (jjssjs)\r\nIntro: c c \r\n\r\n  C       C             C   C          \r\n1. Rau ma dor ochii, ma dor\r\n  G     G           C   C   \r\n   De durerea frunzelor\r\n\r\n         Am        Am            G             G     \r\nR: Si ma duc,si ma duc,si iar ma duc,si iar ma duc\r\n                     C    C\r\n   Pana la izvor sub nuc\r\n         Am        Am            G             G   \r\n   Si ma fac,si ma fac,si iar ma fac,si iar ma fac\r\n                           C    C  \r\n   Lemn de brad si lemn de fag\r\n\r\n2. Rau ma dor picioarele\r\n   De batut cararile\r\n\r\nRefren:\r\n\r\n3. Rau ma dor ochii, ma dor\r\n   De lumina stelelor\r\n\r\nRefren:\r\n\r\n4. Rau ma doare inima\r\n   Ca iubesti pe-altcineva\r\n\r\nRefren:\r\n\r\n5. Unde ai plecat nu stiu\r\n   Dar mi-e sufletul pustiu\r\n\r\nRefren:\r\n\r\n6. Si-am sa plec fara sa stiu\r\n   Dus de dorul meu tarziu",
-    "author": {
-      "id": 28,
-      "name": "Vârf Carpatin",
-      "slug": "varf-carpatin"
-    },
-    "author_id": 28,
-    "categories": [
-      {
-        "id": 5,
-        "name": "Cântece de munte",
-        "slug": "cantece-de-munte",
-        "description": ""
-      }
-    ],
-    "chords": [
-      "C",
-      "G",
-      "Am"
-    ],
-    "strumming": [
-      {
-        "pattern": [
-          "D",
-          "-",
-          "U",
-          "-",
-          "D",
-          "U",
-          "-",
-          "U"
-        ],
-        "timeSignature": "4/4",
-        "name": "Bază"
-      }
-    ],
-    "views": 0
-  },
-  {
+  },{
     "id": 56,
     "title": "Imnul Dianei",
     "slug": "imnul-dianei-56",
-    "content": "Am             E        Am\r\nSi-am pornit sa recladim Diana\r\nAm        E      Am       Am\r\nUn refugiu ars si parasit/(parasit)\r\nAm    C           E        Am\r\nSi-am lasat sticla si damigeana\r\nAm     C     E       Am\r\nSi din Plaiul Foii am pornit, \r\nAm   C            E        Am\r\nSi-am lasat sticla si damigeana\r\nAm    C      E       Am\r\nSi din Plaiul Foii am pornit. \r\n\r\n\r\n                 Refren:\r\n                     Am E  Am\r\n                     O, O, O, \r\n                     Am   E    Am    Dm            Am\r\n                     Mama unde esti? Poti sa ma si bati\r\n                     E             Am\r\n                     Dar lasa-ma-n Carpati !\r\n                     Am      C     E   E   Am\r\n                     Darira, rira, ri, ra, ra\r\n                     Am   G    C     Dm         Am\r\n                     Mama unde esti? Bate-ma de vrei\r\n                     E              Am\r\n                     Dar lasa-ma cu ei !\r\n\r\n\r\n   Si intr-o zi cu ploaie si cu ceata\r\n   Cu rucsaci in spate si vopsea/ (si vopsea)\r\n   In alertul nostru pas de rata\r\n   Am atacat-o pe Diana,\r\n   In alertul nostru pas de rata\r\n   Am atacat-o pe Diana.\r\n\r\n\r\n   Scandura mica, scandura lata\r\n   O caram pana ne facem mici/ (ne facem mici)\r\n   Si echipa noastra-i cocosata\r\n   Parc-ar fi o ceata de pitici,\r\n   Si echipa noastra-i cocosata\r\n   Parc-ar fi o ceata de pitici.\r\n\r\n   Totu-i bine pan'la inserare\r\n   Cand cu calde lacrimi ne rugam/ (ne rugam)\r\n   O, Ceresc Parinte, indurare!\r\n   Fa mai cald sa nu mai inghetam,\r\n   O, Ceresc Parinte, indurare!\r\n   Fa mai cald sa nu mai inghetam.\r\n\r\n   Si-am ajuns acolo toti o forta\r\n   Si-ntr-o scurta clipa de ragaz (de ragaz)\r\n   Am aprins a tineretii torta\r\n   De indata ce-am ajuns in Crai,\r\n   Am aprins a tineretii torta\r\n   De indata ce-am ajuns in Crai.",
+    "content": "Am             G        Am\r\nSi-am pornit sa recladim Diana\r\nAm         G      Am\r\nUn refugiu ars si parasit/ (si parasit)\r\nF     G               C   E   Am\r\nSi-am lasat sticla si damigeana\r\nF             E       Am\r\nSi din Plaiul Foii am pornit, \r\nF     G               C   E   Am\r\nSi-am lasat sticla si damigeana\r\nF             E       Am\r\nSi din Plaiul Foii am pornit. \r\n\r\nRefren:\r\n\t Am E  Am\r\n\t O, O, O, \r\n\t Am   E    Am    Dm            Am\r\n\t Mama unde esti? Poti sa ma si bati\r\n\t E             Am\r\n\t Dar lasa-ma-n Carpati !\r\n\t Am      C     E   E   Am\r\n\t Darira, rira, ri, ra, ra\r\n\t Am   G    C     Dm         Am\r\n\t Mama unde esti? Bate-ma de vrei\r\n\t E              Am\r\n\t Dar lasa-ma cu ei !\r\n\t \r\nSi intr-o zi cu ploaie si cu ceata\r\nCu rucsaci in spate si vopsea/ (si vopsea)\r\nIn alertul nostru pas de rata\r\nAm atacat-o pe Diana,\r\nIn alertul nostru pas de rata\r\nAm atacat-o pe Diana.\r\n\r\nScandura mica, scandura lata\r\nO caram pana ne facem mici/ (ne facem mici)\r\nSi echipa noastra-i cocosata\r\nParc-ar fi o ceata de pitici,\r\nSi echipa noastra-i cocosata\r\nParc-ar fi o ceata de pitici.\r\n\r\nTotu-i bine pan'la inserare\r\nCand cu calde lacrimi ne rugam/ (ne rugam)\r\nO, Ceresc Parinte, indurare!\r\nFa mai cald sa nu mai inghetam,\r\nO, Ceresc Parinte, indurare!\r\nFa mai cald sa nu mai inghetam.\r\n\r\nSi-am ajuns acolo toti o forta\r\nSi-ntr-o scurta clipa de ragaz (de ragaz)\r\nAm aprins a tineretii torta\r\nDe indata ce-am ajuns in Crai,\r\nAm aprins a tineretii torta\r\nDe indata ce-am ajuns in Crai.",
     "author": {
       "id": 24,
       "name": "Cântece de munte",
@@ -4397,10 +4303,11 @@ export const songsData: Song[] = [
     ],
     "chords": [
       "Am",
-      "E",
+      "G",
+      "F",
       "C",
-      "Dm",
-      "G"
+      "E",
+      "Dm"
     ],
     "strumming": [
       {
@@ -4467,7 +4374,7 @@ export const songsData: Song[] = [
     "id": 58,
     "title": "Omul bun si pomul copt",
     "slug": "omul-bun-si-pomul-copt-58",
-    "content": "F\r\n 1 Omul bun si pomul copt , dar\r\n    Bb   Dm          C\r\n   Hai mai dorule hai\r\n     F\r\n   Astia n-or avut noroc\r\n    Bb   C7         F\r\n   Hai mai dorule hai\r\n \r\n \r\n   Ref:   Bb       C         F\r\n         Stau la margine de drum\r\n           Bb     C7          F \r\n         Pomul copt si amul bun\r\n             Bb        C         F   \r\n         Si stau la margine de drum\r\n           Bb      C7           F\r\n         Pomu-i copt si omu-i bun\r\n \r\n      F\r\n  2 Dupa ce-or da ce-or avuta\r\n     Bb   Dm         C \r\n    Hai mai dorule hai\r\n      F\r\n    I-o lasat i-o parasita\r\n     Bb   Dm         F \r\n    Hai mai dorule hai\r\n\r\n      F\r\n  3 Si-asa ca-i venea sa creasca\r\n     Bb   Dm         C \r\n    Hai mai dorule hai\r\n      F\r\n    Poate-o mai rodi vreidata\r\n     Bb   Dm         F\r\n    Hai mai dorule hai",
+    "content": "C\r\nOmul bun si pomul copt , dar\r\nF   G          C\r\nHai mai dorule hai\r\nC\r\nAstia n-or avut noroc\r\nF   G         C\r\nHai mai dorule hai\r\n\r\nRef:   F       G         C\r\n\t Si stau la margine de drum\r\n\t   F       G         C\r\n\t Pomul copt si amul bun\r\n\t\tF       G         C   \r\n\t Si stau la margine de drum\r\n\t   F       G         C\r\n\t Pomu-i copt si omu-i bun\r\n\r\nC \r\nDupa ce-or da ce-or avuta\r\nF   G          C\r\nHai mai dorule hai\r\nC\r\nI-o lasat i-o parasita\r\nF   G          C\r\nHai mai dorule hai\r\n\r\nC\r\nSi-asa ca-i venea sa creasca\r\nF   G          C\r\nHai mai dorule hai\r\nC\r\nPoate-o mai rodi vreidata\r\nF   G          C\r\nHai mai dorule hai",
     "author": {
       "id": 29,
       "name": "Mircea Rusu Band",
@@ -4483,11 +4390,9 @@ export const songsData: Song[] = [
       }
     ],
     "chords": [
-      "F",
-      "Bb",
-      "Dm",
       "C",
-      "C7"
+      "F",
+      "G"
     ],
     "strumming": [
       {
@@ -5034,50 +4939,6 @@ export const songsData: Song[] = [
           "D",
           "U",
           "-"
-        ],
-        "timeSignature": "4/4",
-        "name": "Bază"
-      }
-    ],
-    "views": 0
-  },
-  {
-    "id": 71,
-    "title": "Refugiul Diana",
-    "slug": "refugiul-diana-71",
-    "content": "   Em        D        Em\r\nAm pornit sa recladim Diana  \r\n      G     D       Em\r\nUn refugiu vechi si parasit\r\n    G        D          G D Em\r\nAm lasat spritul si damigeana\r\n          C     D       Em\r\nSi spre Plaiul Foii am pornit.\r\n\r\n\tRefren:\t\r\n\t\r\n\t Em   D    G     C          Em\r\n\tMama unde esti? Bate-ma de vrei\r\n              D        Em\r\n\tDar vino sa ma iei !\r\n\tMama unde esti? Bate-ma de vrei\r\n\tDar vino sa ma iei !\r\n\r\nScândura mica, scândurica lata\r\nTe-am purta pana ne facem mici\r\nSi echipa noastra cocosata\r\nParca-ar fi o ceata de pitici.\r\n\r\nTotu-i bine pana la-nserare\r\nCând cu lacrimi calde ne rugam\r\nO, Ceresc Parinte, îndurare!\r\nFa mai cald sa nu mai înghetam.",
-    "author": {
-      "id": 33,
-      "name": "Roza Vânturilor",
-      "slug": "roza-vanturilor"
-    },
-    "author_id": 33,
-    "categories": [
-      {
-        "id": 5,
-        "name": "Cântece de munte",
-        "slug": "cantece-de-munte",
-        "description": ""
-      }
-    ],
-    "chords": [
-      "Em",
-      "D",
-      "G",
-      "C",
-      "Am"
-    ],
-    "strumming": [
-      {
-        "pattern": [
-          "D",
-          "-",
-          "U",
-          "-",
-          "D",
-          "U",
-          "-",
-          "U"
         ],
         "timeSignature": "4/4",
         "name": "Bază"
@@ -7068,7 +6929,7 @@ export const songsData: Song[] = [
     "id": 116,
     "title": "Mugur de fluier",
     "slug": "mugur-de-fluier-116",
-    "content": "G  D  G  D\r\nG  D Am C G D G D\r\nG  D Am C G D G D\r\n\r\n\r\nG        D         Am       C   G  D  G  D\r\nÎmi simt sufletul mugur de fluier\r\nCe-a doinit cântec cu şuier\r\nPetru zilele ce-au fost trecute\r\nPentru nopţile negre si slute\r\n\r\nG D Am\r\nEm D Em D\r\n\r\nG        D       Am    C     G    D  G  D\r\nAm pornit cu roua-n picioare\r\nCa să cânt un cântec de soare\r\nPentru zilele ce au să vie\r\nPentru nopţile cu iasomie\r\n\t\r\n\tG      D     Am\r\n\tFreamătul apelor\r\n\tEm     D        Em    D\r\n\tşi foşnetul codrilor\r\n\tG      D      Am\r\n\tÎn el se intâlnesc\r\n\tEm      D       Em\r\n\tşi sufletu-mi încălzesc\r\n\t\r\n\tG    D      C       D\r\n\tHei, hei, verde e iarba\r\n\tC        D        G      D\r\n\tSoarele-i sus pe cer\r\n\tG     D     C      D\r\n\tHei, hei, dusă e iarna \r\n\tC      D         G       D\r\n\tCu dinţii ei de fier (2 ori)\r\n\r\nSolo\r\n\r\nHei, hei, verde e iarba\r\nSoarele-i sus pe cer\r\nHei, hei, dusă e iarna \r\nCu dintii ei de fier (se repetă până la sfârsit)",
+    "content": "G D Am C\r\nG D G D Dsus4 D5    x2\r\n\r\n\r\nG        D\r\nÎmi simt sufletul\r\nAm      C      G D G D Dsus4 D5\r\nMugur de fluier,\r\nG         D\r\nCe-a doinit\r\nAm        C   G D G D Dsus4 D5\r\nCântec cu șuier.\r\nG          D\r\nPentru zilele\r\nAm         C     G D G D Dsus4 D5\r\nCe-au fost trecute\r\nG           D\r\nPentru nopțile\r\nAm       C     G D G D Dsus4 D5\r\nNegre și slute.\r\n\r\nG D C A\r\nG D Am Em D    x2\r\n\r\nAm pornit\r\nCu roua-n picioare\r\nCa să cânt\r\nUn cântec de soare\r\nPentru zilele, zilele..\r\nCe au să vie..\r\nPentru nopțile, nopțile..\r\nCu iasomie..\r\n\r\nG         D C  A\r\nFreamătul a-pe-lor\r\nG           D  Am  Em   D\r\nȘi foșnetul co-dri-lor,\r\nG        D   C  A\r\nÎn el se În-tâl-nesc\r\nG             D  Am  Em   D\r\nȘi sufletu-mi în-căl-zesc.\r\n\r\nG    D    C       A\r\nHei, hei, verde e iarba,\r\nC         D       G   D\r\nSoarele-i sus pe cer!\r\nG    D    C       A\r\nHei, hei, dusă e iarna,\r\nC         D      G    D\r\nCu dinții ei de fier!.\r\n\r\nSolo:\r\nG D Am C\r\nG D G D Dsus4 D5    x2\r\n\r\nHei, hei, verde e iarba,\r\nSoarele-i sus pe cer!\r\nHei, hei, dusă e iarna,\r\nCu dinții ei de fier!",
     "author": {
       "id": 55,
       "name": "Phoenix",

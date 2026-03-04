@@ -1,6 +1,6 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useState, useRef, useCallback, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Heart, ListPlus, Printer, ArrowLeft, Music } from 'lucide-react';
+import { Heart, ListPlus, Printer, ArrowLeft, Music, Play, Pause, Minus, Plus } from 'lucide-react';
 import { songsData, chordsData } from '@/data';
 import { useFavorites } from '@/context/FavoritesContext';
 import SongContent from '@/components/SongContent';
@@ -13,6 +13,13 @@ export default function SongDetailPage() {
   const { slug } = useParams<{ slug: string }>();
   const { isFavorite, toggleFavorite } = useFavorites();
   const [showPlaylistModal, setShowPlaylistModal] = useState(false);
+  const [isAutoScrolling, setIsAutoScrolling] = useState(false);
+  const [scrollSpeed, setScrollSpeed] = useState(20);
+  const scrollRef = useRef<number | null>(null);
+  const lastTimestampRef = useRef<number | null>(null);
+  const accumulatedScrollRef = useRef<number>(0);
+  const delayTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const songContentRef = useRef<HTMLDivElement | null>(null);
 
   const song = useMemo(() => songsData.find((s) => s.slug === slug), [slug]);
 
@@ -30,6 +37,82 @@ export default function SongDetailPage() {
       .slice(0, 5);
   }, [song]);
 
+  const stopAutoScroll = useCallback(() => {
+    if (scrollRef.current !== null) {
+      cancelAnimationFrame(scrollRef.current);
+      scrollRef.current = null;
+    }
+    if (delayTimerRef.current !== null) {
+      clearTimeout(delayTimerRef.current);
+      delayTimerRef.current = null;
+    }
+    lastTimestampRef.current = null;
+    accumulatedScrollRef.current = 0;
+    setIsAutoScrolling(false);
+  }, []);
+
+  const startAutoScroll = useCallback(() => {
+    setIsAutoScrolling(true);
+  }, []);
+
+  const toggleAutoScroll = useCallback(() => {
+    if (isAutoScrolling) {
+      stopAutoScroll();
+    } else {
+      startAutoScroll();
+    }
+  }, [isAutoScrolling, stopAutoScroll, startAutoScroll]);
+
+  const runScrollLoop = useCallback(() => {
+    lastTimestampRef.current = null;
+    accumulatedScrollRef.current = 0;
+
+    const scroll = (timestamp: number) => {
+      if (lastTimestampRef.current !== null) {
+        const delta = (timestamp - lastTimestampRef.current) / 1000;
+        accumulatedScrollRef.current += scrollSpeed * delta;
+
+        const pixels = Math.floor(accumulatedScrollRef.current);
+        if (pixels >= 1) {
+          window.scrollBy(0, pixels);
+          accumulatedScrollRef.current -= pixels;
+        }
+
+        if (songContentRef.current) {
+          const rect = songContentRef.current.getBoundingClientRect();
+          if (rect.bottom <= window.innerHeight) {
+            stopAutoScroll();
+            return;
+          }
+        }
+      }
+      lastTimestampRef.current = timestamp;
+      scrollRef.current = requestAnimationFrame(scroll);
+    };
+
+    scrollRef.current = requestAnimationFrame(scroll);
+  }, [scrollSpeed, stopAutoScroll]);
+
+  useEffect(() => {
+    if (isAutoScrolling) {
+      // Cancel any existing loop/timer first
+      if (scrollRef.current !== null) cancelAnimationFrame(scrollRef.current);
+      if (delayTimerRef.current !== null) clearTimeout(delayTimerRef.current);
+
+      // Wait 10 seconds, then start scrolling
+      delayTimerRef.current = setTimeout(() => {
+        runScrollLoop();
+      }, 10000);
+    }
+  }, [isAutoScrolling, scrollSpeed, runScrollLoop]);
+
+  useEffect(() => {
+    return () => {
+      if (scrollRef.current !== null) cancelAnimationFrame(scrollRef.current);
+      if (delayTimerRef.current !== null) clearTimeout(delayTimerRef.current);
+    };
+  }, []);
+
   if (!song) {
     return (
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
@@ -44,9 +127,9 @@ export default function SongDetailPage() {
   const favorite = isFavorite(song.id);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-3 sm:py-4">
       {/* Breadcrumb */}
-      <div className="flex items-center gap-2 text-sm text-gray-500 mb-3">
+      <div className="flex items-center gap-2 text-sm text-gray-500 mb-2 sm:mb-3">
         <Link to="/songs" className="hover:text-blue-600 flex items-center gap-1">
           <ArrowLeft size={14} /> Cântece
         </Link>
@@ -54,11 +137,11 @@ export default function SongDetailPage() {
         <span className="text-gray-900 font-medium truncate">{song.title}</span>
       </div>
 
-      {/* Header - compact */}
-      <div className="mb-3">
-        <div className="flex items-start justify-between gap-4 flex-wrap">
-          <div>
-            <h1 className="text-2xl font-bold text-gray-900 leading-tight">{song.title}</h1>
+      {/* Header - compact & mobile-friendly */}
+      <div className="mb-2 sm:mb-3">
+        <div className="flex items-start justify-between gap-2 sm:gap-4 flex-wrap">
+          <div className="min-w-0 flex-1">
+            <h1 className="text-xl sm:text-2xl font-bold text-gray-900 leading-tight">{song.title}</h1>
             <div className="flex items-center gap-2 flex-wrap mt-0.5">
               <Link
                 to={`/authors/${song.author.slug}`}
@@ -84,62 +167,96 @@ export default function SongDetailPage() {
             </div>
           </div>
 
-          {/* Actions */}
-          <div className="flex items-center gap-1.5 no-print">
+          {/* Actions - icon-only on mobile */}
+          <div className="flex items-center gap-1 sm:gap-1.5 no-print">
             <button
               onClick={() => toggleFavorite(song.id)}
-              className={`flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
+              className={`flex items-center gap-1 px-2 sm:px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
                 favorite
                   ? 'bg-red-50 text-red-600 hover:bg-red-100'
                   : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
               }`}
+              title={favorite ? 'Favorit' : 'Favorite'}
             >
               <Heart size={14} fill={favorite ? 'currentColor' : 'none'} />
-              {favorite ? 'Favorit' : 'Favorite'}
+              <span className="hidden sm:inline">{favorite ? 'Favorit' : 'Favorite'}</span>
             </button>
             <button
               onClick={() => setShowPlaylistModal(true)}
-              className="flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-medium bg-gray-100 text-gray-600 hover:bg-gray-200 transition-colors"
+              className="flex items-center gap-1 px-2 sm:px-3 py-1.5 rounded-lg text-xs font-medium bg-gray-100 text-gray-600 hover:bg-gray-200 transition-colors"
+              title="Playlist"
             >
               <ListPlus size={14} />
-              Playlist
+              <span className="hidden sm:inline">Playlist</span>
             </button>
             <button
               onClick={() => window.print()}
-              className="flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-medium bg-gray-100 text-gray-600 hover:bg-gray-200 transition-colors"
+              className="flex items-center gap-1 px-2 sm:px-3 py-1.5 rounded-lg text-xs font-medium bg-gray-100 text-gray-600 hover:bg-gray-200 transition-colors"
+              title="Print"
             >
               <Printer size={14} />
-              Print
+              <span className="hidden sm:inline">Print</span>
             </button>
           </div>
         </div>
       </div>
 
-      {/* Sticky Acorduri folosite bar */}
+      {/* Sticky bar: Chords + Auto-scroll Play button */}
       {song.chords.length > 0 && (
-        <div className="sticky top-16 z-20 bg-white/95 backdrop-blur-sm border-b border-gray-200 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-2 mb-3 shadow-sm">
-          <div className="flex items-center gap-2 max-w-7xl mx-auto">
-            <span className="text-xs font-semibold text-gray-500 uppercase tracking-wider whitespace-nowrap">
-              Acorduri:
-            </span>
-            <div className="flex flex-wrap gap-1.5">
-              {song.chords.map((chord) => (
-                <ChordTag key={chord} name={chord} />
-              ))}
+        <div className="sticky top-16 z-20 bg-white/95 backdrop-blur-sm border-b border-gray-200 -mx-3 sm:-mx-6 lg:-mx-8 px-3 sm:px-6 lg:px-8 py-2 mb-2 sm:mb-3 shadow-sm">
+          <div className="flex items-center justify-between gap-2 max-w-7xl mx-auto">
+            <div className="flex items-center gap-2 min-w-0 flex-1">
+              <span className="text-xs font-semibold text-gray-500 uppercase tracking-wider whitespace-nowrap hidden sm:inline">
+                Acorduri:
+              </span>
+              <div className="flex flex-wrap gap-1 sm:gap-1.5">
+                {song.chords.map((chord) => (
+                  <ChordTag key={chord} name={chord} />
+                ))}
+              </div>
+            </div>
+            {/* Auto-scroll controls */}
+            <div className="flex items-center gap-1 sm:gap-2 no-print shrink-0">
+              <button
+                onClick={() => setScrollSpeed((s) => Math.max(1, s - 2))}
+                className="p-1 sm:p-1.5 rounded-lg bg-gray-100 text-gray-600 hover:bg-gray-200 transition-colors"
+                title="Mai incet"
+              >
+                <Minus size={14} />
+              </button>
+              <button
+                onClick={toggleAutoScroll}
+                className={`flex items-center gap-1 px-2 sm:px-3 py-1 sm:py-1.5 rounded-lg text-xs font-medium transition-colors ${
+                  isAutoScrolling
+                    ? 'bg-green-500 text-white hover:bg-green-600'
+                    : 'bg-blue-500 text-white hover:bg-blue-600'
+                }`}
+                title={isAutoScrolling ? 'Pauza' : 'Reda'}
+              >
+                {isAutoScrolling ? <Pause size={14} /> : <Play size={14} />}
+                <span className="hidden sm:inline">{isAutoScrolling ? 'Pauza' : 'Reda'}</span>
+              </button>
+              <button
+                onClick={() => setScrollSpeed((s) => Math.min(60, s + 2))}
+                className="p-1 sm:p-1.5 rounded-lg bg-gray-100 text-gray-600 hover:bg-gray-200 transition-colors"
+                title="Mai repede"
+              >
+                <Plus size={14} />
+              </button>
             </div>
           </div>
         </div>
       )}
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 sm:gap-4">
         {/* Main Content - Song lyrics */}
-        <div className="lg:col-span-2">
+        <div className="lg:col-span-2" ref={songContentRef}>
           <SongContent content={song.content} />
         </div>
 
         {/* Sidebar */}
-        <div className="lg:col-span-1 no-print space-y-4">
-          {/* Strumming Pattern - moved to right side */}
+        <div className="lg:col-span-1 no-print space-y-3 sm:space-y-4">
+          {/* Strumming Pattern */}
           {song.strumming && song.strumming.length > 0 && (
             <div className="bg-white rounded-xl border border-gray-200 p-3">
               <h3 className="font-semibold text-gray-900 mb-2 text-sm">Ritm (Strumming)</h3>
@@ -151,7 +268,7 @@ export default function SongDetailPage() {
           {songChords.length > 0 && (
             <div className="bg-white rounded-xl border border-gray-200 p-3">
               <h3 className="font-semibold text-gray-900 mb-2 text-sm">Diagrame Acorduri</h3>
-              <div className="grid grid-cols-2 gap-2">
+              <div className="grid grid-cols-3 sm:grid-cols-2 gap-2">
                 {songChords.map((chord) => (
                   <div key={chord.id} className="text-center">
                     <div className="inline-flex flex-col items-center">
