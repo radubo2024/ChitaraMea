@@ -2007,54 +2007,6 @@ export const songsData: Song[] = [
     "views": 0
   },
   {
-    "id": 9,
-    "title": "Cand te scuturi de zapada",
-    "slug": "cand-te-scuturi-de-zapada-9",
-    "content": "G              Am/C             D                G\r\nCand te scuturi de zapada nu stii cat esti de frumosa\r\nOchii-ti verzi, zapada-i alba si se face cald in casa\r\n\r\nJepii Mici ca sa te vada si-au cumparat ochelari\r\nSi in cea mai mare graba i-au chemat pe Jepii Mari\r\nSi calugarii din schit vor cu toti a te vedea\r\nLa cabana au venit, doar pentru iubita mea\r\n\r\nSi calugarii din schit vor cu toti a te vedea\r\nLa cabana au venit, la cabana Padina...\r\nNu stiu sigur, azi sau maine,(pe Morar) pe Morar am sa te sui\r\nSa ne logodim iubit-o, sus la mama dracului\r\n\r\n",
-    "author": {
-      "id": 2,
-      "name": "Mihai Mărgineanu",
-      "slug": "mihai-margineanu"
-    },
-    "author_id": 2,
-    "categories": [
-      {
-        "id": 3,
-        "name": "Folk",
-        "slug": "folk",
-        "description": ""
-      },
-      {
-        "id": 5,
-        "name": "Cântece de munte",
-        "slug": "cantece-de-munte",
-        "description": ""
-      }
-    ],
-    "chords": [
-      "G",
-      "Am/C",
-      "D"
-    ],
-    "strumming": [
-      {
-        "pattern": [
-          "D",
-          "-",
-          "D",
-          "U",
-          "-",
-          "U",
-          "D",
-          "U"
-        ],
-        "timeSignature": "4/4",
-        "name": "Bază"
-      }
-    ],
-    "views": 0
-  },
-  {
     "id": 10,
     "title": "Femei, femei...",
     "slug": "femei-femei-10",
@@ -2387,7 +2339,7 @@ export const songsData: Song[] = [
     "id": 18,
     "title": "Apus de soare roșu poleit",
     "slug": "asfintit-18",
-    "content": "Am             \r\nApus de soare roşu poleit\r\nSe vad trecand zeci de coviltire\r\nSunt ţiganii, spoitorii de tingire\r\n Am              \r\nHoţi de cai şi de parale\r\nCe străbat lumea cea mare\r\n Dm                                    Am\r\nCantul veseeeel, pai cantul veseeeel, de chitare\r\n  Am\r\nDai mujarii, dai mujarii, dai mujarii jakeresco\r\n Dm \r\nCarturarii mai\r\n\r\n E \r\nCat e lumea de parie\r\n Am \r\nJakeresco tiganie\r\nDm \r\nSai la la lai la la la lai\r\nRefren:\r\n\tDm\r\n\tLa-la..\r\n\tAm\r\n\tLa-la..\r\n\tE7\r\n\tLa-la..\r\n\tAm\r\n\tLa-la..\r\n\r\n\r\nCand in crâşmă ei intrau\r\nCu vin roşu se cinsteau\r\nBanii toţi şi-i cheltuiau\r\nşi din gură aşa cântau\r\n\r\nVinul mintea lor o seacă\r\nSisurile ies din teacă\r\nSângele curgea şiroi\r\nCa şi vinul din butoi\r\n",
+    "content": "Am             \r\nApus de soare roşu poleit\r\nSe vad trecand zeci de coviltire\r\nSunt ţiganii, spoitorii de tingire\r\n Am              \r\nHoţi de cai şi de parale\r\nCe străbat lumea cea mare\r\n Dm                                    Am\r\nCantul veseeeel, pai cantul veseeeel, de chitare\r\n  Am\r\nDai mujarii, dai mujarii, dai mujarii jakeresco\r\n E \r\nCarturarii mai\r\n Dm \r\nCat e lumea de parie\r\n Am \r\nJakeresco tiganie\r\nE                    Am \r\nSai la la lai la la la lai\r\n\tDm    Am     E   Am\r\n\tR: La-la..La-la..La-la..La-la..\r\nCand in crâşmă ei intrau\r\nCu vin roşu se cinsteau\r\nBanii toţi şi-i cheltuiau\r\nşi din gură aşa cântau\r\n\r\nVinul mintea lor o seacă\r\nSisurile ies din teacă\r\nSângele curgea şiroi\r\nCa şi vinul din butoi\r\n",
     "author": {
       "id": 5,
       "name": "Șatra",
@@ -3597,7 +3549,7 @@ export const songsData: Song[] = [
     "id": 44,
     "title": "Rău mă dor ochii, mă dor",
     "slug": "rau-ma-dor-ochii-ma-dor-44",
-    "content": "Capo III\r\n\r\n   G                       C\r\n1. Rau ma dor ochii, ma dor\r\n\tD\tG\r\nDe durerea frunzelor\r\n\r\n         Em              D C\r\nR: Si ma duc si iar ma duc\r\n\tD\t\tG\r\n   Pana la izvor sub nuc\r\n         Em\t    D \t   C\r\n   Si ma fac si iar ma fac\r\n            D              G\r\n   Lemn de brad si lemn de fag\r\n\r\n\r\n 2. Rau ma dor picioarele\r\n    De batut cararile\r\n\r\n3. Rau ma dor ochii, ma dor\r\n   De lumina stelelor\r\n\r\n4. Unde ai plecat nu stiu\r\n   Dar mi-e sufletul pustiu\r\n\r\n5. Si-am sa plec fara sa stiu\r\n   Dus de dorul meu tarziu",
+    "content": "   G                       C\r\n1. Rau ma dor ochii, ma dor\r\n\tD\tG\r\nDe durerea frunzelor\r\n         Em              D C\r\nR: Si ma duc si iar ma duc\r\n\tD\t\tG\r\n   Pana la izvor sub nuc\r\n         Em\t    D \t   C\r\n   Si ma fac si iar ma fac\r\n            D              G\r\n   Lemn de brad si lemn de fag\r\n\r\n\r\n 2. Rau ma dor picioarele\r\n    De batut cararile\r\n\r\n3. Rau ma dor ochii, ma dor\r\n   De lumina stelelor\r\n\r\n4. Unde ai plecat nu stiu\r\n   Dar mi-e sufletul pustiu\r\n\r\n5. Si-am sa plec fara sa stiu\r\n   Dus de dorul meu tarziu",
     "author": {
       "id": 3,
       "name": "Anonim",
@@ -3726,7 +3678,7 @@ export const songsData: Song[] = [
     "id": 48,
     "title": "Ninge astazi pentru tine",
     "slug": "ninge-astazi-pentru-tine-48",
-    "content": "G           Am          C       D        G\r\n1. Ninge astazi pentru tine muntele e alb de nea,\r\n   G          Am          C    D             G\r\n   Soarele din ceruri vine doar pentru iubita mea.\r\n   Acum coboara si dorul chemat de la locul lui,\r\n   Tocmai de pe Vârful Omu pâna-n Valea Cerbului.\r\n   \r\n\r\n                   R:  Când te scuturi de zapada\r\n                       Nu stii cât esti de frumoasa\r\n                       Ochii-ti verzi zapada-i alba\r\n                       Si se face cald în casa.\r\n\r\n2. Si calugarii din schit vor cu totii a te vedea,\r\n   La cabana au venit doar pentru iubita mea.\r\n   Si zapada de pe culme în vale s-a rostogolit,\r\n   Muntele e pus pe glume de când stie c-ai venit.\r\n   \r\n3. Jepii Mici ca sa te vada si-au cumparat ochelari,\r\n   Si în cea mai mare graba i-au chemat pe Jepii Mari.\r\n   Nu stiu sigur azi sau mâine pe Morar am sa te sui,\r\n   Sa ne logodim iubito sus în vârful muntelui.\r\n\r\nhttp://www.youtube.com/watch?v=0ZztyJ1zcy4&feature=player_detailpage\r\nInterpretare :Puiu Cazan",
+    "content": "G           Am          C       D        G\r\n1. Ninge astazi pentru tine muntele e alb de nea,\r\n   G          Am          C    D             G\r\n   Soarele din ceruri vine doar pentru iubita mea.\r\n   Acum coboara si dorul chemat de la locul lui,\r\n   Tocmai de pe Vârful Omu pâna-n Valea Cerbului.\r\n                   R:  Când te scuturi de zapada\r\n                       Nu stii cât esti de frumoasa\r\n                       Ochii-ti verzi zapada-i alba\r\n                       Si se face cald în casa.\r\n\r\n2. Si calugarii din schit vor cu totii a te vedea,\r\n   La cabana au venit doar pentru iubita mea.\r\n   Si zapada de pe culme în vale s-a rostogolit,\r\n   Muntele e pus pe glume de când stie c-ai venit.\r\n   \r\n3. Jepii Mici ca sa te vada si-au cumparat ochelari,\r\n   Si în cea mai mare graba i-au chemat pe Jepii Mari.\r\n   Nu stiu sigur azi sau mâine pe Morar am sa te sui,\r\n   Sa ne logodim iubito sus în vârful muntelui.\r\n\r\nhttp://www.youtube.com/watch?v=0ZztyJ1zcy4&feature=player_detailpage\r\nInterpretare :Puiu Cazan",
     "author": {
       "id": 25,
       "name": "Puiu Cazan",
@@ -3769,7 +3721,7 @@ export const songsData: Song[] = [
     "id": 49,
     "title": "Floare de Colt",
     "slug": "floare-de-colt-49",
-    "content": "Am         E          Am\nVis de-argint şi de petale\nG                      C\nCuibul tău e sus pe creste\nDm                     Am\nRaza ta-mi coboară-n cale\nE                    Am\nMai frumos ca-ntr-o poveste\nDm                     Am\nRaza ta-mi coboară-n cale\nE                    Am\nMai frumos ca-ntr-o poveste\n\nRefren 2X\n\nDm          Am\nTu floare de colț\nE            Am\nMinune sub bolți\nDm       Am\nFragedă stea\nE      Am\nIubita mea\n\nFloare ninsă-n vârf de stâncă\nMai presus de dor şi stele\nCine oare să te-ajungă\nNumai dorurile mele\nCine oare să te-ajungă\nNumai dorurile mele\n\n\tRefren 2X\n\nFloare de lumina vie\nZâmbet cald de dimineață\nTe aştept de-o veşnicie\nTe-ntâlnesc odată-n viață\nTe aştept de-o veşnicie\nTe-ntâlnesc odată-n viață\n\n\tRefren 2X",
+    "content": "Am         E          Am\nVis de-argint şi de petale\nG                      C\nCuibul tău e sus pe creste\nDm                     Am\nRaza ta-mi coboară-n cale\nE                    Am\nMai frumos ca-ntr-o poveste\nDm                     Am\nRaza ta-mi coboară-n cale\nE                    Am\nMai frumos ca-ntr-o poveste\r\n\t   Dm          Am\n\tR: Tu floare de colț\n\tE            Am\n\tMinune sub bolți\n\tDm       Am \n\tFragedă stea\n\tE      Am\n\tIubita mea\n\nFloare ninsă-n vârf de stâncă\nMai presus de dor şi stele\nCine oare să te-ajungă\nNumai dorurile mele\nCine oare să te-ajungă\nNumai dorurile mele\n\nFloare de lumina vie\nZâmbet cald de dimineață\nTe aştept de-o veşnicie\nTe-ntâlnesc odată-n viață\nTe aştept de-o veşnicie\nTe-ntâlnesc odată-n viață\n",
     "author": {
       "id": 19,
       "name": "Ducu Bertzi",
@@ -3869,7 +3821,7 @@ export const songsData: Song[] = [
     "id": 51,
     "title": "Sunt sărac",
     "slug": "sunt-sarac-51",
-    "content": "Am           Dm            \r\nMă întreb ce s-ar fi întâmplat\r\nF      C         E           Am   - Am E\r\nDacă-n zori m-aș fi trezit bogat.\r\nAm         Dm\r\nDeseori la asta m-am gândit,\r\nF    C     E              Am\r\nÎnsă visul meu nu s-a-mplinit.\r\n\r\nRefren: \r\n\r\n       Dm           Am\r\nSunt sărac, sunt sărac,\r\n        Dm          Am\r\nN-am un ban în buzunar,\r\n       Dm         Am\r\nSunt sărac, și ce dacă,\r\n      E           Am      \r\nEu cu soarta mă împac.  \r\n           Dm           Am\r\n     Sunt sărac, sunt sărac,\r\n             Dm          Am\r\n     N-am un ban în buzunar,\r\n            Dm         Am\r\n     Sunt sărac, și ce dacă,\r\n           E           Am      - Am E\r\n     Eu cu soarta mă împac.  \r\n\r\n\r\nBanul e - vorba țăranului,\r\nBanul este ochiul dracului. \r\nCând îl ai îți pare foarte mic,\r\nCând nu-l ai, nu valorezi nimic.\r\n\r\nFericirea n-o poți cumpăra\r\nNici cu bani și nici cu altceva.\r\nCânt și nimeni nu mă poate-opri\r\nSă dau glas tăcerii inimii.",
+    "content": "Am           Dm            \r\nMă întreb ce s-ar fi întâmplat\r\nF      C         E           Am   - Am E\r\nDacă-n zori m-aș fi trezit bogat.\r\nAm         Dm\r\nDeseori la asta m-am gândit,\r\nF    C     E              Am\r\nÎnsă visul meu nu s-a-mplinit.\r\n       Dm           Am\r\nR: Sunt sărac, sunt sărac,\r\n        Dm          Am\r\nN-am un ban în buzunar,\r\n       Dm         Am\r\nSunt sărac, și ce dacă,\r\n      E           Am      \r\nEu cu soarta mă împac.  \r\n\r\nBanul e - vorba țăranului,\r\nBanul este ochiul dracului. \r\nCând îl ai îți pare foarte mic,\r\nCând nu-l ai, nu valorezi nimic.\r\n\r\nFericirea n-o poți cumpăra\r\nNici cu bani și nici cu altceva.\r\nCânt și nimeni nu mă poate-opri\r\nSă dau glas tăcerii inimii.",
     "author": {
       "id": 26,
       "name": "Karma",
@@ -3957,7 +3909,7 @@ export const songsData: Song[] = [
     "id": 53,
     "title": "Padure Nebuna",
     "slug": "padure-nebuna-53",
-    "content": "Em\r\nO vara intreaga m-a tinut padurea\r\nG\r\nCu fata in iarba si cu gandul aiuria\r\nEm\r\nIar acum in toamna la plecare\r\nG                    D            Em\r\nSe tanguie ca ma rup din inima ei si o doare\r\n\r\n   G\r\nR: Padure, padure nebuna\r\nEm\r\nIn fiecare noapte cu luna\r\nG\r\nVoi ratacii fara tinta agale\r\nEm                  D                  Em\r\nCa o frunza manata de vant pe potecile tale\r\n\r\nIn fiecare noapte de iarna\r\nUmbra mea alba va veni sa se-astearna\r\nCa o ursoaica cu puii ucisi\r\nLa umbra stejarilor pradati de frunzis \r\n\r\nIn fiecare dimineata\r\nUneori ca o umbra,alteori ca o ceata\r\nCa o negura sau ca o bruma\r\nVoi veni,voi veni,nu te mai tangui padure nebuna",
+    "content": "Em\r\nO vara intreaga m-a tinut padurea\r\nG\r\nCu fata in iarba si cu gandul aiuria\r\nEm\r\nIar acum in toamna la plecare\r\nG                    D            Em\r\nSe tanguie ca ma rup din inima ei si o doare\r\n   G\r\nR: Padure, padure nebuna\r\nEm\r\nIn fiecare noapte cu luna\r\nG\r\nVoi ratacii fara tinta agale\r\nEm                  D                  Em\r\nCa o frunza manata de vant pe potecile tale\r\n\r\nIn fiecare noapte de iarna\r\nUmbra mea alba va veni sa se-astearna\r\nCa o ursoaica cu puii ucisi\r\nLa umbra stejarilor pradati de frunzis \r\n\r\nIn fiecare dimineata\r\nUneori ca o umbra,alteori ca o ceata\r\nCa o negura sau ca o bruma\r\nVoi veni,voi veni,nu te mai tangui padure nebuna",
     "author": {
       "id": 27,
       "name": "Carmen Ciocolata",
@@ -3999,7 +3951,7 @@ export const songsData: Song[] = [
     "id": 54,
     "title": "Muntele alb",
     "slug": "muntele-alb-54",
-    "content": "Bataia: clasica (jjssjs)\r\nIntro: Am Am\r\n\"-\" reprezinta jumatati de acord\r\n\r\n    Am  -    E     Am \r\n1.Ninge cu vorbe secate\r\n        G  \r\n  Când iarna e grea\r\n        C \r\n  Si viscolul bate\r\n    Dm  -     E     Am    \r\n  Ninge cu vorbe secate.\r\n  Am   -   E      Am       \r\n  Si iarna e solitarã\r\n        G \r\n  Când stele de gheatã\r\n      C \r\n  Scânteie afarã\r\n  Dm   -   E       Am      \r\n  Si iarna e solitarã.\r\n\r\n           G              C        \r\nR: Tu esti muntele alb pe care urcãm\r\n         Dm             Am     \r\n   Si-nãltimile tale ne cad la picioare,\r\n           E       Am    \r\n   Tu esti muntele alb.\r\n   Tu esti visul meu alb În care mã-mbrac\r\n   În miresme de crin si de liliac\r\n   Tu esti visul meu alb. +Am\r\n\r\n2.Ninge cu vorbele tale\r\n  E iarnã fierbinte\r\n  Ca o rugãminte\r\n  Ninge cu vorbele tale.\r\n  Si te-as iubi în ianuarie\r\n  Ca pe-o floare de crin\r\n  Ca pe-o stea cãzãtoare\r\n  Si te-as iubi în ianuarie.\r\n\r\n\r\n3.Si îmi pãstrez jurãmântul\r\n  Sã fiu o biatã frunzã\r\n  Ce-o leagãnã vântul\r\n  Si îmi pãstrez jurãmântul.\r\n  Iar tu rãmâi ca o sete\r\n  Pe care-o astâmperi\r\n  Când iarna începe\r\n  Iar tu rãmâi ca o sete.",
+    "content": "Bataia: clasica (jjssjs) Intro: Am Am\r\n\"-\" reprezinta jumatati de acord\r\n\r\n    Am  -    E     Am \r\n1.Ninge cu vorbe secate\r\n     G  \r\n  Când iarna e grea\r\n     C \r\n  Si viscolul bate\r\n Dm  -     E     Am    \r\n  Ninge cu vorbe secate.\r\n  Si iarna e solitarã\r\n  Când stele de gheatã\r\n  Scânteie afarã\r\n  Si iarna e solitarã.\r\n           G              C        \r\nR: Tu esti muntele alb pe care urcãm\r\n         Dm             Am     \r\n   Si-nãltimile tale ne cad la picioare,\r\n           E       Am    \r\n   Tu esti muntele alb.\r\n   Tu esti visul meu alb În care mã-mbrac\r\n   În miresme de crin si de liliac\r\n   Tu esti visul meu alb. +Am\r\n2.Ninge cu vorbele tale\r\n  E iarnã fierbinte\r\n  Ca o rugãminte\r\n  Ninge cu vorbele tale.\r\n  Si te-as iubi în ianuarie\r\n  Ca pe-o floare de crin\r\n  Ca pe-o stea cãzãtoare\r\n  Si te-as iubi în ianuarie.\r\n3.Si îmi pãstrez jurãmântul\r\n  Sã fiu o biatã frunzã\r\n  Ce-o leagãnã vântul\r\n  Si îmi pãstrez jurãmântul.\r\n  Iar tu rãmâi ca o sete\r\n  Pe care-o astâmperi\r\n  Când iarna începe\r\n  Iar tu rãmâi ca o sete.",
     "author": {
       "id": 24,
       "name": "Cântece de munte",
@@ -4042,7 +3994,7 @@ export const songsData: Song[] = [
     "id": 56,
     "title": "Imnul Dianei",
     "slug": "imnul-dianei-56",
-    "content": "Am             G        Am\r\nSi-am pornit sa recladim Diana\r\nAm         G      Am\r\nUn refugiu ars si parasit/ (si parasit)\r\nF     G               C   E   Am\r\nSi-am lasat sticla si damigeana\r\nF             E       Am\r\nSi din Plaiul Foii am pornit, \r\nF     G               C   E   Am\r\nSi-am lasat sticla si damigeana\r\nF             E       Am\r\nSi din Plaiul Foii am pornit. \r\n\r\nRefren:\r\n\t Am E  Am\r\n\t O, O, O, \r\n\t Am   E    Am    Dm            Am\r\n\t Mama unde esti? Poti sa ma si bati\r\n\t E             Am\r\n\t Dar lasa-ma-n Carpati !\r\n\t Am      C     E   E   Am\r\n\t Darira, rira, ri, ra, ra\r\n\t Am   G    C     Dm         Am\r\n\t Mama unde esti? Bate-ma de vrei\r\n\t E              Am\r\n\t Dar lasa-ma cu ei !\r\n\t \r\nSi intr-o zi cu ploaie si cu ceata\r\nCu rucsaci in spate si vopsea/ (si vopsea)\r\nIn alertul nostru pas de rata\r\nAm atacat-o pe Diana,\r\nIn alertul nostru pas de rata\r\nAm atacat-o pe Diana.\r\n\r\nScandura mica, scandura lata\r\nO caram pana ne facem mici/ (ne facem mici)\r\nSi echipa noastra-i cocosata\r\nParc-ar fi o ceata de pitici,\r\nSi echipa noastra-i cocosata\r\nParc-ar fi o ceata de pitici.\r\n\r\nTotu-i bine pan'la inserare\r\nCand cu calde lacrimi ne rugam/ (ne rugam)\r\nO, Ceresc Parinte, indurare!\r\nFa mai cald sa nu mai inghetam,\r\nO, Ceresc Parinte, indurare!\r\nFa mai cald sa nu mai inghetam.\r\n\r\nSi-am ajuns acolo toti o forta\r\nSi-ntr-o scurta clipa de ragaz (de ragaz)\r\nAm aprins a tineretii torta\r\nDe indata ce-am ajuns in Crai,\r\nAm aprins a tineretii torta\r\nDe indata ce-am ajuns in Crai.",
+    "content": "Am             G        Am\r\nSi-am pornit sa recladim Diana\r\nAm         G      Am\r\nUn refugiu ars si parasit/ (si parasit)\r\nF     G               C   E   Am\r\nSi-am lasat sticla si damigeana\r\nF             E       Am\r\nSi din Plaiul Foii am pornit, \r\nF     G               C   E   Am\r\nSi-am lasat sticla si damigeana\r\nF             E       Am\r\nSi din Plaiul Foii am pornit. \r\n\t Am   E    Am    Dm            Am\r\n  R: Mama unde esti? Poti sa ma si bati\r\n\t E             Am\r\n\t Dar lasa-ma-n Carpati !\r\n\t Am      C     E   E   Am\r\n\t Darira, rira, ri, ra, ra\r\n\t Am   G    C     Dm         Am\r\n\t Mama unde esti? Bate-ma de vrei\r\n\t E              Am\r\n\t Dar lasa-ma cu ei !\r\nSi intr-o zi cu ploaie si cu ceata\r\nCu rucsaci in spate si vopsea/ (si vopsea)\r\nIn alertul nostru pas de rata\r\nAm atacat-o pe Diana,\r\nIn alertul nostru pas de rata\r\nAm atacat-o pe Diana.\r\n\r\nScandura mica, scandura lata\r\nO caram pana ne facem mici/ (ne facem mici)\r\nSi echipa noastra-i cocosata\r\nParc-ar fi o ceata de pitici,\r\nSi echipa noastra-i cocosata\r\nParc-ar fi o ceata de pitici.\r\n\r\nTotu-i bine pan'la inserare\r\nCand cu calde lacrimi ne rugam/ (ne rugam)\r\nO, Ceresc Parinte, indurare!\r\nFa mai cald sa nu mai inghetam,\r\nO, Ceresc Parinte, indurare!\r\nFa mai cald sa nu mai inghetam.\r\n\r\nSi-am ajuns acolo toti o forta\r\nSi-ntr-o scurta clipa de ragaz (de ragaz)\r\nAm aprins a tineretii torta\r\nDe indata ce-am ajuns in Crai,\r\nAm aprins a tineretii torta\r\nDe indata ce-am ajuns in Crai.",
     "author": {
       "id": 24,
       "name": "Cântece de munte",
@@ -4136,7 +4088,7 @@ export const songsData: Song[] = [
     "id": 58,
     "title": "Omul bun si pomul copt",
     "slug": "omul-bun-si-pomul-copt-58",
-    "content": "C\r\nOmul bun si pomul copt , dar\r\nF   G          C\r\nHai mai dorule hai\r\nC\r\nAstia n-or avut noroc\r\nF   G         C\r\nHai mai dorule hai\r\n\r\nRef:   F       G         C\r\n\t Si stau la margine de drum\r\n\t   F       G         C\r\n\t Pomul copt si amul bun\r\n\t\tF       G         C   \r\n\t Si stau la margine de drum\r\n\t   F       G         C\r\n\t Pomu-i copt si omu-i bun\r\n\r\nC \r\nDupa ce-or da ce-or avuta\r\nF   G          C\r\nHai mai dorule hai\r\nC\r\nI-o lasat i-o parasita\r\nF   G          C\r\nHai mai dorule hai\r\n\r\nC\r\nSi-asa ca-i venea sa creasca\r\nF   G          C\r\nHai mai dorule hai\r\nC\r\nPoate-o mai rodi vreidata\r\nF   G          C\r\nHai mai dorule hai",
+    "content": "C\r\nOmul bun si pomul copt , dar\r\nF   G          C\r\nHai mai dorule hai\r\nC\r\nAstia n-or avut noroc\r\nF   G         C\r\nHai mai dorule hai\r\nRef:   F       G         C\r\n\t Si stau la margine de drum\r\n\t   F       G         C\r\n\t Pomul copt si amul bun\r\n\t\tF       G         C   \r\n\t Si stau la margine de drum\r\n\t   F       G         C\r\n\t Pomu-i copt si omu-i bun\r\nDupa ce-or da ce-or avuta\r\nHai mai dorule hai\r\nI-o lasat i-o parasita\r\nHai mai dorule hai\r\n\r\nSi-asa ca-i venea sa creasca\r\nHai mai dorule hai\r\nPoate-o mai rodi vreidata\r\nHai mai dorule hai",
     "author": {
       "id": 29,
       "name": "Mircea Rusu Band",
@@ -4264,7 +4216,7 @@ export const songsData: Song[] = [
     "id": 61,
     "title": "Omagiu unui alpinist",
     "slug": "omagiu-unui-alpinist-61",
-    "content": "Am\t    C\t  Dm   F    C\t \r\nNinge peste munte cu melancolie \r\nDm\t    E\t    Dm\t F   E\t \r\nNinge peste moartea unui alpinist \r\nNinge peste creste, ninge si sfarseste\r\nInima ce-mi bate azi in pieptu-mi trist.\r\n\r\nRefren:\r\nAm\t    E\t \r\nNinge sfant si pagan, \r\nF\t    C\t \r\nNumai ochii ne raman \r\nAm\t    E7        Am\t\r\nDespartirea s-o mai vada \r\nCaci in munti noi ne-am strans\r\nSi-am ajuns de-atata nins\r\nNiste oameni de zapada.\r\n\r\nStanca grea si dura viata i-a rapit\r\nDuhurile vaii casa i-au facut\r\nGiulgiu-i de zapada pe care-a iubit-o\r\nVantul il jeleste ca la inceput.\r\n\r\nVoi cei ce astazi dormiti in munte\r\nVoi pe care stanca dura v-a invins\r\nO, pustietatea lasa sa v-asculte\r\nIar soptirea blanda mi se pare plans.\r\n\r\nPulberea uitarii ninge pe morminte\r\nCei legati in coarda nu va vom uita\r\nCatre culmea vietii mergem inainte\r\nPana-n cllipa-n care stanca ne-o trada.",
+    "content": "Am\t    C\t  Dm   F    C\t \r\nNinge peste munte cu melancolie \r\nDm\t    E\t    Dm\t F   E\t \r\nNinge peste moartea unui alpinist \r\nNinge peste creste, ninge si sfarseste\r\nInima ce-mi bate azi in pieptu-mi trist.\r\n    Am\t    E\t \r\nR:  Ninge sfant si pagan, \r\n\tF\t    C\t \r\n\tNumai ochii ne raman \r\n\tAm\t    E7        Am\t\r\n\tDespartirea s-o mai vada \r\n\tCaci in munti noi ne-am strans\r\n\tSi-am ajuns de-atata nins\r\n\tNiste oameni de zapada.\r\n\r\nStanca grea si dura viata i-a rapit\r\nDuhurile vaii casa i-au facut\r\nGiulgiu-i de zapada pe care-a iubit-o\r\nVantul il jeleste ca la inceput.\r\n\r\nVoi cei ce astazi dormiti in munte\r\nVoi pe care stanca dura v-a invins\r\nO, pustietatea lasa sa v-asculte\r\nIar soptirea blanda mi se pare plans.\r\n\r\nPulberea uitarii ninge pe morminte\r\nCei legati in coarda nu va vom uita\r\nCatre culmea vietii mergem inainte\r\nPana-n cllipa-n care stanca ne-o trada.",
     "author": {
       "id": 3,
       "name": "Anonim",
@@ -4359,7 +4311,7 @@ export const songsData: Song[] = [
     "id": 64,
     "title": "Ma intorc si pasi-s grei",
     "slug": "ma-intorc-si-pasi-s-grei-64",
-    "content": "   Em               G        \r\n1. Merg pe unduite caaaaaaaaaai\r\nC                     Em\r\nIncalciti sunt pasii mei\r\n                  G          \r\nRucsacul m-apasa greeeeeeeeeu\r\nC                   Em\r\nIara eu prin munti mereu\r\n   D                    Em\r\nR: Ma intorc si pasii-s grei\r\n G        D  \r\nIa, hai, Ia, hai\r\n                   Em\r\nLas in urma muntii mei\r\n G        D\r\nIa, hai, hai, hai\r\n\r\nMa intorc si pasii-s grei\r\nIa, hai, hai, hai\r\nMa gandesc numai la ei\r\n\r\n2. Muntii cat am strabatut\r\nSa m-opresc nu am putut\r\nInfruntand si ploi si vant\r\nVreau pe creste sa ajung\r\n\r\n3. Cerul arde-n curcubeu\r\nIara eu prin munti mereu\r\nRucsacul m-apasa greu\r\nIncalc&#239;t e drumul meu",
+    "content": "   Em               G        \r\n1. Merg pe unduite caaaaaaaaaai\r\nC                     Em\r\nIncalciti sunt pasii mei\r\nRucsacul m-apasa greeeeeeeeeu\r\nIara eu prin munti mereu\r\n    D                    Em\r\nR:  Ma intorc si pasii-s grei\r\n    G            D  \r\n\tIa, hai, Ia, hai\r\n\tLas in urma muntii mei\r\n\tIa, hai, hai, hai\r\n\tMa intorc si pasii-s grei\r\n\tIa, hai, hai, hai\r\n\tMa gandesc numai la ei\r\n2. Muntii cat am strabatut\r\nSa m-opresc nu am putut\r\nInfruntand si ploi si vant\r\nVreau pe creste sa ajung\r\n\r\n3. Cerul arde-n curcubeu\r\nIara eu prin munti mereu\r\nRucsacul m-apasa greu\r\nIncalc&#239;t e drumul meu",
     "author": {
       "id": 30,
       "name": "Amurg",
@@ -4444,7 +4396,7 @@ export const songsData: Song[] = [
     "id": 66,
     "title": "Batranul refugiu",
     "slug": "batranul-refugiu-66",
-    "content": "Am                                     Dm\r\n1. Departe în munti ascuns  printre stânci\r\n G                        C              E\r\nSe afla batrânul refugiu\r\nAcolo se întâlnesc acei ce iubesc\r\nPeretii de stînca si cerul.\r\n\r\nAm                                    Dm\r\nR:Nu-i nimeni sa-i înteleaga\r\nG               C                     E \r\nNu-i nimeni la fel ca ei, la fel ca noi\r\nDoar dorul în dulce leagan\r\nSa-i urce spre creste mereu.\r\n\r\n2. Mi-e inima-n furci, de vrei poti sa urci\r\nSa simti primul pas în perete\r\nSperanta apoi sa facem în doi\r\nSi-apoi tot mai sus printre creste.",
+    "content": "Am                                    Dm\r\n1.Departe în munti ascuns  printre stânci\r\n G                        C              E\r\nSe afla batrânul refugiu\r\nAcolo se întâlnesc acei ce iubesc\r\nPeretii de stînca si cerul.\r\n\r\n   Am                    Dm\r\nR:Nu-i nimeni sa-i înteleaga\r\nG                     C             E \r\nNu-i nimeni la fel ca ei, la fel ca noi\r\nDoar dorul în dulce leagan\r\nSa-i urce spre creste mereu.\r\n\r\n2. Mi-e inima-n furci, de vrei poti sa urci\r\nSa simti primul pas în perete\r\nSperanta apoi sa facem în doi\r\nSi-apoi tot mai sus printre creste.",
     "author": {
       "id": 3,
       "name": "Anonim",
@@ -4488,7 +4440,7 @@ export const songsData: Song[] = [
     "id": 67,
     "title": "Ana lui Manole",
     "slug": "ana-lui-manole-67",
-    "content": "  Em\r\n1.Voi ziditi în jurul meu\r\nDar aici în zid sunt eu\r\nD                        Em\r\nDar aici în zid sunt eu, sunt eu.\r\nHai, Manole, pune zid\r\nSa nu pot sa-l mai deschid\r\nHai îmbraca-ma în zid, zid greu.\r\n\r\n   G\r\nR: Turla-mi soarbe capu-n ea\r\nD\r\nÎn altar e fruntea mea\r\nEm        D                Em\r\nOchii ei feresti vor sta, spre cer\r\nVoi lucrati si va e greu\r\nÎnsa de murit, mor eu\r\nJertfa voastra sunt chiar eu, eu pier.\r\n\r\n2.Pe oriunde sunt zidiri\r\nOmul meu, sa nu te miri\r\nLe-au întruchipat doi miri de rând.\r\nDara tu de-a pururi pleci\r\nEu ramân aici pe veci\r\nPrada caramizii reci, plângând.\r\n\r\n3.Sângele mi-i înca viu\r\nVoi nu stiti ca si eu stiu\r\nC-am sa mor dintr-un pariu stupid.\r\nHai Manole fii mai demn\r\nCum sa-ti faci aripi de lemn\r\nMi se face-a moarte semn în zid.\r\n \r\n4.Sa te-nchini când vei pleca\r\nSa nu uiti, sa uiti cumva\r\nCa-nauntru-i Ana ta, om crud.\r\nMila cum nu poti sa ai\r\nVoi plecati catre alt Rai\r\nEu din zid abia va mai aud.",
+    "content": "  Em\r\n1.Voi ziditi în jurul meu\r\nDar aici în zid sunt eu\r\nD                        Em\r\nDar aici în zid sunt eu, sunt eu.\r\nHai, Manole, pune zid\r\nSa nu pot sa-l mai deschid\r\nHai îmbraca-ma în zid, zid greu.\r\n    G\r\nR:  Turla-mi soarbe capu-n ea\r\n\tD\r\n\tÎn altar e fruntea mea\r\n\tEm        D                Em\r\n\tOchii ei feresti vor sta, spre cer\r\n\tVoi lucrati si va e greu\r\n\tÎnsa de murit, mor eu\r\n\tJertfa voastra sunt chiar eu, eu pier.\r\n\r\n2.Pe oriunde sunt zidiri\r\nOmul meu, sa nu te miri\r\nLe-au întruchipat doi miri de rând.\r\nDara tu de-a pururi pleci\r\nEu ramân aici pe veci\r\nPrada caramizii reci, plângând.\r\n\r\n3.Sângele mi-i înca viu\r\nVoi nu stiti ca si eu stiu\r\nC-am sa mor dintr-un pariu stupid.\r\nHai Manole fii mai demn\r\nCum sa-ti faci aripi de lemn\r\nMi se face-a moarte semn în zid.\r\n \r\n4.Sa te-nchini când vei pleca\r\nSa nu uiti, sa uiti cumva\r\nCa-nauntru-i Ana ta, om crud.\r\nMila cum nu poti sa ai\r\nVoi plecati catre alt Rai\r\nEu din zid abia va mai aud.",
     "author": {
       "id": 31,
       "name": "Magda Pușcaș",
@@ -4576,7 +4528,7 @@ export const songsData: Song[] = [
     "id": 69,
     "title": "Tincturi de frunze",
     "slug": "tincturi-de-frunze-69",
-    "content": "G                     Em\r\n1. Nu pot sa stau drept, merg cu toamna-n piept\r\nC                 D\r\nVantu-n toate ranile ma doare\r\nG                 Em\r\nSi pe orice drum, ca-ntr-un vers postum\r\nC                  D\r\nVine frunza in intampinare\r\n\r\nR: Si-am sa-ti scriu scrisori pe tulpini de flori\r\nDe lumina stelelor patrunse\r\nSi-un roman sa-ti scriu, folosind pe viu\r\nSub umbra de nuc, tincturi de frunze\r\nTincturi de frunze\r\n\r\n2. Putredul accent a lovit atent\r\nFiecare fir de iarba verde\r\nClipe indigo, care incotro\r\nSa n-avem motive de-a ne pierde\r\n\r\n3. Frunze iti trimit, scrise cu grafit\r\nIar din albul iernii care vine\r\nCe sa-ti mai insir, frunzele-n delir\r\nTe iubesc si ma gandesc la tine\r\n\r\n4. Nu vad pe unde merg, frunze cad din cer\r\nSi in tropot mi se-aude mersul\r\nScriu scrisori pe foi, lacrimez in ploi\r\nIntr-un liber schimb cu universul\r\n\r\n5. Te iubesc profund, nu ma mai ascund\r\nIn mine e toamna si ma doare\r\nCe sa-ti spun acum, cad frunze pe drum\r\nTe astept cu multa nerabdare",
+    "content": "   G                     Em\r\n1. Nu pot sa stau drept, merg cu toamna-n piept\r\nC                 D\r\nVantu-n toate ranile ma doare\r\nG                 Em\r\nSi pe orice drum, ca-ntr-un vers postum\r\nC                  D\r\nVine frunza in intampinare\r\n\r\nR: Si-am sa-ti scriu scrisori pe tulpini de flori\r\nDe lumina stelelor patrunse\r\nSi-un roman sa-ti scriu, folosind pe viu\r\nSub umbra de nuc, tincturi de frunze\r\nTincturi de frunze\r\n\r\n2. Putredul accent a lovit atent\r\nFiecare fir de iarba verde\r\nClipe indigo, care incotro\r\nSa n-avem motive de-a ne pierde\r\n\r\n3. Frunze iti trimit, scrise cu grafit\r\nIar din albul iernii care vine\r\nCe sa-ti mai insir, frunzele-n delir\r\nTe iubesc si ma gandesc la tine\r\n\r\n4. Nu vad pe unde merg, frunze cad din cer\r\nSi in tropot mi se-aude mersul\r\nScriu scrisori pe foi, lacrimez in ploi\r\nIntr-un liber schimb cu universul\r\n\r\n5. Te iubesc profund, nu ma mai ascund\r\nIn mine e toamna si ma doare\r\nCe sa-ti spun acum, cad frunze pe drum\r\nTe astept cu multa nerabdare",
     "author": {
       "id": 32,
       "name": "Ursul Trubadur",
@@ -4619,7 +4571,7 @@ export const songsData: Song[] = [
     "id": 70,
     "title": "Numai noi",
     "slug": "numai-noi-70",
-    "content": "   Em          D\r\n1. Numai noi, suntem împreună\r\n   Em         D        \r\n   Numai noi sub clarul de lună\r\n   G          D           Em\r\n   Suntem doi fericiţi în munte\r\n   Tu şi eu cuplul fericirii\r\n   Eu şi tu vis al împlinirii\r\n   Iar în păr porţi doar flori de munte.\r\n\r\n     G                   D  \r\n  R: Vom fi singuri prin văi şi pe creste\r\n     Din noi doi va rămâne o poveste\r\n     G            D            Em\r\n     Împreună vom fi şi ne vom iubi.\r\n\r\n2. Numai noi, câtă poezie\r\n   Numai noi, noaptea e târzie\r\n   Focul doar mai trosneşte parcă\r\n   Sunt al tău, nu mai sunt cuvinte\r\n   Eşti a mea, ne iubim pe munte\r\n   Pat de flori, şi-mpărţim o soartă\r\n\r\n3.Jos sunt flori, pe cer numai stele\r\n   Ne iubim martore-s doar ele\r\n   Adormim ca şi doi copii\r\n   Numai vis sub clarul de lună\r\n   Numai vis, suntem împreună\r\n   Amândoi plini de bucurie.\r\n\r\n(interpretat si de Karma)",
+    "content": "   Em          D\r\n1. Numai noi, suntem împreună\r\n   Em         D        \r\n   Numai noi sub clarul de lună\r\n   G          D           Em\r\n   Suntem doi fericiţi în munte\r\n   Tu şi eu cuplul fericirii\r\n   Eu şi tu vis al împlinirii\r\n   Iar în păr porţi doar flori de munte.\r\n\tG                   D  \r\nR:  Vom fi singuri prin văi şi pe creste\r\n\tDin noi doi va rămâne o poveste\r\n\tG            D            Em\r\n\tÎmpreună vom fi şi ne vom iubi.\r\n2. Numai noi, câtă poezie\r\n   Numai noi, noaptea e târzie\r\n   Focul doar mai trosneşte parcă\r\n   Sunt al tău, nu mai sunt cuvinte\r\n   Eşti a mea, ne iubim pe munte\r\n   Pat de flori, şi-mpărţim o soartă\r\n3.Jos sunt flori, pe cer numai stele\r\n   Ne iubim martore-s doar ele\r\n   Adormim ca şi doi copii\r\n   Numai vis sub clarul de lună\r\n   Numai vis, suntem împreună\r\n   Amândoi plini de bucurie.\r\n\r\n(interpretat si de Karma)",
     "author": {
       "id": 24,
       "name": "Cântece de munte",
@@ -4663,7 +4615,7 @@ export const songsData: Song[] = [
     "id": 72,
     "title": "Delirul",
     "slug": "delirul-72",
-    "content": "  Am                   Dm\r\n1.Curând va fi o noapte lungă\r\n     G                C  \r\n  şi fără tine-mi va fi greu\r\n  Am                   Dm\r\n  Iubita mea vino la mine\r\n  E                   Am\r\n  Te aştept să vii de Anul Nou.\r\n                                      \r\n      Am               Dm\r\nR: Râd şi plâng şi te strig delirând\r\n       G                 C\r\n   E soare e ploaie e cald şi e vânt \r\n         Am                  Dm   \r\n   Din somn mă trezesc şi tresar speriat\r\n         E                  Am  \r\n   Dar nu-i nimic doar am visat.\r\n\r\n2.De vrei să vii curând cu munţii\r\n  La marea mea cu valuri verzi\r\n  Să ne jurăm credinţă pururi\r\n  Să nu te pierd să nu mă pierzi.\r\n\r\n3.Tu nu ai timp tu nu ai suflet\r\n  Nimic din tine n-ai să-mi dai\r\n  Când vii şi pleci şi nu rămâne\r\n  Nimic din serile de mai.\r\n\r\n4.Când te-am văzut ultima oară\r\n  Ah, ce frumos tu m-ai privit\r\n  Nu pot să uit a ta privire\r\n  şi parc-o văd şi parc-o simt.\r\n\r\n5.şi de vei face-o nouă punte\r\n  Să n-o arunci în amintiri\r\n  şi lasă-mă să vin la tine\r\n  Cu braţul plin de trandafiri.\r\n\r\n6.Curând va fi o noapte lungă\r\n  şi fără tine-mi va fi greu\r\n  Iubirea mea te rog revino\r\n  Te-aştept să te întorci mereu.",
+    "content": "  Am                   Dm\r\n1.Curând va fi o noapte lungă\r\n     G                C  \r\n  şi fără tine-mi va fi greu\r\n  Am                   Dm\r\n  Iubita mea vino la mine\r\n  E                   Am\r\n  Te aştept să vii de Anul Nou.\r\n   Am               Dm\r\nR: Râd şi plâng şi te strig delirând\r\n    G                 C\r\n   E soare e ploaie e cald şi e vânt \r\n      Am                  Dm   \r\n   Din somn mă trezesc şi tresar speriat\r\n      E                  Am  \r\n   Dar nu-i nimic doar am visat.\r\n\r\n2.De vrei să vii curând cu munţii\r\n  La marea mea cu valuri verzi\r\n  Să ne jurăm credinţă pururi\r\n  Să nu te pierd să nu mă pierzi.\r\n\r\n3.Tu nu ai timp tu nu ai suflet\r\n  Nimic din tine n-ai să-mi dai\r\n  Când vii şi pleci şi nu rămâne\r\n  Nimic din serile de mai.\r\n\r\n4.Când te-am văzut ultima oară\r\n  Ah, ce frumos tu m-ai privit\r\n  Nu pot să uit a ta privire\r\n  şi parc-o văd şi parc-o simt.\r\n\r\n5.şi de vei face-o nouă punte\r\n  Să n-o arunci în amintiri\r\n  şi lasă-mă să vin la tine\r\n  Cu braţul plin de trandafiri.\r\n\r\n6.Curând va fi o noapte lungă\r\n  şi fără tine-mi va fi greu\r\n  Iubirea mea te rog revino\r\n  Te-aştept să te întorci mereu.",
     "author": {
       "id": 24,
       "name": "Cântece de munte",

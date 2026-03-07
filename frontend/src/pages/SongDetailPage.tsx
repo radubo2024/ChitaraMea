@@ -14,7 +14,7 @@ export default function SongDetailPage() {
   const { isFavorite, toggleFavorite } = useFavorites();
   const [showPlaylistModal, setShowPlaylistModal] = useState(false);
   const [isAutoScrolling, setIsAutoScrolling] = useState(false);
-  const [scrollSpeed, setScrollSpeed] = useState(20);
+  const [scrollSpeed, setScrollSpeed] = useState(10); // pixels per second
   const scrollRef = useRef<number | null>(null);
   const lastTimestampRef = useRef<number | null>(null);
   const accumulatedScrollRef = useRef<number>(0);
@@ -99,10 +99,10 @@ export default function SongDetailPage() {
       if (scrollRef.current !== null) cancelAnimationFrame(scrollRef.current);
       if (delayTimerRef.current !== null) clearTimeout(delayTimerRef.current);
 
-      // Wait 10 seconds, then start scrolling
+      // Wait 30 seconds, then start scrolling
       delayTimerRef.current = setTimeout(() => {
         runScrollLoop();
-      }, 10000);
+      }, 30000);
     }
   }, [isAutoScrolling, scrollSpeed, runScrollLoop]);
 
